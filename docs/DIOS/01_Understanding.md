@@ -5,9 +5,9 @@
 > **Repository baseline:** `44cea987cd42f077cc0f6e448bcdc69f2683ecb1`  
 > **DIOS working branch:** `docs/dios-phase-0-inventory`  
 > **Understanding date:** 2026-07-12  
-> **Phase status:** Phase 1 — Complete, awaiting validation  
+> **Phase status:** Phase 1 — Accepted by owner on 2026-07-12  
 > **Previous artifact:** [`00_Project_Inventory.md`](./00_Project_Inventory.md)  
-> **Next phase:** Blocked until this document passes its quality gate
+> **Next artifact:** [`02_Dashboard_Architecture.md`](./02_Dashboard_Architecture.md)
 
 ---
 
@@ -88,145 +88,147 @@ A collection of:
 - Social-performance analysis
 - Sentiment scoring
 - Verbatim coding
-- Executive conclusions
-- Strategic decisions
-- Data-gap routes
+- Technical audits
+- Gap registers
+- Costed data-acquisition routes
+- Executive diagnosis
+- Recommended decisions
 
-Its purpose is to transform evidence into decisions while preserving uncertainty.
+Its purpose is to transform evidence into decisions without hiding uncertainty.
 
 ### 2.3 System C — Dashboard Blueprint
 
-A proposed:
+A specification for:
 
-- React command center
-- Power BI alternative
-- Executive information architecture
-- Marketer drill-down model
-- Evidence room
-- Fail-closed data compiler
-- Source-aware chart system
+- A React command center
+- A Power BI alternative
+- An executive narrative
+- Diagnostic rooms
+- An evidence room
+- Source-linked charts
+- RequiresData placeholders
+- A fail-closed data compiler
 
-Its purpose is to make the decision intelligence explorable and continuously refreshable.
+Its purpose is to turn the intelligence estate into an interactive, maintainable decision product.
 
-### 2.4 Current reality
+### 2.4 The critical boundary
 
 ```text
-Evidence Estate              = Present
-Decision Intelligence Layer  = Present
-Dashboard Specifications     = Present
-Runnable React Dashboard     = Not confirmed
-Runnable Power BI Dashboard  = Not confirmed
-Deployment                   = Not confirmed
+Systems A and B exist as repository artifacts.
+System C exists mainly as specifications.
+The runnable dashboard is not confirmed.
 ```
 
-The repository therefore contains a **well-developed dashboard brain and evidence package**, but not a confirmed dashboard body.
+This is the most important mental model for all later phases.
 
 ---
 
 ## 3. Facts, Interpretations, and Unknowns
 
-### 3.1 Classification method
+### 3.1 Fact classes
 
-| Classification | Meaning |
-|---|---|
-| **Fact** | Directly supported by a confirmed repository artifact. |
-| **Interpretation** | A reasoned explanation supported by multiple artifacts, but not explicitly declared in one canonical source. |
-| **Unknown** | Evidence is missing, contradictory, incomplete, or external. |
+| Class | Meaning | Example |
+|---|---|---|
+| **Repository fact** | Directly visible in a confirmed repository file. | `catalog_full.json` reports 250 products. |
+| **Captured fact** | A public source was captured and stored. | The Instagram profile capture reports 88,903 followers. |
+| **Derived fact** | Calculated from captured data. | 96 of 250 products are represented as on sale. |
+| **Declared state** | A workflow file says something happened. | `RUN_STATE.json` says the base 360 was delivered. |
+| **Interpretation** | A reasoned conclusion from several facts. | Cielito has an owned-channel performance problem. |
+| **Hypothesis** | Plausible but not verified. | Fruit leather could be a current differentiator. |
+| **Unknown** | Evidence is missing or contradictory. | Whether the React dashboard was built elsewhere. |
 
-### 3.2 Project-level truth table
+### 3.2 Confidence rule
 
-| Statement | Classification | Confidence | Evidence basis |
-|---|---|---:|---|
-| The represented client is Cielito Egypt. | Fact | High | `RUN_STATE.json`, source registry, reports, dashboard specs. |
-| The project was created as a WOM pitch/research centerpiece. | Fact | High | React spec, next steps, run state. |
-| The primary dashboard audience is an executive and the secondary audience is a marketer. | Fact | High | `RUN_STATE.json`, React spec. |
-| The intended product is a living command center rather than a static slide deck. | Fact | High | React spec. |
-| The repository currently contains the React application. | Unknown / unsupported | High confidence that it is unconfirmed | Build is described as future work; deploy list is empty. |
-| The dashboard already uses the dashed-orange RequiresData component. | Unknown | Medium | The prompt says it is “already in the build,” but the build is not present. |
-| The dashboard is production-ready. | Unsupported | High | No application code, tests, deployment, or runtime evidence. |
-| Cielito has a large audience but weak owned-channel engagement. | Fact within the captured windows | High | Instagram profile and owned-post intelligence. |
-| Creator/earned content materially outperforms recent owned posts. | Fact within the selected datasets | High | Social and owned-post datasets. |
-| WhatsApp will improve conversion. | Strategic hypothesis | Medium | Strong market/category reasoning, but no client conversion experiment is present. |
-| Arabic-first content will improve performance. | Evidence-backed strategic interpretation | Medium–High | Better-performing Arabic examples exist; no controlled experiment is present. |
-| Fruit leather is an active current differentiator. | Unknown / hypothesis | Low | Secondary press evidence exists; live-site status and founder intent are unresolved. |
-| Financial upside is known. | False | High | Financial measures are explicitly “to be baselined.” |
+A polished final document is not automatically stronger evidence than a raw capture. Claims should trace backward:
+
+```text
+Final narrative → derived intelligence → raw capture → original public/client source
+```
 
 ---
 
 ## 4. Project Identity
 
-### 4.1 Formal identity
+### 4.1 Repository identity
 
-| Field | Current understanding |
-|---|---|
-| Project name | Cielito 360 |
-| Repository name | Islam-Brain |
-| Client | Cielito Egypt |
-| Client category | Egyptian women’s fashion and footwear D2C brand |
-| Agency/business context | WOM pitch and potential paid engagement |
-| Research run | `cielito-egypt-base360-2026-07-09` |
-| Declared model | `Claude-Fable-5` |
-| Primary lens | Executive |
-| Secondary lens | Marketer |
-| Current repository mode | Evidence, intelligence, specifications, and deliverables |
-| Intended future mode | Living web dashboard and/or refreshable Power BI report |
+- Repository name: `Islam-Brain`
+- Confirmed project content: Cielito Egypt / Cielito 360
+- Primary run: `cielito-egypt-base360-2026-07-09`
+- Declared model/runtime label: `Claude-Fable-5`
+- Declared primary lens: Executive
+- Declared secondary lens: Marketer
 
-### 4.2 What the name `Islam-Brain` means in practice
+### 4.2 What the project is
 
-The repository name does not describe the client or dashboard. The contents consistently describe Cielito Egypt and Cielito 360. Therefore:
+The project is a research-and-dashboard estate created to understand Cielito Egypt and produce a decision-grade 360 command center.
 
-- **Fact:** The repository is named `Islam-Brain`.
-- **Fact:** The contained project is Cielito 360.
-- **Interpretation:** `Islam-Brain` is likely a container or personal/project knowledge repository name rather than the product name.
-- **Unknown:** Whether the repository will later contain multiple client brains.
+It combines:
+
+- Brand and business research
+- Social-media collection
+- Catalog analysis
+- Customer-language analysis
+- Website audits
+- Strategic synthesis
+- Dashboard planning
+- Client-facing exports
+
+### 4.3 What the project is not yet confirmed to be
+
+It is not yet confirmed as:
+
+- A deployable React repository
+- A running SaaS dashboard
+- A refreshable Power BI package
+- A database-backed analytics product
+- A continuously scheduled data pipeline
+- A complete customer analytics system
 
 ---
 
 ## 5. Business Goals
 
-The project serves two business layers.
+### 5.1 Primary client business goal
 
-### 5.1 Client business goal
+Help Cielito convert existing brand equity, audience attention, and creator activity into a stronger owned growth and conversion engine.
 
-Help Cielito repair an existing brand and commercial engine rather than rebuild the brand from zero.
+### 5.2 Core diagnosis reflected by the project
 
-The proposed sequence is:
+The project presents this thesis:
 
-1. Install a WhatsApp conversion bridge.
-2. Clean catalog structure and switch toward Arabic-first content.
-3. Formalize the creator/UGC engine.
-4. Improve mobile site performance.
+> Cielito has a real brand, audience, catalog, and word-of-mouth engine, but its owned content and conversion path do not capture the available demand.
+
+### 5.3 Priority business decisions
+
+The persistent decision model is:
+
+1. Install a WhatsApp ordering bridge.
+2. Clean the catalog and switch to Arabic-first content.
+3. Formalize creators into a repeatable program.
+4. Improve mobile performance.
 5. Resolve founder-level positioning questions.
 
-The strategic thesis is:
+### 5.4 Monitoring goals
 
-> Cielito already has audience, brand assets, products, and creator attention. The fastest value comes from reconnecting those assets into a measurable conversion and content system.
+The proposed watch list includes:
 
-### 5.2 Agency/WOM business goal
+- Owned engagement rate
+- Owned-versus-earned performance
+- WhatsApp conversations
+- TikTok efficiency
+- Mobile performance
+- Catalog hygiene
+- UGC velocity
+- Discount discipline
 
-Use the 360 research and dashboard as a pitch centerpiece that demonstrates:
+### 5.5 Agency/business-development goal
 
-- Research depth
-- Evidence traceability
-- Strategic clarity
-- Technical capability
-- A differentiated owned-versus-earned diagnosis
-- A credible route from free findings to paid engagement
+The dashboard is also a WOM agency pitch centerpiece. It is intended to demonstrate that the agency can produce a living, evidence-linked command center rather than a generic slide report.
 
-`final/NEXT_STEPS.md` explicitly connects the work to a future priced proposal.
+This means the project serves two business systems:
 
-### 5.3 Data-business goal
-
-Turn missing information into a managed commercial conversation rather than a hidden weakness.
-
-Examples:
-
-- Client data request unlocks ROI scenarios.
-- Follower-quality audit unlocks paid-media confidence.
-- Competitive data pass unlocks benchmark views.
-- Survey unlocks awareness and price-elasticity analysis.
-
-This makes the gap register part of the sales and research architecture.
+- **Cielito decision support**
+- **WOM capability demonstration and paid-engagement conversion**
 
 ---
 
@@ -234,168 +236,159 @@ This makes the gap register part of the sales and research architecture.
 
 ### 6.1 Primary goal
 
-Enable an owner or executive to understand the diagnosis and required decisions in approximately 30 seconds.
+Give leadership a decision-grade view of the business in approximately 30 seconds, with deeper evidence available when required.
 
 ### 6.2 Secondary goal
 
-Allow marketers to drill from the executive conclusion into:
+Give marketers and operators detailed rooms for:
 
 - Social performance
-- Post-level evidence
-- Creator activity
-- Language performance
-- Voice of customer
+- Post exploration
+- Creator analysis
+- Sentiment and verbatims
 - Catalog and pricing
+- Product design
 - Website health
 - Competitive context
-- Audience and personas
-- Content plan
+- Audience/personas
+- Content planning
+- Strategy
+- Evidence
 
 ### 6.3 Trust goal
 
-Make every important number traceable to:
+Every important number should disclose:
 
-- A source ID
-- A confidence grade
-- A sample size
-- A capture window
-- A route for closing missing data
+- Source
+- Sample size
+- Capture window
+- Confidence or source grade
 
-### 6.4 Operational goal
+### 6.4 Honesty goal
 
-Become refreshable after the client provides:
+When data is missing, the dashboard should show:
 
-- Shopify exports
-- GA4
-- Instagram Insights
-- TikTok Insights
-- Revenue/order data
+```text
+Requires data — [route]
+```
 
-### 6.5 Expansion goal
+It must not display:
 
-Reach at least 20 cards per tab without inventing data. Missing cards remain visible as RequiresData placeholders.
+- Invented values
+- Fake financial projections
+- Zero values that really mean unknown
+- Unsupported absence claims
+- Unlabeled hypotheses
 
-### 6.6 Non-goals
+### 6.5 Completion goal
 
-The repository does not support the following as current goals:
+The deepening prompt defines a tab as complete when it contains at least 20 cards, each being either:
 
-- A general-purpose ecommerce administration dashboard
-- A transaction-processing system
-- A live social publishing platform
-- A CRM
-- A real-time financial system
-- A replacement for Shopify or Meta Insights
+- A source-tagged real chart, or
+- A clearly labeled RequiresData card with an acquisition route
+
+This is a completeness contract, not proof of implementation.
 
 ---
 
 ## 7. Target Users and Their Decisions
 
-### 7.1 Primary user — Owner / Executive
+### 7.1 Executive/owner
 
-**Needs:**
-
-- A decisive summary
-- Business implications
-- A short sequence of actions
-- Honest uncertainty
-- A small monitoring covenant
-
-**Questions:**
+**Needs to know:**
 
 - What is happening?
-- Why is it happening?
-- What is it costing us?
-- What should we decide?
-- What should we watch?
+- Why does it matter?
+- What should be decided first?
+- What can be fixed quickly?
+- What should be monitored?
+- Which claims are certain versus uncertain?
 
-**Expected interaction depth:** Low. The executive shell should answer most questions without deep navigation.
+**Preferred experience:**
 
-### 7.2 Secondary user — Marketer / Growth Operator
+- Verdict first
+- Three decisions
+- Financial honesty
+- Few high-load-bearing visuals
+- Optional evidence drill-down
 
-**Needs:**
+### 7.2 Marketing lead/operator
 
-- Post-level performance
-- Language and format comparisons
-- Creator roster
-- Content patterns
-- Audience signals
-- Campaign calendar
-- Conversion-friction evidence
+**Needs to know:**
 
-**Questions:**
-
-- Which content works?
-- Is Arabic outperforming English?
-- Which creators matter?
-- Where does purchase intent appear?
-- Which category or price band needs attention?
+- Which posts perform?
+- Which language and format work?
+- Who creates earned attention?
+- Which content themes create intent?
 - What should be published next?
+- How should the creator system operate?
 
-**Expected interaction depth:** Medium. This user drills into diagnostic rooms and data tables.
+### 7.3 Analyst/researcher
 
-### 7.3 Evidence user — Analyst / Researcher / Reviewer
+**Needs to know:**
 
-**Needs:**
-
-- Source provenance
+- Data sources
 - Capture windows
-- Dataset sizes
+- Sample sizes
+- Raw-versus-derived status
 - Confidence grades
-- Raw-to-derived relationships
-- Explicit gaps and contradictions
+- Dataset generation
+- Missing data
+- Method limitations
 
-**Questions:**
+### 7.4 Developer/dashboard builder
 
-- Where did this claim come from?
-- Is this primary, secondary, inferred, or missing?
-- Which dataset generation produced it?
-- Can it be reproduced?
+**Needs to know:**
 
-**Expected interaction depth:** High. This user enters the Evidence Room and may inspect repository artifacts.
+- Expected pages and components
+- Data contracts
+- Source IDs
+- Validation rules
+- Missing-state behavior
+- Media handling
+- Build/deploy target
 
-### 7.4 Implementation user — Developer / Future AI
+### 7.5 Agency strategist/sales team
 
-**Needs:**
+**Needs to know:**
 
-- Canonical data contracts
-- Component rules
-- Chart specifications
-- Build validation
-- Runtime dependencies
-- Source schemas
+- How the evidence supports the pitch
+- Which recommendations are immediate
+- What additional paid work can be proposed
+- What client data unlocks financial scenarios
 
-**Current limitation:** The implementation contract exists, but the actual app, compiler, component library, and dependency manifests are unavailable.
+### 7.6 Target-user validation status
 
-### 7.5 Client team / BI user
-
-The Power BI specification suggests an alternate user who prefers:
-
-- Refreshable business intelligence
-- Familiar page-based reports
-- DAX measures
-- Scheduled/manual refresh
-- Bilingual field labels
+No user interviews, usability tests, stakeholder recordings, or approved acceptance criteria are confirmed. Target users are inferred from the executive/marketer lens and deliverable language.
 
 ---
 
 ## 8. Current System Boundary
 
-### 8.1 Inside the repository
+### 8.1 Inside the confirmed repository
 
 - Operating prompt
-- Run state
+- Run-state file
 - Source registry
-- Raw captures
-- Derived datasets
-- Python scripts
-- Media
+- Website captures
+- Social captures
+- Search corpus
+- Collection scripts
+- Analysis scripts
+- Catalog intelligence
+- Social intelligence
+- Sentiment output
+- Verbatim output
+- Local media
 - Technical audits
-- Dashboard specifications
-- Executive documents
+- React specification
+- Power BI specification
+- Creative briefs
+- Final reports
 - PDF/PPTX deliverables
 - DIOS documentation
 
-### 8.2 Referenced but outside or missing
+### 8.2 Referenced but outside or unconfirmed
 
 - `strategy.json`
 - `strategy/MARKETING_STRATEGY.md`
@@ -979,43 +972,13 @@ The prompt proposes:
 - Negative = red
 - RequiresData = dashed orange
 
-These are intended semantics, not a confirmed implemented design system.
+### 18.7 Real media
 
-### 18.7 Planned chart families
+The dashboard should use local captured media and permanent links, not temporary CDN hotlinks.
 
-- Bar charts
-- Log-scale comparisons
-- Histograms
-- Scatter plots
-- Funnels
-- Gauges/bullet charts
-- Radial score visuals
-- Donuts
-- Treemaps
-- Timelines
-- Tables with thumbnails
-- Word clouds
-- Heatmaps
-- Placeholder cards
+### 18.8 Financial restraint
 
-### 18.8 Density doctrine
-
-A tab may contain at least 20 cards by combining:
-
-- Real charts
-- Honest gap cards
-
-The philosophy favors complete decision coverage over artificially complete data.
-
-### 18.9 Visualization risks already visible
-
-- Twenty cards per tab may create high cognitive load.
-- Some intended comparisons use different statistics, such as owned medians versus earned peaks.
-- Different capture generations can produce inconsistent numbers.
-- No implemented responsive behavior is available.
-- No dashboard-specific accessibility validation is available.
-
-These are understanding findings, not redesign decisions.
+Money values remain blank or explicitly unbaselined until real client data exists.
 
 ---
 
@@ -1025,380 +988,302 @@ These are understanding findings, not redesign decisions.
 
 | Grade | Meaning |
 |---|---|
-| HELD | Primary capture, verified within the project. |
-| LIKELY | Strong secondary evidence or a single primary indication. |
-| ESTIMATE_ONLY | Banded or derived estimate, not a precise fact. |
-| SELF_REPORTED | Client or brand claim; confirmed only as something the brand said. |
-| HYPOTHESIS | Plausible but unverified; should not be plotted as fact. |
-| GAP | Missing evidence. |
+| HELD | Primary capture or verified evidence |
+| LIKELY | Strong but not fully verified evidence |
+| ESTIMATE_ONLY | Banded or derived estimate |
+| SELF_REPORTED | Brand/client claim |
+| HYPOTHESIS | Plausible but unverified |
+| GAP | Missing |
 
-### 19.2 Inaccessible is not absent
+### 19.2 Rules
 
-The project correctly distinguishes:
+- A source being inaccessible does not prove absence.
+- A hypothesis is never plotted as fact.
+- A self-reported claim must remain labeled.
+- Every capture should disclose n and time window.
+- Gaps should include a closing route.
+- Paid collection requires explicit approval.
 
-- “We could not capture it”
-- “It does not exist”
+### 19.3 Evidence room purpose
 
-This matters for Facebook data, marketplace reviews, competitor information, and client metrics.
+The evidence room allows a user to answer:
 
-### 19.3 Fail-closed doctrine
-
-When evidence is missing or validation fails, the intended system should:
-
-- Block compilation, or
-- Render a gap state
-
-It should not invent a fallback business number.
-
-### 19.4 Evidence depth
-
-The project aims to preserve a chain:
-
-```text
-Claim → Derived metric → Raw capture → Capture route and date
-```
-
-The chain exists conceptually and partially in files, but is not yet complete as a machine-readable claim ledger.
+- Where did this claim come from?
+- Is it primary or secondary?
+- How many items were measured?
+- When was it captured?
+- What is still missing?
+- How much would it cost to close the gap?
 
 ---
 
 ## 20. Core Business Narrative
 
-The dashboard is organized around the following narrative.
+The project’s dominant narrative is:
 
-### 20.1 Asset
+```mermaid
+flowchart TD
+    A[Strong brand assets] --> B[Large existing audience]
+    B --> C[Weak owned-channel performance]
+    A --> D[High-performing earned/creator content]
+    C --> E[Demand is not captured by owned channel]
+    D --> E
+    E --> F[Language mismatch]
+    E --> G[Missing WhatsApp bridge]
+    E --> H[Catalog and positioning friction]
+    F --> I[Arabic-first content]
+    G --> J[WhatsApp ordering bridge]
+    H --> K[Catalog cleanup]
+    D --> L[Creator system]
+    I --> M[Repair the engine]
+    J --> M
+    K --> M
+    L --> M
+```
 
-Cielito has:
+### 20.1 Assets the project identifies
 
-- A verified Instagram audience near 89K
-- A 250-product catalog
-- Creator attention
-- Locally relevant brand assets
-- Fashion and footwear depth
-- A check-before-payment trust mechanic
+- Verified Instagram audience
+- Active creator/word-of-mouth content
+- Product catalog
+- Egyptian/local-made identity
+- Founder story
+- Check-before-you-pay delivery mechanic
+- Potential fruit-leather heritage
 
-### 20.2 Problem
+### 20.2 Frictions the project identifies
 
-Recent owned Instagram performance is extremely weak relative to audience size, while creator/earned posts demonstrate stronger reach and engagement.
-
-### 20.3 Causes proposed by the project
-
-- English-heavy owned captions in an Arabic-responsive market
-- No visible WhatsApp ordering bridge
-- Under-systematized creator activity
-- Catalog hygiene problems
-- Heavy discount surface
+- Weak owned engagement
+- English-heavy owned captions
+- No WhatsApp conversion bridge
+- Catalog typing/collection hygiene problems
+- Large discount surface
 - Mobile performance weakness
-- Brand-message drift
+- Mixed positioning/taglines
+- Missing client financial and analytics data
 
-### 20.4 Action thesis
+### 20.3 Proposed response
 
-Repair the connection between audience, content, catalog, and conversion before spending heavily on acquisition.
-
-### 20.5 Measurement thesis
-
-Track:
-
-- Owned engagement rate
-- Owned-versus-earned ratio
-- WhatsApp chats
-- TikTok efficiency
-- Mobile PageSpeed
-- Catalog hygiene
-- UGC velocity
-- Discount discipline
-
-### 20.6 Financial constraint
-
-Revenue impact cannot be calculated until client order, traffic, attribution, and conversion data are supplied.
+Repair and activate existing assets before spending heavily on audience acquisition.
 
 ---
 
 ## 21. Project Strengths
 
-### 21.1 Strong evidence ethics
+### 21.1 Evidence is preserved locally
 
-The no-fabrication contract is unusually explicit. Missing information is treated as a visible state rather than hidden.
+The project does not rely only on a final deck. It keeps raw captures, derived datasets, logs, and media.
 
-### 21.2 Clear audience hierarchy
+### 21.2 Missing data is treated honestly
 
-The separation between executive, marketer, and evidence users is strong and reflected in the proposed navigation.
+RequiresData placeholders and BLANK measures are stronger than fabricated KPIs.
 
-### 21.3 Decision-led information architecture
+### 21.3 The dashboard has a decision hierarchy
 
-The system begins with a verdict and decisions, then offers diagnostic depth.
+The L0–L3 model separates executive story, diagnosis, and evidence.
 
-### 21.4 Raw and derived data are separated
+### 21.4 Local market context is built into the doctrine
 
-The repository distinguishes captures from analysis outputs, reducing the risk of confusing interpretation with evidence.
+The project recognizes Egyptian Arabic, WhatsApp, cash/check-on-delivery behavior, and seasonal demand windows.
 
-### 21.5 Source registry
+### 21.5 The data-pass menu is operational
 
-S01–S13 creates a useful common language for evidence provenance.
+Missing evidence has a route, cost, PII classification, and decision state.
 
-### 21.6 Gap-closing architecture
+### 21.6 The project uses real item-level evidence
 
-Unknowns have routes, estimated costs, approval states, and expected unlocks.
+Posts, comments, product records, images, and permanent URLs enable drill-down.
 
-### 21.7 Paid collection controls
+### 21.7 It recognizes multiple audiences
 
-The data-pass menu requires route approval and records deferral as a legitimate decision.
+Executive and marketer needs are explicitly separated.
 
-### 21.8 Category-specific thinking
+### 21.8 It avoids generic dashboard thinking
 
-The project is not a generic dashboard template. It incorporates:
-
-- Footwear sizing
-- Seasonal demand
-- Arabic content
-- WhatsApp conversion
-- Creator/UGC dynamics
-- Local craft and pricing
-
-### 21.9 Local media preservation
-
-Media is downloaded locally with manifests instead of relying on temporary external URLs.
-
-### 21.10 Multiple delivery formats
-
-The project supports executive Markdown, PDF/PPTX, React, and Power BI concepts.
-
-### 21.11 Honest financial handling
-
-Revenue, AOV, conversion, CAC, and ROI are deliberately left blank pending client data.
+The dashboard is organized around the brand’s actual business problem rather than a template KPI collection.
 
 ---
 
 ## 22. Project Weaknesses and Risks
 
-### 22.1 No confirmed dashboard implementation
+### 22.1 The implementation is absent or external
 
-The largest gap is the absence of the React application, compiler, components, and deployment.
+The largest limitation is the missing React/Power BI build.
 
-### 22.2 Missing canonical strategy artifacts
+### 22.2 Reproducibility is weak
 
-The dashboard and final reports depend on `strategy.json` and other framework documents that are not confirmed in this repository.
+Scripts contain local absolute paths, and no dependency/environment manifest is confirmed.
 
-### 22.3 Dataset version drift
+### 22.3 Dataset canonicality is undefined
 
-Counts and windows differ between Base 360 artifacts and later deepening artifacts.
+Several overlapping social datasets and narrative counts exist.
 
-### 22.4 Hard-coded local paths
+### 22.4 Some claims may mix incompatible denominators
 
-Several scripts depend on Eslam-specific Windows directories. They are not portable without editing.
+Examples include owned versus earned comparisons and cross-platform engagement measures.
 
-### 22.5 Missing dependency and environment manifests
+### 22.5 Catalog option handling is unreliable
 
-The scripts cannot be reliably reproduced from the repository alone.
+The pricing/design script treats `option1` as size, but output includes color values such as `Black`, `Beige`, and `Brown`, plus `Default Title`.
 
-### 22.6 No automated schema validation confirmed
+This means the current size-distribution output is not a clean size metric.
 
-JSON contracts are implied rather than centrally defined and enforced.
+### 22.6 Sentiment validation is transferred from another dataset
 
-### 22.7 No test or CI system confirmed
+The engine states 89.5% accuracy on DaleelStore reviews, not on the Cielito social corpus.
 
-Transformations, calculations, and narrative claims are not protected by repository-level automated tests.
+### 22.7 Intent detection has false-positive risk
 
-### 22.8 Monolithic scripts
+The detector uses substring matching. Short Arabic tokens such as `كام` can match unrelated text. At least one output item appears semantically unrelated to purchase intent.
 
-Collection and analysis scripts execute at module scope and mix loading, transformation, inference, output, and logging.
+### 22.8 Internal privacy language is imperfect
 
-### 22.9 API token transport
+The script says “PII fail-closed” but still stores public handles and comment text. That may be acceptable for the project’s handle-only rule, but it is not zero-PII storage.
 
-The Apify token is placed in a URL query string. It is not printed by the script, but query-string credentials can appear in intermediary logs or diagnostics.
+### 22.9 Security terminology can be misunderstood
 
-### 22.10 Data-model ambiguity in product options
+“Security clean” in the agent-readiness audit refers to no detected hidden prompt-injection instructions. It is not a full application-security audit.
 
-The pricing script treats every variant `option1` as a size. The resulting distribution includes values such as:
+### 22.10 Source freshness is snapshot-based
 
-- `Black`
-- `Beige`
-- `Brown`
-- `Default Title`
+Most evidence is captured around July 9–10, 2026. The dashboard is described as living, but no refresh scheduler is confirmed.
 
-Therefore, “average sizes per product” is not a clean sizing metric across the full catalog.
+### 22.11 Some strategy dependencies are missing
 
-### 22.11 Raw type versus inferred category ambiguity
+The dashboard relies on strategy, persona, content, competitive, and evidence artifacts not present in the confirmed snapshot.
 
-- `catalog_full.json` reports 128 raw untyped products.
-- `cielito_pricing_design.json` infers only 18 as “Other / untyped.”
+### 22.12 Cost state is stale or generation-specific
 
-These are different measures and must not be displayed as if they are the same.
-
-### 22.12 Sentiment transfer-validity risk
-
-The sentiment engine cites 89.5% accuracy on DaleelStore star-rated reviews, not on this Cielito social-comment corpus.
-
-### 22.13 Intent-detector false positives
-
-The keyword detector uses substring matching. For example, the Arabic sequence `فين` can appear inside another word such as `تعرفين`, incorrectly marking a non-purchase comment as intent.
-
-### 22.14 PII wording is stronger than implementation
-
-The sentiment script says “PII fail-closed,” but `strip_pii()` returns text unchanged and public handles are retained. The output is intentionally limited, but no actual sanitizer is demonstrated.
-
-### 22.15 Manual analysis governance is incomplete
-
-Manual product-image review and qualitative codebooks lack a confirmed reviewer log, inter-rater validation, or versioned methodology file.
-
-### 22.16 Licensing and retention are unconfirmed
-
-Public social media images and handles are stored locally, but repository evidence does not confirm retention, consent, or client-display rules.
-
-### 22.17 No user validation
-
-No executive usability test, marketer interview, or client acceptance criteria are confirmed.
-
-### 22.18 Design system is provisional
-
-Color and visual direction exist as briefs, but approved brand assets and production tokens are not confirmed.
-
-### 22.19 Accessibility is not validated for the dashboard
-
-PageSpeed accessibility scores describe the client website, not the proposed dashboard.
-
-### 22.20 “Security clean” is narrow
-
-The agent-readiness audit’s security result means no prompt-injection pattern was detected on the inspected website. It is not a full application-security audit.
+`RUN_STATE.json` records the base cost of `$0.434`, while later deep collection increased total spend.
 
 ---
 
 ## 23. Contradictions and Important Nuances
 
-### 23.1 Dataset-count matrix
+### 23.1 Run closed versus project incomplete
 
-| Topic | Earlier/Base 360 value | Later/deeper value | Interpretation |
-|---|---:|---:|---|
-| Social posts | 120 in React/Power BI spec | 210 in deepening prompt | Different capture generations. |
-| Instagram posts | 60 initial | 150 deep | Deep enrichment after base run. |
-| Voice-of-customer comments | 254 in React spec | 964 verbatim comments | Earlier dashboard specification versus deeper corpus. |
-| Sentiment items | Not central in base spec | 1,050 including comments and captions | Different unit: comments + captions + emoji items. |
-| Estate cost | $0.434 in run state | Later deep routes add $2.4267+ | Run state is stale or base-run-only. |
-| TikTok covers | 59 in evidence log | Filenames `000`–`059` imply 60 attempts/files | Must use manifest validity, not filename range. |
+- Base 360 research run: closed
+- Internal era coverage: partial
+- Dashboard build: queued
+- Total project: incomplete
 
-### 23.2 Owned versus earned comparison nuance
+### 23.2 120 posts versus 210 posts
 
-The flagship story compares recent owned performance with high-performing earned/creator content. Some narrative expressions use:
+- React/Power BI base specification uses a 120-post seed.
+- Deepening prompt states 210 posts are available.
 
-- Owned median
-- Earned peak
+These are different dashboard generations.
 
-This is rhetorically powerful but is not the same as comparing median to median. The exact statistic must remain visible in the final chart.
+### 23.3 254 comments versus 964/1,050 items
 
-### 23.3 Instagram handle anomaly
+- Original Social Command Center references 254 comments.
+- Verbatim output contains 964 comments.
+- Sentiment output contains 1,050 total items because it includes comments and captions.
 
-`_intel/social_intel.json` lists the Instagram handle as `haninemoussaa` while also storing Cielito’s 88,903 follower count. This likely reflects mixed/parent data from the first captured item rather than a canonical account identifier. It should not be treated as a reliable brand-handle field without validation.
+These counts answer different questions and must not be presented as interchangeable.
 
-### 23.4 Product sizing nuance
+### 23.4 Product versus SKU language
 
-The catalog contains mixed variant option structures. Option 1 is not consistently “size,” so color and default values contaminate the sizing distribution.
+The project often says 250 SKUs, but the captured Shopify endpoint contains 250 product objects with variants. Product count and sellable-variant/SKU count are different concepts.
 
-### 23.5 Sentiment versus customer satisfaction
+### 23.5 “No WhatsApp” scope
 
-A praise-heavy social-comment corpus does not equal customer satisfaction, NPS, product quality, or review rating. The repository itself warns against quoting one blended sentiment number.
+The project reports no WhatsApp path in captured site, bio, and posts. That is strong evidence for observed surfaces, but does not prove no unpublished/manual WhatsApp sales process exists.
 
-### 23.6 Fruit-leather nuance
+### 23.6 Fruit-leather claim
 
-- Press/history evidence suggests a fruit-leather story.
-- The story is missing from current live surfaces.
-- Founder intent and current product status are unknown.
+- Press story: likely/secondary evidence
+- Current live-site status: not present
+- Strategic use: founder-gated hypothesis
 
-It should remain a founder-gated hypothesis.
+It must not be represented as a current active line without confirmation.
 
-### 23.7 Project completion nuance
+### 23.7 Second domain
 
-`phase: closed` means the Base 360 run closed. It does not mean:
-
-- The dashboard is built.
-- Internal research coverage is complete.
-- Client data is available.
-- The project is fully delivered in its final intended form.
+`mycielito.com` exists and appears to be Shopify, but its ownership and relationship to `cielitoeg.com` remain unknown.
 
 ---
 
 ## 24. What Can and Cannot Be Concluded
 
-### 24.1 Can be concluded
+### 24.1 High-confidence conclusions
 
-- The project has a strong evidence-governance philosophy.
-- It has a coherent executive-to-evidence information architecture.
-- It contains meaningful Cielito catalog, social, and website evidence.
-- It has a clear strategic story and decision sequence.
-- It has sufficient specifications to begin a dashboard implementation after missing contracts are recovered or rebuilt.
-- It has multiple data generations that require formal canonicality rules.
+- The repository contains substantial real evidence and analysis.
+- The Cielito public catalog contained 250 captured products at the collection time.
+- Recent owned Instagram performance in the corrective sample was weak relative to the account’s follower count.
+- Captured earned/creator posts include much stronger individual performance.
+- Recent owned Instagram captions were overwhelmingly English in the selected sample.
+- Catalog typing and collection hygiene issues exist in the capture.
+- Mobile PageSpeed was materially lower than desktop in the audit.
+- Financial outcomes cannot be quantified without client data.
+- The dashboard implementation is not confirmed in this repository.
 
-### 24.2 Cannot be concluded
+### 24.2 Medium-confidence interpretations
 
-- That the React dashboard exists or works.
-- That any dashboard component is accessible or responsive.
-- That the proposed navigation is usable.
-- That every narrative claim is linked automatically to raw evidence.
-- That client financial impact is known.
-- That audience demographics or follower quality are known.
-- That the current design palette is approved.
-- That the Python pipeline is reproducible on another machine.
-- That the sentiment and intent classifications are accurate enough for unsupervised client-facing use.
-- That the PDF and PowerPoint match every current dataset generation.
+- Arabic-first content is likely an immediate improvement lever.
+- Creator content is a valuable existing asset.
+- A WhatsApp conversion bridge is strategically appropriate.
+- Catalog cleanup is likely a low-cost improvement.
+- Cielito may have positioning white space between mass volume and premium craft.
+
+### 24.3 Conclusions that cannot currently be made
+
+- Exact revenue uplift
+- Exact conversion uplift
+- True follower quality
+- Audience demographics or geography
+- Creator CAC or conversion
+- Product sell-through
+- Margin by category
+- Return rate by design/size
+- Full competitive share of voice
+- Validated NPS
+- Validated brand awareness
+- Actual production dashboard usability
 
 ---
 
 ## 25. Working Project Model
 
-The following model becomes the Phase 1 source of truth until later phases refine it.
+### 25.1 Canonical mental model
 
-### 25.1 Product statement
+```text
+Islam-Brain is the Cielito 360 evidence and decision-intelligence estate.
+It is designed to feed a future evidence-governed dashboard.
+It is not itself the confirmed dashboard application.
+```
 
-> Cielito 360 is an evidence-governed executive and marketing decision system for diagnosing and repairing Cielito Egypt’s audience-to-content-to-conversion engine.
-
-### 25.2 Core promise
-
-> Give leadership the decision in seconds, give marketers the evidence and operating detail, and never invent a number when data is missing.
-
-### 25.3 Current-state architecture
+### 25.2 Working source precedence
 
 ```text
 Raw captures
-  → local scripts
-  → derived intelligence
-  → executive/strategy documents
-  → dashboard specifications
+    ↓
+Latest validated derived dataset
+    ↓
+Source registry and confidence grade
+    ↓
+Dashboard compiler
+    ↓
+Client-safe chart/card
 ```
 
-### 25.4 Target-state architecture
+### 25.3 Working responsibility model
 
-```text
-Versioned evidence
-  → validated transformation layer
-  → canonical dashboard dataset
-  → React and/or Power BI presentation
-  → source-aware interactions
-  → refresh loop with client data
-```
-
-### 25.5 Primary decision sequence
-
-```text
-WhatsApp bridge
-  → Catalog hygiene + Arabic-first content
-  → Creator operating system
-  → Mobile performance
-  → Founder-gated positioning
-```
-
-### 25.6 North star
-
-Owned engagement-rate recovery, contextualized by capture window and the content format being tested.
-
-### 25.7 Governing principles
-
-1. No fabrication.
-2. Facts and assumptions remain separate.
-3. Every number carries context.
-4. Missing data stays visible.
-5. Decisions precede detail.
-6. Evidence is always reachable.
-7. Client-safe language does not erase internal rigor.
-8. New data must not silently overwrite old conclusions.
+| Concern | Current source of truth |
+|---|---|
+| Raw website evidence | `_sources/website/` |
+| Raw social evidence | `_sources/social/` |
+| Technical audits | `instruments/` |
+| Catalog facts | `_intel/catalog_full.json` plus raw product capture |
+| Owned Instagram baseline | `_intel/instagram_owned_intel.json` |
+| Deep sentiment | `_intel/cielito_social_sentiment.json` with model caveats |
+| Verbatim themes | `_intel/cielito_verbatims_analysis.json` with coding caveats |
+| Source grades | `_intel/SOURCE_REGISTRY.md` |
+| Future data routes | `_intel/data_pass_menu_base360.md` |
+| Dashboard intent | `dashboard/react_dashboard_spec.md` and Power BI spec |
+| Expanded tab contract | `CIELITO_TAB_DEEPENING_MASTER_PROMPT.md` |
+| Executive decisions | `final/DECISION_DOCK.md` |
+| Permanent documentation | `docs/DIOS/` |
 
 ---
 
@@ -1408,56 +1293,54 @@ Owned engagement-rate recovery, contextualized by capture window and the content
 
 | Quality gate | Result | Evidence / reason |
 |---|---|---|
-| Were Phase 0 findings reviewed? | **Yes** | Inventory layers, gaps, contradictions, and boundaries were carried forward. |
-| Are business and dashboard goals understood? | **Yes** | Client, agency, dashboard, trust, and operational goals are documented. |
-| Are target users understood? | **Yes, as intended users** | Executive, marketer, evidence, developer, and BI users are mapped. No user interviews exist. |
-| Is current architecture distinguished from target architecture? | **Yes** | Present evidence estate and unbuilt UI are documented separately. |
-| Is the technology model documented? | **Yes** | Confirmed and intended technologies are separated. |
-| Is data flow understood? | **Yes, with canonicality limitations** | Collection, analysis, media, decision, and planned compile flows are mapped. |
-| Is information hierarchy understood? | **Yes** | L0–L3 model and five-screen story are documented. |
-| Are design and visualization philosophies understood? | **Yes, as specifications** | Their implementation remains unverified. |
-| Are strengths and weaknesses documented? | **Yes** | Evidence, architecture, portability, data quality, privacy, and validation are covered. |
-| Are contradictions preserved? | **Yes** | Dataset generations and metric nuances are explicitly recorded. |
-| Are unsupported claims avoided? | **Yes** | Missing app, client data, design approval, and runtime evidence remain unknown. |
-| Has every available binary deliverable been visually inspected? | **No** | PDF/PPTX visual inspection remains unavailable in this phase. |
-| Is Phase 2 allowed to begin automatically? | **No** | Owner validation of this mental model is required. |
+| Were previous artifacts reviewed? | **Yes** | Phase 0 was reviewed and accepted by owner instruction. |
+| Are business and dashboard goals understood? | **Yes** | Client, agency, decision, trust, and completeness goals are documented. |
+| Are target users identified? | **Yes, inferred** | Executive, marketer, analyst, developer, and agency users are documented; interviews remain missing. |
+| Is current architecture separated from intended architecture? | **Yes** | File pipeline and future React/Power BI paths are documented separately. |
+| Are technologies and dependencies understood? | **Yes, with reproducibility gaps** | Confirmed and intended technologies are separated. |
+| Is the data flow understood? | **Yes** | Collection, analysis, media, dashboard, and decision flows are diagrammed. |
+| Is information hierarchy understood? | **Yes** | L0–L3 architecture is documented. |
+| Are strengths and weaknesses documented? | **Yes** | Evidence, honesty, architecture, reproducibility, data-quality, and implementation risks are covered. |
+| Are contradictions preserved? | **Yes** | Dataset, count, run-state, product/SKU, and hypothesis nuances are retained. |
+| Was redesign avoided? | **Yes** | No design or production changes were made. |
+| Is Phase 1 complete? | **Yes** | A complete project-level mental model is documented. |
+| Was Phase 1 accepted? | **Yes** | Owner authorized Phase 2 on 2026-07-12. |
 
-### 26.2 Phase result
+### 26.2 Phase status
 
-> [!IMPORTANT]
-> **Phase 1 is complete with declared evidence limitations.** The project’s purpose, audience, architecture, data flow, information hierarchy, design philosophy, visualization philosophy, strengths, weaknesses, and unresolved boundaries are now documented.
+> [!NOTE]
+> **Phase 1 was accepted by owner instruction on 2026-07-12.** Phase 2 is documented in [`02_Dashboard_Architecture.md`](./02_Dashboard_Architecture.md).
 
-### 26.3 Required validation before Phase 2
+### 26.3 Remaining inputs that would improve later phases
 
-1. Confirm that the three-system mental model is correct: Evidence Estate + Decision Intelligence + Dashboard Blueprint.
-2. Confirm whether the future implementation should be React, Power BI, or both.
-3. Confirm whether the deeper 210-post/1,050-item datasets supersede the Base 360 dashboard numbers.
-4. Confirm whether `strategy.json` and the missing framework artifacts exist elsewhere.
-5. Confirm whether Phase 2 should reverse-engineer the specification only, or wait for the actual dashboard source.
+1. Actual React application or deployment repository.
+2. `strategy.json` and missing strategy/content/competitive artifacts.
+3. Complete prompt and chat history.
+4. Client data and approved acceptance criteria.
+5. Dependency and environment manifests.
+6. Visual inspection of the PDF/PPTX.
 
 ---
 
 ## 27. Glossary
 
-| Term | Meaning in this project |
+| Term | Definition in this project |
 |---|---|
-| **Base 360** | Initial closed research/pitch run completed on 2026-07-09. |
-| **Canonical dataset** | The approved source of truth when overlapping files exist. It is not yet fully established. |
-| **Capture window** | Date range represented by a dataset. |
-| **Decision Dock** | Persistent executive strip containing verdict, actions, financial honesty, and north star. |
-| **Diagnostic Room** | A drill-down dashboard area focused on one analytical domain. |
-| **Evidence Estate** | The raw captures, logs, media, scripts, registries, and datasets preserved in the repository. |
-| **Evidence Room** | Dashboard layer exposing sources, confidence, sample sizes, windows, and gaps. |
-| **Fail-closed** | Stop or show a gap rather than emit unsupported data. |
-| **GapPlaceholder / RequiresData** | Honest visual state for information that has not been obtained. |
-| **HELD** | Primary captured evidence verified within the project. |
-| **Lens stack** | Intended audience priority; executive primary, marketer secondary. |
-| **Masri-first** | Prioritizing Egyptian Arabic language and local behavior/context. |
-| **Owned content** | Content published by the Cielito brand account. |
-| **Earned/WOM content** | Public creator/customer content about or tagging Cielito. |
-| **Source registry** | Mapping from S-IDs to evidence paths and confidence ceilings. |
-| **Survival Ledger** | Specification rule that every important research module must have a dashboard home. |
-| **WOM** | Word of mouth; also the agency/project context referenced by the dashboard specification. |
+| **Agent readiness** | How easily AI agents can discover, read, and interact with the storefront, based on the project’s custom audit. |
+| **Base 360** | Initial full research and strategy run for Cielito. |
+| **Capture window** | The date range represented by a dataset. |
+| **Corrective pull** | Additional collection run intended to fix or isolate a weakness in the original capture. |
+| **Decision Dock** | Persistent executive summary containing verdict, priority decisions, financial honesty, and north star. |
+| **Diagnostic room** | Detailed dashboard section for a specific business domain. |
+| **Evidence estate** | Preserved raw captures, logs, media, and source records. |
+| **Fail-closed** | Block output when evidence or validation requirements are not satisfied. |
+| **Generation** | A version or stage of a dataset produced by a particular collection/analysis run. |
+| **Owned content** | Content published by the brand’s own account. |
+| **Earned content** | Public content produced by creators/customers rather than the brand account. |
+| **Masri-first** | Prioritizing Egyptian Arabic and Egyptian cultural context. |
+| **RequiresData card** | Dashboard card that truthfully explains what data is missing and how to obtain it. |
+| **Source grade** | Confidence label describing evidence status. |
+| **Word-of-mouth flywheel** | Repeating cycle where creator/customer content produces attention and further participation. |
 
 ---
 
@@ -1467,12 +1350,10 @@ Owned engagement-rate recovery, contextualized by capture window and the content
 |---|---|
 | Document | `01_Understanding.md` |
 | DIOS phase | 1 |
-| Previous artifact | `00_Project_Inventory.md` |
 | Repository baseline | `44cea987cd42f077cc0f6e448bcdc69f2683ecb1` |
-| Status | Complete, awaiting validation |
-| Production code changes | None |
-| Data collection triggered | None |
-| Paid routes triggered | None |
+| Working branch | `docs/dios-phase-0-inventory` |
+| Status | Accepted by owner on 2026-07-12 |
+| Previous phase | Phase 0 accepted with limitations |
+| Production-code changes | None |
 | Dashboard redesign performed | No |
-| Current source of truth for project mental model | This document, subject to owner validation |
-| Next permitted action | Validate Phase 1, then begin Phase 2 |
+| Next artifact | `02_Dashboard_Architecture.md` |
