@@ -5,8 +5,8 @@
 > **Branch reviewed:** `main`  
 > **Baseline commit:** `44cea987cd42f077cc0f6e448bcdc69f2683ecb1`  
 > **Inventory date:** 2026-07-12  
-> **Phase status:** Phase 0 — Inventory only  
-> **Next phase:** Blocked until this inventory is validated
+> **Phase status:** Phase 0 — Accepted by owner on 2026-07-12  
+> **Next artifact:** [`01_Understanding.md`](./01_Understanding.md)
 
 ---
 
@@ -47,7 +47,6 @@ This document inventories the material currently present in the repository. It r
 - Recommend product, UX, UI, architecture, or marketing changes.
 - Validate calculations by independently recomputing them.
 - Treat generated conclusions as equivalent to raw evidence.
-- Move to Phase 1.
 
 > [!IMPORTANT]
 > The repository is currently an **evidence-and-deliverables estate**, not a confirmed runnable dashboard application. It contains dashboard specifications and generated deliverables, but the reviewed snapshot does not confirm the React implementation described by those specifications.
@@ -337,7 +336,7 @@ The current inventory confirms the specification, but does not confirm the compi
 | `final/BOARD_ONE_PAGER.md` | One-page leadership summary with verdict, facts, decisions, financial gap, and monitoring list. | Markdown deliverable | Derived intelligence and source registry | Board/client communication | Core | High | Claim-level source links are summarized rather than embedded beside every statement. |
 | `final/DECISION_DOCK.md` | Defines the persistent dashboard decision strip: verdict, decisions, north star, and watch list. | Markdown dashboard/client artifact | Strategy and intelligence | Intended command-dashboard top layer | Core | High | Implementation mapping to a real component is not confirmed. |
 | `final/EXECUTIVE_BRIEF.md` | Leadership-oriented narrative of diagnosis, opportunity, decisions, data requests, and dashboard promise. | Markdown deliverable | Intelligence and strategy | Client/leadership communication | Core | High | Same traceability note as above. |
-| `final` research report artifact | Longer Cielito 360 research report covering brand, market, diagnosis, assets, positioning, plan, gaps, and method. | Markdown deliverable | Intelligence, search corpus, strategy | Client-safe comprehensive report | Core | High for existence/content | Exact filename must be confirmed with a direct tree listing. |
+| `final/MEGA_360_REPORT.md` | Longer Cielito 360 research report covering brand, market, diagnosis, assets, positioning, plan, gaps, and method. | Markdown deliverable | Intelligence, search corpus, strategy | Client-safe comprehensive report | Core | High | Several companion strategy artifacts referenced by the report remain unconfirmed. |
 | `final/NEXT_STEPS.md` | Records immediate tasks, queued waves, client asks, and data-pass priorities. | Markdown operating document | Run state and dashboard specification | Future implementation and collection work | Core | High | Several referenced commands, runtime scripts, and external repositories are outside the confirmed repository boundary. |
 
 ### 6.11 `deliverables`
@@ -505,20 +504,19 @@ No contradiction is resolved in Phase 0. Each is preserved for later validation.
 | Is the document internally consistent? | **Yes, subject to tree verification** | Source layers and artifact roles are kept distinct. |
 | Have beginner-friendly explanations been included? | **Yes** | Layer model, confidence scale, importance scale, and glossary are included. |
 | Have cross-references to previous phases been updated? | **Not applicable** | This is the first DIOS phase. |
-| Is Phase 1 allowed to begin? | **No** | Phase 0 needs owner validation and a complete tree export/direct file access for exact coverage. |
+| Was Phase 0 accepted? | **Yes** | Owner explicitly authorized Phase 1 on 2026-07-12. |
 
 ### 11.2 Phase status
 
-> [!WARNING]
-> **Phase 0 is drafted, not finally approved.** It must be validated before Phase 1 begins. No redesign or dashboard improvement work is authorized by this document.
+> [!NOTE]
+> **Phase 0 was accepted by owner instruction on 2026-07-12 with known limitations.** Phase 1 is documented in [`01_Understanding.md`](./01_Understanding.md).
 
-### 11.3 Required validation inputs
+### 11.3 Known limitations carried forward
 
-1. Confirm that `Islam-Brain` is the intended repository and that Cielito 360 is the intended dashboard project.
-2. Confirm whether external artifacts such as `strategy.json`, brand files, era outputs, and `esm-landing` should be added to this repository or inventoried from another repository.
-3. Provide or authorize a complete repository-tree export so exact file counts and unlisted filenames can be locked.
-4. Confirm whether the PDF and PPTX should be visually inspected in a later phase.
-5. Confirm whether the temporary files should be treated as preserved evidence or disposable intermediates.
+1. Exact repository file counts remain unverified without a complete tree export.
+2. External artifacts such as `strategy.json`, brand files, era outputs, and `esm-landing` remain unconfirmed.
+3. PDF and PPTX content was not visually inspected.
+4. Temporary-file retention policy remains undefined.
 
 ---
 
@@ -547,7 +545,7 @@ No contradiction is resolved in Phase 0. Each is preserved for later validation.
 | Document | `00_Project_Inventory.md` |
 | DIOS phase | 0 |
 | Repository baseline | `44cea987cd42f077cc0f6e448bcdc69f2683ecb1` |
-| Status | Draft awaiting validation |
+| Status | Accepted by owner on 2026-07-12 |
 | Changes to production code | None |
 | Dashboard redesign performed | No |
-| Next permitted action | Validate and amend Phase 0 only |
+| Next artifact | `01_Understanding.md` |
