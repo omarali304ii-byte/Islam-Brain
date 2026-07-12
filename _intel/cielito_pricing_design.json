@@ -1,0 +1,571 @@
+{
+ "n_products": 250,
+ "n_priced": 250,
+ "category_mix": {
+  "Apparel": 113,
+  "Other / untyped": 18,
+  "Bags": 16,
+  "Footwear": 103
+ },
+ "cat_price": {
+  "Footwear": {
+   "n": 103,
+   "min": 480.0,
+   "max": 2200.0,
+   "median": 1400.0,
+   "mean": 1284,
+   "on_sale_pct": 21,
+   "avg_discount": 55,
+   "bands": {
+    "<800": 13,
+    "800-1,200": 18,
+    "1,200-1,800": 57,
+    "1,800-2,500": 15,
+    "2,500+": 0
+   }
+  },
+  "Apparel": {
+   "n": 113,
+   "min": 400.0,
+   "max": 7600.0,
+   "median": 1200.0,
+   "mean": 1317,
+   "on_sale_pct": 49,
+   "avg_discount": 39,
+   "bands": {
+    "<800": 17,
+    "800-1,200": 36,
+    "1,200-1,800": 48,
+    "1,800-2,500": 8,
+    "2,500+": 4
+   }
+  },
+  "Bags": {
+   "n": 16,
+   "min": 800.0,
+   "max": 1600.0,
+   "median": 1200.0,
+   "mean": 1194,
+   "on_sale_pct": 0,
+   "avg_discount": 0,
+   "bands": {
+    "<800": 0,
+    "800-1,200": 4,
+    "1,200-1,800": 12,
+    "1,800-2,500": 0,
+    "2,500+": 0
+   }
+  },
+  "Other / untyped": {
+   "n": 18,
+   "min": 800.0,
+   "max": 3520.0,
+   "median": 1520.0,
+   "mean": 1711,
+   "on_sale_pct": 89,
+   "avg_discount": 20,
+   "bands": {
+    "<800": 0,
+    "800-1,200": 7,
+    "1,200-1,800": 3,
+    "1,800-2,500": 6,
+    "2,500+": 2
+   }
+  }
+ },
+ "tiers": {
+  "Entry (< EGP 900)": 40,
+  "Core (EGP 900-1600)": 171,
+  "Premium (> EGP 1600)": 39
+ },
+ "disc_dist": {
+  "10-20%": 1,
+  "20-30%": 37,
+  "30-40%": 8,
+  "40-50%": 0,
+  "50%+": 47
+ },
+ "size": {
+  "avg_sizes_per_product": 3.2,
+  "distribution": [
+   {
+    "size": "37",
+    "n": 111
+   },
+   {
+    "size": "38",
+    "n": 111
+   },
+   {
+    "size": "39",
+    "n": 111
+   },
+   {
+    "size": "40",
+    "n": 111
+   },
+   {
+    "size": "41",
+    "n": 111
+   },
+   {
+    "size": "Small - Medium",
+    "n": 56
+   },
+   {
+    "size": "Large - X Large",
+    "n": 55
+   },
+   {
+    "size": "Black",
+    "n": 47
+   },
+   {
+    "size": "36",
+    "n": 44
+   },
+   {
+    "size": "42",
+    "n": 44
+   },
+   {
+    "size": "Default Title",
+    "n": 39
+   },
+   {
+    "size": "Beige",
+    "n": 30
+   },
+   {
+    "size": "One size",
+    "n": 28
+   },
+   {
+    "size": "Brown",
+    "n": 25
+   }
+  ],
+  "note": "Sizing is a real conversion friction (a recurring verbatim theme). Avg sizes/product and the size mix show where availability is thin."
+ },
+ "family_ladder": [
+  {
+   "family": "untyped",
+   "n": 128,
+   "median": 1200
+  },
+  {
+   "family": "kimonos",
+   "n": 33,
+   "median": 950
+  },
+  {
+   "family": "slippers",
+   "n": 31,
+   "median": 1400
+  },
+  {
+   "family": "shoulder bags",
+   "n": 12,
+   "median": 1200
+  },
+  {
+   "family": "sandals",
+   "n": 11,
+   "median": 1400
+  },
+  {
+   "family": "set",
+   "n": 10,
+   "median": 1600
+  },
+  {
+   "family": "cowboy boots",
+   "n": 8,
+   "median": 800
+  },
+  {
+   "family": "dress",
+   "n": 7,
+   "median": 1400
+  },
+  {
+   "family": "espadrille",
+   "n": 7,
+   "median": 900
+  }
+ ],
+ "price_trend": [
+  {
+   "month": "2025-05",
+   "median": 1200,
+   "n": 15
+  },
+  {
+   "month": "2025-06",
+   "median": 1400,
+   "n": 37
+  },
+  {
+   "month": "2025-07",
+   "median": 1600,
+   "n": 32
+  },
+  {
+   "month": "2025-10",
+   "median": 720,
+   "n": 8
+  },
+  {
+   "month": "2025-12",
+   "median": 1500,
+   "n": 6
+  },
+  {
+   "month": "2026-02",
+   "median": 1280,
+   "n": 34
+  },
+  {
+   "month": "2026-03",
+   "median": 900,
+   "n": 6
+  },
+  {
+   "month": "2026-05",
+   "median": 1200,
+   "n": 8
+  }
+ ],
+ "sample_products": [
+  {
+   "file": "Appa_00.jpg",
+   "cat": "Apparel",
+   "sub": "untyped",
+   "title": "1000 Leaves Longline Vest",
+   "price": 7600.0
+  },
+  {
+   "file": "Appa_01.jpg",
+   "cat": "Apparel",
+   "sub": "untyped",
+   "title": "1000 Leaves Jacket",
+   "price": 6800.0
+  },
+  {
+   "file": "Othe_02.jpg",
+   "cat": "Other / untyped",
+   "sub": "untyped",
+   "title": "Royal Green Kaftan",
+   "price": 3520.0
+  },
+  {
+   "file": "Othe_03.jpg",
+   "cat": "Other / untyped",
+   "sub": "untyped",
+   "title": "Amal Kaftan",
+   "price": 3520.0
+  },
+  {
+   "file": "Appa_04.jpg",
+   "cat": "Apparel",
+   "sub": "untyped",
+   "title": "3-Piece Silk Velvet Set - Brown",
+   "price": 2720.0
+  },
+  {
+   "file": "Appa_05.jpg",
+   "cat": "Apparel",
+   "sub": "untyped",
+   "title": "3-Piece Silk Velvet Set - Navy",
+   "price": 2720.0
+  },
+  {
+   "file": "Othe_06.jpg",
+   "cat": "Other / untyped",
+   "sub": "untyped",
+   "title": "Cherry Red Flow Kaftan",
+   "price": 2320.0
+  },
+  {
+   "file": "Othe_07.jpg",
+   "cat": "Other / untyped",
+   "sub": "untyped",
+   "title": "Morroccan Kaftan - Black",
+   "price": 2240.0
+  },
+  {
+   "file": "Othe_08.jpg",
+   "cat": "Other / untyped",
+   "sub": "untyped",
+   "title": "Morroccan Kaftan - Grey",
+   "price": 2240.0
+  },
+  {
+   "file": "Othe_09.jpg",
+   "cat": "Other / untyped",
+   "sub": "untyped",
+   "title": "Morroccan Kaftan - Teal",
+   "price": 2240.0
+  },
+  {
+   "file": "Foot_10.jpg",
+   "cat": "Footwear",
+   "sub": "sandals",
+   "title": "Molly Sandals - Special Edition",
+   "price": 2200.0
+  },
+  {
+   "file": "Foot_11.jpg",
+   "cat": "Footwear",
+   "sub": "untyped",
+   "title": "Cactus Mules - Burgundy",
+   "price": 2200.0
+  },
+  {
+   "file": "Foot_12.jpg",
+   "cat": "Footwear",
+   "sub": "untyped",
+   "title": "Beyonce Suede Boots",
+   "price": 1920.0
+  },
+  {
+   "file": "Appa_13.jpg",
+   "cat": "Apparel",
+   "sub": "untyped",
+   "title": "Aziza Dress - Blue Linen with Metallic Sparks",
+   "price": 1800.0
+  },
+  {
+   "file": "Appa_14.jpg",
+   "cat": "Apparel",
+   "sub": "untyped",
+   "title": "Aziza Dress - Neutral Linen with Metallic Sparks",
+   "price": 1800.0
+  },
+  {
+   "file": "Foot_15.jpg",
+   "cat": "Footwear",
+   "sub": "slippers",
+   "title": "Knots & Diamonds Slippers - Green",
+   "price": 1800.0
+  },
+  {
+   "file": "Foot_16.jpg",
+   "cat": "Footwear",
+   "sub": "sandals",
+   "title": "Molly sandals - Gold",
+   "price": 1800.0
+  },
+  {
+   "file": "Foot_17.jpg",
+   "cat": "Footwear",
+   "sub": "sandals",
+   "title": "Summer '25 IT Mules-White",
+   "price": 1800.0
+  },
+  {
+   "file": "Bags_18.jpg",
+   "cat": "Bags",
+   "sub": "set",
+   "title": "Off Shoulder Set-Gold",
+   "price": 1600.0
+  },
+  {
+   "file": "Bags_19.jpg",
+   "cat": "Bags",
+   "sub": "set",
+   "title": "Off Shoulder Set",
+   "price": 1600.0
+  },
+  {
+   "file": "Bags_20.jpg",
+   "cat": "Bags",
+   "sub": "set",
+   "title": "Off-Shoulder Set",
+   "price": 1300.0
+  },
+  {
+   "file": "Bags_21.jpg",
+   "cat": "Bags",
+   "sub": "shoulder bags",
+   "title": "Net Bag - Silver",
+   "price": 1300.0
+  }
+ ],
+ "source": "Public Shopify catalog (products.json) · 250 products · 2026-07-09",
+ "design": {
+  "verdict": "The product design and e-commerce photography are genuinely premium and design-led — the exact 'affordable luxury' the brand claims. The gap is that this aesthetic lives in the product shots, not in the owned social content.",
+  "design_languages": [
+   {
+    "name": "Clean luxe (minimal leather)",
+    "example": "Cactus Mules — pointed-toe burgundy leather, low block heel",
+    "read": "Elegant, timeless, understated — the design-led core."
+   },
+   {
+    "name": "Crystal / occasion sparkle",
+    "example": "Molly crystal PVC sandals · Knots & Diamonds slippers · crystal net bag",
+    "read": "Statement, trend-forward, event-ready — the reach driver."
+   },
+   {
+    "name": "Heritage-luxe embroidery",
+    "example": "Royal Green velvet kaftan — emerald + gold sequin, shot with brass & mashrabiya",
+    "read": "Premium, occasion, Egyptian-craft — the ownable equity."
+   },
+   {
+    "name": "Botanical / sustainable innovation",
+    "example": "1000 Leaves leaf-appliqué vest (EGP 7,600) · Cactus Mules",
+    "read": "The fruit/cactus-leather story made PHYSICAL — a current, sellable premium line, not legacy content."
+   }
+  ],
+  "palette": [
+   "Burgundy / oxblood",
+   "Emerald green",
+   "Gold",
+   "Silver / crystal",
+   "Black",
+   "Warm neutrals"
+  ],
+  "photography": "High-quality and consistent: clean pink seamless for footwear, heritage-styled sets (brass vessels, mashrabiya, Persian rugs) for premium apparel, playful citrus/resort for bags. Professional, aspirational, on-brand.",
+  "key_finding": "Fruit-leather / botanical innovation is a CURRENT product line (1000 Leaves vest, Cactus Mules) — this reconciles the earlier 'differentiator deleted' read: it's absent from the site's STORY, not the catalog. It should be the marketed hero.",
+  "fixes": [
+   "Bring the product-photography aesthetic INTO the social feed — the brand already shoots premium; it just doesn't post that way.",
+   "Make the 1000 Leaves / Cactus botanical-leather line the marketed hero and the 'Cielito Verde' differentiator.",
+   "Lead the grid with the heritage-luxe and crystal-occasion languages that photograph as aspirational."
+  ],
+  "gallery": [
+   {
+    "file": "/cielito/media/products/Appa_00.jpg",
+    "cat": "Apparel",
+    "title": "1000 Leaves Longline Vest",
+    "price": 7600.0
+   },
+   {
+    "file": "/cielito/media/products/Appa_01.jpg",
+    "cat": "Apparel",
+    "title": "1000 Leaves Jacket",
+    "price": 6800.0
+   },
+   {
+    "file": "/cielito/media/products/Othe_02.jpg",
+    "cat": "Other / untyped",
+    "title": "Royal Green Kaftan",
+    "price": 3520.0
+   },
+   {
+    "file": "/cielito/media/products/Othe_03.jpg",
+    "cat": "Other / untyped",
+    "title": "Amal Kaftan",
+    "price": 3520.0
+   },
+   {
+    "file": "/cielito/media/products/Appa_04.jpg",
+    "cat": "Apparel",
+    "title": "3-Piece Silk Velvet Set - Brown",
+    "price": 2720.0
+   },
+   {
+    "file": "/cielito/media/products/Appa_05.jpg",
+    "cat": "Apparel",
+    "title": "3-Piece Silk Velvet Set - Navy",
+    "price": 2720.0
+   },
+   {
+    "file": "/cielito/media/products/Othe_06.jpg",
+    "cat": "Other / untyped",
+    "title": "Cherry Red Flow Kaftan",
+    "price": 2320.0
+   },
+   {
+    "file": "/cielito/media/products/Othe_07.jpg",
+    "cat": "Other / untyped",
+    "title": "Morroccan Kaftan - Black",
+    "price": 2240.0
+   },
+   {
+    "file": "/cielito/media/products/Othe_08.jpg",
+    "cat": "Other / untyped",
+    "title": "Morroccan Kaftan - Grey",
+    "price": 2240.0
+   },
+   {
+    "file": "/cielito/media/products/Othe_09.jpg",
+    "cat": "Other / untyped",
+    "title": "Morroccan Kaftan - Teal",
+    "price": 2240.0
+   },
+   {
+    "file": "/cielito/media/products/Foot_10.jpg",
+    "cat": "Footwear",
+    "title": "Molly Sandals - Special Edition",
+    "price": 2200.0
+   },
+   {
+    "file": "/cielito/media/products/Foot_11.jpg",
+    "cat": "Footwear",
+    "title": "Cactus Mules - Burgundy",
+    "price": 2200.0
+   },
+   {
+    "file": "/cielito/media/products/Foot_12.jpg",
+    "cat": "Footwear",
+    "title": "Beyonce Suede Boots",
+    "price": 1920.0
+   },
+   {
+    "file": "/cielito/media/products/Appa_13.jpg",
+    "cat": "Apparel",
+    "title": "Aziza Dress - Blue Linen with Metallic Sparks",
+    "price": 1800.0
+   },
+   {
+    "file": "/cielito/media/products/Appa_14.jpg",
+    "cat": "Apparel",
+    "title": "Aziza Dress - Neutral Linen with Metallic Sparks",
+    "price": 1800.0
+   },
+   {
+    "file": "/cielito/media/products/Foot_15.jpg",
+    "cat": "Footwear",
+    "title": "Knots & Diamonds Slippers - Green",
+    "price": 1800.0
+   },
+   {
+    "file": "/cielito/media/products/Foot_16.jpg",
+    "cat": "Footwear",
+    "title": "Molly sandals - Gold",
+    "price": 1800.0
+   },
+   {
+    "file": "/cielito/media/products/Foot_17.jpg",
+    "cat": "Footwear",
+    "title": "Summer '25 IT Mules-White",
+    "price": 1800.0
+   },
+   {
+    "file": "/cielito/media/products/Bags_18.jpg",
+    "cat": "Bags",
+    "title": "Off Shoulder Set-Gold",
+    "price": 1600.0
+   },
+   {
+    "file": "/cielito/media/products/Bags_19.jpg",
+    "cat": "Bags",
+    "title": "Off Shoulder Set",
+    "price": 1600.0
+   },
+   {
+    "file": "/cielito/media/products/Bags_20.jpg",
+    "cat": "Bags",
+    "title": "Off-Shoulder Set",
+    "price": 1300.0
+   },
+   {
+    "file": "/cielito/media/products/Bags_21.jpg",
+    "cat": "Bags",
+    "title": "Net Bag - Silver",
+    "price": 1300.0
+   }
+  ],
+  "source": "Direct review of 22 product images from the public catalog · 2026-07-11"
+ }
+}

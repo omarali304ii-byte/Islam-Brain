@@ -1,0 +1,29 @@
+# ATLAS Era 20 — Decision Layer — Cielito Egypt (base 360, 2026-07-09)
+# Agent: A92 CEO-question-engine. Hard contract: EXACTLY 10 (SME segment), 4 seats.
+# Primary audience_lens = EXECUTIVE -> CEO seat weighted (4 CEO / 2 CMO / 2 CFO / 2 Domain).
+# Each question ties to a decision and/or gap.
+
+questions:
+  - seat: CEO
+    q: "You have 88,903 followers and your posts get 3 likes. Is that audience an asset you can activate, or a number that flatters a vanity metric? (ties D-01, G-03)"
+  - seat: CEO
+    q: "Two press features called Cielito Egypt's FIRST fruit-leather brand — and it's gone from your site. Did you kill the one thing that earned you unpaid national press, and why? (ties D-05, G-04)"
+  - seat: CEO
+    q: "Dejavu has 289K followers and ~2.3M Facebook likes at scale. What is the ONE thing Cielito is unarguably better at — and is your marketing saying it? (ties D-05, G-06)"
+  - seat: CEO
+    q: "You run two live stores (cielitoeg.com and mycielito.com). Is that a strategy or an accident splitting your brand equity? (ties G-05)"
+  - seat: CMO
+    q: "Your own best posts on both Instagram and TikTok are in Egyptian Arabic, yet 16 of 17 recent captions are in English. Why are you marketing to Egyptians in a language your data says loses? (ties D-03)"
+  - seat: CMO
+    q: "Creators tagging you out-perform your own posts ~190x. Do you have a single contract, brief, or reposting system to capture that — or is your best marketing happening by accident? (ties D-01)"
+  - seat: CFO
+    q: "38% of your catalog is on sale with no stated reason. What is that discount costing you in margin, and what would list-price discipline on differentiated SKUs recover? (ties D-05, G-08)"
+  - seat: CFO
+    q: "Every growth number here says 'to be baselined' because we have no order data. Will you share Shopify + analytics access so the plan becomes ROI scenarios instead of directional bets? (ties G-01)"
+  - seat: Domain
+    q: "Your shipping policy already runs a conversational, check-on-delivery, try-before-you-pay motion — but there's no WhatsApp anywhere. Why isn't the channel your operations already depend on wired into your funnel? (ties D-02)"
+  - seat: Domain
+    q: "Egypt shops on mobile; your mobile site scores 55 while desktop scores 98. Are you spending on demand that dies on a slow phone screen? (ties D-04)"
+
+seat_distribution: { CEO: 4, CMO: 2, CFO: 2, Domain: 2 }
+lens_note: "EXECUTIVE primary lens -> CEO seat carries the extra weight per COVERAGE_CONTRACT C8 / lens reweighting."

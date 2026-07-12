@@ -1,0 +1,13 @@
+{
+ "R3_ig_posts": {
+  "n": 150,
+  "usd": 0.3243,
+  "status": "SUCCEEDED"
+ },
+ "R4_ig_comments": {
+  "n": 898,
+  "usd": 2.0423999999999998,
+  "status": "SUCCEEDED",
+  "posts": 40
+ }
+}

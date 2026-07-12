@@ -1,0 +1,2038 @@
+{
+ "summary": {
+  "total_products": 250,
+  "in_stock": 218,
+  "on_sale": 96,
+  "price_egp": {
+   "min": 400.0,
+   "max": 7600.0,
+   "median": 1200.0,
+   "mean": 1324
+  },
+  "price_bands": {
+   "under_1000": 88,
+   "1000_2500": 156,
+   "2500_5000": 4,
+   "over_5000": 2
+  },
+  "product_types": {
+   "untyped": 128,
+   "kimonos": 33,
+   "slippers": 31,
+   "shoulder bags": 12,
+   "sandals": 11,
+   "set": 10,
+   "cowboy boots": 8,
+   "dress": 7,
+   "espadrille": 7,
+   "loafers": 2,
+   "kimono": 1
+  },
+  "catalog_age": {
+   "oldest_product": "2022-11-13",
+   "newest_product": "2026-06-15"
+  }
+ },
+ "products": [
+  {
+   "title": "Safari set",
+   "type": "",
+   "handle": "safari-set",
+   "created": "2026-06-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Casual Blazer - Navy Blue",
+   "type": "Kimonos",
+   "handle": "casual-blazer-blue",
+   "created": "2025-02-14",
+   "price_min": 600.0,
+   "available": true
+  },
+  {
+   "title": "La Vie Kimono-brown",
+   "type": "",
+   "handle": "la-vie-kimono-1",
+   "created": "2025-07-14",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Chiffon Ruffles Dress",
+   "type": "dress",
+   "handle": "black-chiffon-ruffles-dress",
+   "created": "2026-05-02",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Printed Sling back Top",
+   "type": "",
+   "handle": "printed-sling-back-top",
+   "created": "2026-05-07",
+   "price_min": 400.0,
+   "available": true
+  },
+  {
+   "title": "Dentelle Embroidered Set",
+   "type": "",
+   "handle": "dentelle-embroidered-set",
+   "created": "2026-05-05",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Zoho Linen Blouse",
+   "type": "",
+   "handle": "zoho-linen-blouse",
+   "created": "2026-05-04",
+   "price_min": 800.0,
+   "available": true
+  },
+  {
+   "title": "Off-Shoulder Set",
+   "type": "set",
+   "handle": "off-shoulder-set",
+   "created": "2026-05-04",
+   "price_min": 1300.0,
+   "available": true
+  },
+  {
+   "title": "Indian Nights Corset",
+   "type": "",
+   "handle": "indian-nights-corset",
+   "created": "2026-05-02",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Siwa Corset",
+   "type": "",
+   "handle": "siwa-corset",
+   "created": "2026-05-02",
+   "price_min": 1200.0,
+   "available": false
+  },
+  {
+   "title": "Fleurie Corset",
+   "type": "",
+   "handle": "fleurie-corset",
+   "created": "2026-05-02",
+   "price_min": 1200.0,
+   "available": false
+  },
+  {
+   "title": "Diamo Slippers - Black x Metallic Fuchsia",
+   "type": "slippers",
+   "handle": "diamo-slippers",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Oumm Maxi Kimono with Hood",
+   "type": "Kimonos",
+   "handle": "oumm-maxi-kimono-with-hood",
+   "created": "2026-03-26",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Sparkling in my Maxi Kimono with Hood",
+   "type": "Kimonos",
+   "handle": "sparkling-in-my-maxi-kimono-with-hood",
+   "created": "2026-03-26",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Happiness All Around Me Maxi Kimono",
+   "type": "Kimonos",
+   "handle": "happiness-all-around-me-maxi-kimono",
+   "created": "2026-03-26",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Its greener on the other side Maxi Kimono",
+   "type": "Kimonos",
+   "handle": "its-greener-on-the-other-size-maxi-kimono",
+   "created": "2026-03-26",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Fleurie Vest",
+   "type": "",
+   "handle": "fleurie-vest",
+   "created": "2026-03-26",
+   "price_min": 800.0,
+   "available": false
+  },
+  {
+   "title": "Tricot Dress",
+   "type": "dress",
+   "handle": "tricot-black-dress",
+   "created": "2026-03-26",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Linen Set with Silver Metallic Lines - Grey",
+   "type": "set",
+   "handle": "linen-set-with-silver-metallic-lines-grey",
+   "created": "2025-04-15",
+   "price_min": 1600.0,
+   "available": false
+  },
+  {
+   "title": "Dome Abaya with Belt",
+   "type": "",
+   "handle": "basic-open-abaya-with-belt-copy",
+   "created": "2026-02-11",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Basic Open Abaya with Belt",
+   "type": "",
+   "handle": "basic-open-abaya-with-belt",
+   "created": "2026-02-11",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Chiffon 3-Style Abaya with Brooche",
+   "type": "",
+   "handle": "morroccan-jalabeya-cherry-red-x-black-copy",
+   "created": "2026-02-10",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Morroccan Jalabeya - Black",
+   "type": "",
+   "handle": "morroccan-jalabeya-black",
+   "created": "2026-02-02",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Morroccan Kaftan - Green",
+   "type": "",
+   "handle": "morroccan-kaftan-green",
+   "created": "2026-02-01",
+   "price_min": 1280.0,
+   "available": true
+  },
+  {
+   "title": "Black Suede Cape with Belt",
+   "type": "",
+   "handle": "black-suede-cape-with-belt",
+   "created": "2026-02-02",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "3-Piece Silk Velvet Set - Brown",
+   "type": "",
+   "handle": "3-piece-silk-velvet-set-brown",
+   "created": "2026-02-02",
+   "price_min": 2720.0,
+   "available": true
+  },
+  {
+   "title": "3-Piece Silk Velvet Set - Navy",
+   "type": "",
+   "handle": "piece-silk-velvet-set-navy",
+   "created": "2026-02-02",
+   "price_min": 2720.0,
+   "available": true
+  },
+  {
+   "title": "Morroccan Jalabeya - Red x Forest Green Silk Velvet",
+   "type": "",
+   "handle": "morroccan-jalabeya-red-x-green-silk-velvet",
+   "created": "2026-02-02",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Morroccan Jalabeya - Cherry Red x Black",
+   "type": "",
+   "handle": "morroccan-jalabeya-cherry-red-x-black",
+   "created": "2026-02-02",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Morroccan Jalabeya - Blue",
+   "type": "",
+   "handle": "morroccan-jalabeya-blue",
+   "created": "2026-02-02",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Blue Suede Coat with Brooche",
+   "type": "",
+   "handle": "blue-suede-coat-with-brooche",
+   "created": "2026-02-01",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Siwa light Suede Ballon Pants",
+   "type": "",
+   "handle": "suede-ballon-ramadan-pants-siwa",
+   "created": "2026-02-01",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Classic light Suede Ballon Pants",
+   "type": "",
+   "handle": "suede-ballon-ramadan-pants-classic",
+   "created": "2026-02-01",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Siwa Vest - Double face",
+   "type": "",
+   "handle": "ramadan-in-siwa-vest",
+   "created": "2026-02-01",
+   "price_min": 960.0,
+   "available": false
+  },
+  {
+   "title": "Nile Vest - Off-White x Purple",
+   "type": "",
+   "handle": "nile-vest-off-white-x-purple",
+   "created": "2026-02-01",
+   "price_min": 640.0,
+   "available": true
+  },
+  {
+   "title": "Nile Vest - Black x Purple",
+   "type": "",
+   "handle": "nile-vest-black-x-purple",
+   "created": "2026-02-01",
+   "price_min": 720.0,
+   "available": true
+  },
+  {
+   "title": "Two-way silk velvet x embroidered cardigan",
+   "type": "",
+   "handle": "two-way-silk-velvet-x-embroidered-cardigan",
+   "created": "2026-02-01",
+   "price_min": 1440.0,
+   "available": true
+  },
+  {
+   "title": "Cherry Red Flow Kaftan",
+   "type": "",
+   "handle": "cherry-red-flow-kaftan",
+   "created": "2026-02-01",
+   "price_min": 2320.0,
+   "available": true
+  },
+  {
+   "title": "Morroccan Kaftan - Black",
+   "type": "",
+   "handle": "morroccan-kaftan-black",
+   "created": "2026-02-01",
+   "price_min": 2240.0,
+   "available": true
+  },
+  {
+   "title": "Morroccan Kaftan - Grey",
+   "type": "",
+   "handle": "morroccan-kaftan-grey",
+   "created": "2026-02-01",
+   "price_min": 2240.0,
+   "available": true
+  },
+  {
+   "title": "Morroccan Kaftan - Teal",
+   "type": "",
+   "handle": "morroccan-kaftan-teal",
+   "created": "2026-02-01",
+   "price_min": 2240.0,
+   "available": true
+  },
+  {
+   "title": "Royal Green Kaftan",
+   "type": "",
+   "handle": "royal-green-kaftan",
+   "created": "2026-02-01",
+   "price_min": 3520.0,
+   "available": true
+  },
+  {
+   "title": "Sparkle All Day Kaftan - Beige",
+   "type": "",
+   "handle": "sparkle-all-ramadan-kaftan-brown",
+   "created": "2026-02-01",
+   "price_min": 1440.0,
+   "available": true
+  },
+  {
+   "title": "Sparkle All Day Kaftan - Black",
+   "type": "",
+   "handle": "sparkle-all-ramadan-kaftan-black",
+   "created": "2026-02-01",
+   "price_min": 1920.0,
+   "available": true
+  },
+  {
+   "title": "1000 Leaves Longline Vest",
+   "type": "",
+   "handle": "1000-leaves-kaftan",
+   "created": "2026-02-01",
+   "price_min": 7600.0,
+   "available": true
+  },
+  {
+   "title": "1000 Leaves Jacket",
+   "type": "",
+   "handle": "1000-leaves-jacket",
+   "created": "2026-02-01",
+   "price_min": 6800.0,
+   "available": true
+  },
+  {
+   "title": "Amal Kaftan",
+   "type": "",
+   "handle": "amal-kaftan",
+   "created": "2026-02-01",
+   "price_min": 3520.0,
+   "available": true
+  },
+  {
+   "title": "Embroidered Silk Velvet Blazer",
+   "type": "",
+   "handle": "embroidered-silk-velvet-blazer",
+   "created": "2026-02-01",
+   "price_min": 1920.0,
+   "available": true
+  },
+  {
+   "title": "Warm Leather Brown Jacket",
+   "type": "",
+   "handle": "warm-leather-brown-jacket",
+   "created": "2026-02-01",
+   "price_min": 720.0,
+   "available": true
+  },
+  {
+   "title": "Silk Velvet Jacket with Attached  Arabesque Scarf",
+   "type": "",
+   "handle": "silk-velvet-jacket-with-attached-arabesque-scarf",
+   "created": "2026-02-01",
+   "price_min": 1440.0,
+   "available": false
+  },
+  {
+   "title": "Warm Leather Black Jacket",
+   "type": "",
+   "handle": "warm-leather-black-jacket",
+   "created": "2026-02-01",
+   "price_min": 1280.0,
+   "available": true
+  },
+  {
+   "title": "Classic Suede embroidered Jacket",
+   "type": "",
+   "handle": "classic-suede-embroidered-jacket",
+   "created": "2026-02-01",
+   "price_min": 1440.0,
+   "available": true
+  },
+  {
+   "title": "Silk Velvet Open light jacket",
+   "type": "",
+   "handle": "silk-velvet-open-light-jacket",
+   "created": "2026-02-01",
+   "price_min": 640.0,
+   "available": true
+  },
+  {
+   "title": "Beyonce Suede Boots",
+   "type": "",
+   "handle": "studded-suede-knee-high-boots",
+   "created": "2025-12-22",
+   "price_min": 1920.0,
+   "available": true
+  },
+  {
+   "title": "Diamond Boot Revived",
+   "type": "",
+   "handle": "diamon-boot-revived",
+   "created": "2025-12-22",
+   "price_min": 1680.0,
+   "available": true
+  },
+  {
+   "title": "Dali Studded Boots",
+   "type": "",
+   "handle": "studded-vegan-leather-mid-calf-boots",
+   "created": "2025-12-22",
+   "price_min": 1440.0,
+   "available": true
+  },
+  {
+   "title": "Folds Leather Boots",
+   "type": "",
+   "handle": "studded-vegan-leather-mid-calf-boots-1",
+   "created": "2025-12-22",
+   "price_min": 1560.0,
+   "available": true
+  },
+  {
+   "title": "Uggs sneakers",
+   "type": "",
+   "handle": "uggs-sneakers",
+   "created": "2025-12-07",
+   "price_min": 720.0,
+   "available": true
+  },
+  {
+   "title": "Knit uggs",
+   "type": "",
+   "handle": "knit-uggs",
+   "created": "2025-12-07",
+   "price_min": 720.0,
+   "available": true
+  },
+  {
+   "title": "VeYa Boots",
+   "type": "",
+   "handle": "veya-boots",
+   "created": "2025-10-27",
+   "price_min": 720.0,
+   "available": true
+  },
+  {
+   "title": "Mariposa Cowgirl Boots-Limited Edition",
+   "type": "",
+   "handle": "mariposa-cowgirl-boots",
+   "created": "2025-10-27",
+   "price_min": 720.0,
+   "available": true
+  },
+  {
+   "title": "Loom Boots",
+   "type": "",
+   "handle": "loom-boots",
+   "created": "2025-10-27",
+   "price_min": 720.0,
+   "available": false
+  },
+  {
+   "title": "Amun Step",
+   "type": "",
+   "handle": "amun-step",
+   "created": "2025-10-27",
+   "price_min": 640.0,
+   "available": true
+  },
+  {
+   "title": "Tala Boots",
+   "type": "",
+   "handle": "tala-boots",
+   "created": "2025-10-27",
+   "price_min": 880.0,
+   "available": true
+  },
+  {
+   "title": "Stella Rise Boots",
+   "type": "",
+   "handle": "stella-rise-boots",
+   "created": "2025-10-27",
+   "price_min": 720.0,
+   "available": false
+  },
+  {
+   "title": "Verra Boots",
+   "type": "",
+   "handle": "untitled-oct26_17-56",
+   "created": "2025-10-26",
+   "price_min": 720.0,
+   "available": true
+  },
+  {
+   "title": "Luna Flame Jacket",
+   "type": "",
+   "handle": "fur-jacket",
+   "created": "2025-10-07",
+   "price_min": 560.0,
+   "available": true
+  },
+  {
+   "title": "Mariposa Cowgirl Boots -  Order one size up",
+   "type": "cowboy boots",
+   "handle": "mariposa-cowgirl-boots-burgundy-copy",
+   "created": "2024-11-05",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Vernis x Tricot Boots",
+   "type": "cowboy boots",
+   "handle": "vernis-x-tricot-boots-in-black",
+   "created": "2024-11-05",
+   "price_min": 640.0,
+   "available": true
+  },
+  {
+   "title": "The Classic Boot",
+   "type": "cowboy boots",
+   "handle": "the-classic-boot",
+   "created": "2024-11-05",
+   "price_min": 1440.0,
+   "available": true
+  },
+  {
+   "title": "Tricot High Heel Boots",
+   "type": "cowboy boots",
+   "handle": "tricot-high-heel-boots-in-black",
+   "created": "2024-11-05",
+   "price_min": 560.0,
+   "available": true
+  },
+  {
+   "title": "Heart of Diamond Boots",
+   "type": "cowboy boots",
+   "handle": "heart-of-diamond-boots",
+   "created": "2024-11-05",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Detalles Suede Cowgirl Boots",
+   "type": "cowboy boots",
+   "handle": "mari-suede-cowgirl-boots-black",
+   "created": "2022-11-13",
+   "price_min": 1440.0,
+   "available": true
+  },
+  {
+   "title": "Puffer Scarf",
+   "type": "",
+   "handle": "puffer-scarf-black",
+   "created": "2025-01-18",
+   "price_min": 640.0,
+   "available": true
+  },
+  {
+   "title": "Gabardine Jacket x Cotton Hoodie",
+   "type": "",
+   "handle": "water-proof-jacket-x-cotton-hoodie-brown-x-red-copy",
+   "created": "2024-12-16",
+   "price_min": 880.0,
+   "available": true
+  },
+  {
+   "title": "Waterproof Jacket x Cotton Hoodie",
+   "type": "",
+   "handle": "water-proof-jacket-x-cotton-hoodie-brown-x-red",
+   "created": "2024-12-15",
+   "price_min": 880.0,
+   "available": true
+  },
+  {
+   "title": "Open Puffer Jacket",
+   "type": "",
+   "handle": "open-puffer-jacket-black",
+   "created": "2024-12-15",
+   "price_min": 1040.0,
+   "available": true
+  },
+  {
+   "title": "Italian Tweed Semi Causal Jacket in White x Black",
+   "type": "",
+   "handle": "italian-tweed-semi-causal-jacket-in-white-x-black",
+   "created": "2024-11-07",
+   "price_min": 1040.0,
+   "available": true
+  },
+  {
+   "title": "Italian Tweed Pants with Egyptian Cotton Lining",
+   "type": "",
+   "handle": "italian-tweed-pants-with-egyptian-cotton-lining-in-black",
+   "created": "2024-11-07",
+   "price_min": 960.0,
+   "available": true
+  },
+  {
+   "title": "Vuelo Boots",
+   "type": "",
+   "handle": "vuelo-boots-in-black",
+   "created": "2024-11-05",
+   "price_min": 480.0,
+   "available": false
+  },
+  {
+   "title": "Claude Boots",
+   "type": "cowboy boots",
+   "handle": "claude-boots-in-black",
+   "created": "2024-11-05",
+   "price_min": 640.0,
+   "available": true
+  },
+  {
+   "title": "V Boots",
+   "type": "cowboy boots",
+   "handle": "v-boots-special-edition",
+   "created": "2024-11-05",
+   "price_min": 640.0,
+   "available": false
+  },
+  {
+   "title": "Handmade Flowers Basket Bag- beige",
+   "type": "",
+   "handle": "handmade-flowers-basket-bag-beige",
+   "created": "2025-08-10",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Aziza Dress - Blue Linen with Metallic Sparks",
+   "type": "",
+   "handle": "mii-dress-blue-linen-with-metallic-sparks",
+   "created": "2025-04-15",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Aziza Dress - Neutral Linen with Metallic Sparks",
+   "type": "",
+   "handle": "aziza-dress-neutral-linen-with-metallic-sparks",
+   "created": "2025-04-15",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Aziza Dress - White Linen with Metallic Sparks",
+   "type": "",
+   "handle": "aziza-dress-white-linen-with-metallic-sparks",
+   "created": "2025-04-15",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Farii Summer Dress",
+   "type": "",
+   "handle": "farii-summer-dress",
+   "created": "2025-04-15",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Countryside Summer Dress",
+   "type": "",
+   "handle": "countryside-summer-dress-copy",
+   "created": "2025-04-15",
+   "price_min": 1600.0,
+   "available": false
+  },
+  {
+   "title": "Rio Cinched Waist Dress - Black & White",
+   "type": "",
+   "handle": "rio-cinched-waist-dress-black-white",
+   "created": "2025-04-15",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Rio Cinched Waist Dress - Pink & Green Checkers",
+   "type": "",
+   "handle": "rio-cinched-waist-dress-pink-green-checkers",
+   "created": "2025-04-15",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Rio Cinched Waist Dress - Leopard Heart & Peppers",
+   "type": "",
+   "handle": "rio-cinched-waist-dress-leopard-heart-peppers",
+   "created": "2025-04-15",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Ananas bow slippers-black x grey",
+   "type": "",
+   "handle": "ananas-bow-slippers-black-x-grey",
+   "created": "2025-07-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Bow slipper-brown x bronze",
+   "type": "slippers",
+   "handle": "bow-slipper-brownxbronze",
+   "created": "2025-07-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Black top with gold specs",
+   "type": "",
+   "handle": "black-top-with-gold-specs",
+   "created": "2025-07-14",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "La Vie Kimono-orange",
+   "type": "Kimonos",
+   "handle": "la-vie-kimono-2",
+   "created": "2025-07-14",
+   "price_min": 1400.0,
+   "available": false
+  },
+  {
+   "title": "La Vie Kimono-green",
+   "type": "Kimonos",
+   "handle": "la-vie-kimono",
+   "created": "2025-07-14",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Ruffles kimono-mint",
+   "type": "Kimonos",
+   "handle": "ruffles-kimono-4",
+   "created": "2025-07-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Ruffles kimono-off white",
+   "type": "Kimonos",
+   "handle": "ruffles-kimono-2",
+   "created": "2025-07-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Ruffles kimono-yellow",
+   "type": "Kimonos",
+   "handle": "ruffles-kimono-1",
+   "created": "2025-07-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Ruffles kimono-lavender",
+   "type": "Kimonos",
+   "handle": "ruffles-kimono",
+   "created": "2025-07-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Cotton tank top-brown",
+   "type": "",
+   "handle": "cotton-tank-top-brown",
+   "created": "2025-07-14",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Cotton tank top-green",
+   "type": "",
+   "handle": "cotton-tank-top-green",
+   "created": "2025-07-14",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Cotton tank top-black",
+   "type": "",
+   "handle": "cotton-tank-top-black",
+   "created": "2025-07-14",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Tally pants-light Blue x silver",
+   "type": "",
+   "handle": "tally-pants-light-blue-x-silver",
+   "created": "2025-07-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Tally pants-beigexsilver",
+   "type": "",
+   "handle": "tally-pants-beigexsilver",
+   "created": "2025-07-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Tally pants -black",
+   "type": "",
+   "handle": "tally-pants-black",
+   "created": "2025-07-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Tally pants-black x silver",
+   "type": "",
+   "handle": "tally-pants-black-x-silver",
+   "created": "2025-07-14",
+   "price_min": 1600.0,
+   "available": false
+  },
+  {
+   "title": "Tally pants-beige",
+   "type": "",
+   "handle": "untitled-jul14_11-48",
+   "created": "2025-07-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Organic cotton vest",
+   "type": "",
+   "handle": "organic-cotton-vest-violet",
+   "created": "2025-07-14",
+   "price_min": 720.0,
+   "available": true
+  },
+  {
+   "title": "Organic cotton vest-whitexstripes",
+   "type": "",
+   "handle": "organic-cotton-vest-black-x-stripes-1",
+   "created": "2025-07-14",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Organic cotton vest",
+   "type": "",
+   "handle": "organic-cotton-vest-black-x-stripes",
+   "created": "2025-07-14",
+   "price_min": 720.0,
+   "available": false
+  },
+  {
+   "title": "Organic cotton vest-mint",
+   "type": "",
+   "handle": "organic-cotton-vest-mint",
+   "created": "2025-07-14",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Organic cotton vest-simon",
+   "type": "",
+   "handle": "organic-cotton-vest-simon",
+   "created": "2025-07-14",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Chiffon white pants - cotton lined",
+   "type": "",
+   "handle": "chiffon-white-pants-cotton-lined",
+   "created": "2025-07-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Satin off-white pants - cotton lined",
+   "type": "",
+   "handle": "satin-off-white-pants-cotton-lined",
+   "created": "2025-07-14",
+   "price_min": 1700.0,
+   "available": true
+  },
+  {
+   "title": "Boho pants - cotton lined -yellowxgold",
+   "type": "",
+   "handle": "boho-pants-cotton-lined-1",
+   "created": "2025-07-14",
+   "price_min": 1800.0,
+   "available": false
+  },
+  {
+   "title": "Boho pants cotton lined",
+   "type": "",
+   "handle": "boho-pants-cotton-lined",
+   "created": "2025-07-14",
+   "price_min": 720.0,
+   "available": true
+  },
+  {
+   "title": "V Slippers-gold x rose gold",
+   "type": "slippers",
+   "handle": "v-slippers-gold-x-rose-gold",
+   "created": "2025-07-14",
+   "price_min": 1499.0,
+   "available": true
+  },
+  {
+   "title": "V Slippers-black x gold",
+   "type": "slippers",
+   "handle": "v-slippers-black-x-gold",
+   "created": "2025-07-14",
+   "price_min": 1499.0,
+   "available": true
+  },
+  {
+   "title": "V Slipper-silverxgold",
+   "type": "slippers",
+   "handle": "v-slipper",
+   "created": "2025-07-14",
+   "price_min": 1499.0,
+   "available": true
+  },
+  {
+   "title": "Gladiators 2.1",
+   "type": "slippers",
+   "handle": "gladiators-2-1",
+   "created": "2025-07-13",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Gladiators 2.0",
+   "type": "",
+   "handle": "gladiators-2-0",
+   "created": "2025-07-13",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Knots & Diamonds Slippers - Green",
+   "type": "slippers",
+   "handle": "knots-diamonds-slippers-green",
+   "created": "2025-06-28",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Summer Net Ballerinas - Beige",
+   "type": "sandals",
+   "handle": "summer-net-ballerinas-beige",
+   "created": "2025-06-27",
+   "price_min": 1400.0,
+   "available": false
+  },
+  {
+   "title": "Classic slippers -Gold",
+   "type": "slippers",
+   "handle": "classic-slippers-gold",
+   "created": "2025-06-26",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Classic slippers -silver",
+   "type": "slippers",
+   "handle": "classic-slippers-silver",
+   "created": "2025-06-26",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Lazy linen pants-beige",
+   "type": "",
+   "handle": "lazy-linen-pants-beige",
+   "created": "2025-06-26",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Everyday set-orange print",
+   "type": "set",
+   "handle": "everyday-set-orange-print",
+   "created": "2025-06-26",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Cozy kimono - White",
+   "type": "kimono",
+   "handle": "cozy-kimono-white",
+   "created": "2025-06-26",
+   "price_min": 800.0,
+   "available": true
+  },
+  {
+   "title": "Everyday Top-greenXbeige snake print",
+   "type": "",
+   "handle": "everyday-top-greenxbeige-snake-print",
+   "created": "2025-06-26",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Everyday Top-orange print",
+   "type": "",
+   "handle": "everyday-top-orange-print",
+   "created": "2025-06-26",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Off Shoulder Set-Gold",
+   "type": "set",
+   "handle": "off-shoulder-set-gold",
+   "created": "2025-06-16",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Sparkle Plaits Slipper - Silver",
+   "type": "slippers",
+   "handle": "sparkle-plaits-slipper-silver",
+   "created": "2025-06-14",
+   "price_min": 1300.0,
+   "available": true
+  },
+  {
+   "title": "Sparkle Plaits Slipper - Rose Gold",
+   "type": "slippers",
+   "handle": "sparkle-plaits-slipper-rose-gold",
+   "created": "2025-06-14",
+   "price_min": 1300.0,
+   "available": true
+  },
+  {
+   "title": "Sparkle Plaits Slipper - Gold",
+   "type": "slippers",
+   "handle": "sparkle-plaits-slipper-gold",
+   "created": "2025-06-14",
+   "price_min": 1300.0,
+   "available": true
+  },
+  {
+   "title": "Tennis Set-Beige",
+   "type": "set",
+   "handle": "tennis-set-beige",
+   "created": "2025-06-15",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Molly Sandals - Special Edition",
+   "type": "sandals",
+   "handle": "molly-sandals-special-edition",
+   "created": "2025-06-15",
+   "price_min": 2200.0,
+   "available": true
+  },
+  {
+   "title": "Molly sandals - Gold",
+   "type": "sandals",
+   "handle": "molly-sandals-gold",
+   "created": "2025-06-15",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Turkey Dress-Greens",
+   "type": "dress",
+   "handle": "turkey-dress-greens",
+   "created": "2025-06-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Turkey Dress-Black",
+   "type": "dress",
+   "handle": "turkey-dress",
+   "created": "2025-06-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Turkey Dress-White",
+   "type": "dress",
+   "handle": "turkey-dress-white",
+   "created": "2025-06-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Off Shoulder Set",
+   "type": "set",
+   "handle": "off-shoulder-set-aqua",
+   "created": "2025-06-15",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Summer '25 IT Slippers-silver",
+   "type": "sandals",
+   "handle": "summer-25-it-slippers-beige",
+   "created": "2025-06-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Summer '25 IT Mules-White",
+   "type": "sandals",
+   "handle": "summer-25-it-mules-white",
+   "created": "2025-06-15",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Summer '25 IT Mules-Black",
+   "type": "sandals",
+   "handle": "summer-25-it-mules-black",
+   "created": "2025-06-15",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Summer '25 IT Mules-Beige",
+   "type": "sandals",
+   "handle": "summer-25-it-mules",
+   "created": "2025-06-15",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Summer '26 IT Slippers-gold",
+   "type": "sandals",
+   "handle": "summer-25-it-slippers-gold",
+   "created": "2025-06-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Ami Diamond Mules - Black",
+   "type": "slippers",
+   "handle": "ami-diamond-mules-black",
+   "created": "2025-06-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Vernis Bow Mules- Black",
+   "type": "slippers",
+   "handle": "vernis-bow-mules-black",
+   "created": "2025-06-14",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Vernis Bow Mules-Beige",
+   "type": "slippers",
+   "handle": "vernis-bow-mules-beige",
+   "created": "2025-06-14",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Vernis Bow Mules - Mint",
+   "type": "slippers",
+   "handle": "vernis-bow-mules-mint",
+   "created": "2025-06-14",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Jamila Slippers - special edition",
+   "type": "slippers",
+   "handle": "jamila-slippers",
+   "created": "2025-06-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Jute Days Sippers -gold x silver edition",
+   "type": "sandals",
+   "handle": "jute-nights-sippers",
+   "created": "2025-06-14",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Summer Net Ballerinas - White",
+   "type": "sandals",
+   "handle": "summer-net-ballerinas-white",
+   "created": "2025-06-14",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Knots & Diamonds Slippers - Silver",
+   "type": "slippers",
+   "handle": "knots-diamonds-slippers-silver",
+   "created": "2025-06-14",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Knots & Diamonds Slippers - Gold",
+   "type": "slippers",
+   "handle": "knots-diamonds-slippers-gold",
+   "created": "2025-06-14",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Ami Diamond Mules - Beige",
+   "type": "slippers",
+   "handle": "alora-dentelle-slippers-beige",
+   "created": "2025-06-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Ami Diamond Mules-White",
+   "type": "slippers",
+   "handle": "alora-dentelle-slippers-white",
+   "created": "2025-06-14",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Alora Dentelle Slippers - Black",
+   "type": "slippers",
+   "handle": "alora-dentelle-slippers",
+   "created": "2025-06-14",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Handmade Long Shell Bag - Black",
+   "type": "Shoulder Bags",
+   "handle": "handmade-long-shel-bag-black",
+   "created": "2025-05-27",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Handmade Round Shell Bag-mocca",
+   "type": "Shoulder Bags",
+   "handle": "handmade-round-shell-bag-mocca",
+   "created": "2025-05-27",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Handmade Cotton Macrame Flower Slipper-off white",
+   "type": "slippers",
+   "handle": "handmade-cotton-macrame-flower-slipper-1",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Handmade Cotton Macrame Flower Slipper - Mocca",
+   "type": "slippers",
+   "handle": "handmade-cotton-macrame-flower-slipper-2",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": false
+  },
+  {
+   "title": "Handmade Cotton Macrame Flower Slipper - Black",
+   "type": "slippers",
+   "handle": "handmade-cotton-macrame-flower-slipper",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Silver Sequins Slippers",
+   "type": "slippers",
+   "handle": "silver-sequins-slippers",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Bronze Sequins Slippers",
+   "type": "slippers",
+   "handle": "bronze-sequins-slippers",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Blue Golden Diamond Slippers",
+   "type": "slippers",
+   "handle": "blue-golden-diamond-slippers",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Ariel Slippers",
+   "type": "slippers",
+   "handle": "ariel-slippers",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Maleficient Slippers",
+   "type": "slippers",
+   "handle": "maleficient-slippers",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Snow White Slippers",
+   "type": "slippers",
+   "handle": "snow-white-slippers",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Handmade Round Shell Bag-Beige",
+   "type": "Shoulder Bags",
+   "handle": "handmade-round-shell-bag",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Handmade Long Shell Bag-Beige",
+   "type": "Shoulder Bags",
+   "handle": "handmade-long-shel-bag",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Handmade Flowers Basket Bag",
+   "type": "Shoulder Bags",
+   "handle": "handmade-flowers-basket-bag",
+   "created": "2025-05-22",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Linen Set with Silver Metallic Lines - Green",
+   "type": "set",
+   "handle": "linen-set-with-silver-metallic-lines-green",
+   "created": "2025-04-15",
+   "price_min": 1600.0,
+   "available": false
+  },
+  {
+   "title": "Linen Set with Silver Metallic Lines - Beige",
+   "type": "set",
+   "handle": "linen-set-with-silver-metallic-lines-beige",
+   "created": "2025-04-15",
+   "price_min": 1600.0,
+   "available": false
+  },
+  {
+   "title": "Linen Set with Silver Metallic Lines - Blue",
+   "type": "set",
+   "handle": "linen-set-with-silver-metallic-lines-blue",
+   "created": "2025-04-15",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Linen Set with Silver Metallic Lines - Pink",
+   "type": "set",
+   "handle": "linen-set-with-silver-metallic-line-pink",
+   "created": "2025-04-15",
+   "price_min": 1600.0,
+   "available": false
+  },
+  {
+   "title": "Nutii Heels",
+   "type": "",
+   "handle": "nutii-heels",
+   "created": "2025-04-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Chii Mules - Rose",
+   "type": "",
+   "handle": "chanel-mules-rose",
+   "created": "2025-04-15",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Chii Mules - Black",
+   "type": "",
+   "handle": "chanel-mules-black",
+   "created": "2025-04-15",
+   "price_min": 1800.0,
+   "available": false
+  },
+  {
+   "title": "Cactus Mules - Burgundy",
+   "type": "",
+   "handle": "cactus-mules-burgundy",
+   "created": "2025-04-15",
+   "price_min": 2200.0,
+   "available": true
+  },
+  {
+   "title": "Golden Bow Mules - Brown Bow",
+   "type": "",
+   "handle": "golden-bow-mules-brown-bow",
+   "created": "2025-04-15",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Golden Bow Mules - Black Bow",
+   "type": "",
+   "handle": "golden-bow-mules-black-bow",
+   "created": "2025-04-15",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Daro Slipper - Metalic Lilac",
+   "type": "",
+   "handle": "daro-slipper-metalic-lilac",
+   "created": "2025-04-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Daro Studded Slipper - Gold",
+   "type": "",
+   "handle": "daro-studded-slipper-gold",
+   "created": "2025-04-15",
+   "price_min": 1400.0,
+   "available": false
+  },
+  {
+   "title": "Daro Studded Slipper - Black",
+   "type": "",
+   "handle": "daro-studded-slipper-black",
+   "created": "2025-04-15",
+   "price_min": 1400.0,
+   "available": false
+  },
+  {
+   "title": "Cape Town Slipper - Fuchsia",
+   "type": "",
+   "handle": "cape-town-slipper-fuchsia",
+   "created": "2025-04-15",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Cape Town Slipper - Orange",
+   "type": "",
+   "handle": "cape-town-slipper-orange",
+   "created": "2025-04-15",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Bow Slipper - Special Edition",
+   "type": "",
+   "handle": "ananas-bow-slipper-special-edition",
+   "created": "2025-04-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Ananas Bow Slipper -Gold",
+   "type": "",
+   "handle": "ananas-bow-slipper-gold",
+   "created": "2025-04-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Ananas Bow Slipper - Khaki x Orange",
+   "type": "",
+   "handle": "ananas-bow-slipper-khaki-x-orange",
+   "created": "2025-04-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Ananas Bow Slipper - Black x Red",
+   "type": "",
+   "handle": "ananas-bow-slipper-black-x-red",
+   "created": "2025-04-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Ananas Bow Slipper - Grey x White",
+   "type": "",
+   "handle": "ananas-bow-slipper-grey-x-white",
+   "created": "2025-04-15",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Fleurie Blouse - Off White",
+   "type": "",
+   "handle": "fleurie-blouse-off-white",
+   "created": "2025-03-15",
+   "price_min": 1600.0,
+   "available": true
+  },
+  {
+   "title": "Chiffon IT Kimono - SILVER",
+   "type": "Kimonos",
+   "handle": "ramadan-it-kimono-silver",
+   "created": "2025-03-06",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "The Evening Blazer - Black 2",
+   "type": "Kimonos",
+   "handle": "the-evening-blazer-black-2",
+   "created": "2025-02-18",
+   "price_min": 1700.0,
+   "available": true
+  },
+  {
+   "title": "Boho Dress - Blue",
+   "type": "dress",
+   "handle": "boho-dress-blue",
+   "created": "2025-02-18",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Boho Dress - Orange",
+   "type": "dress",
+   "handle": "boho-dress",
+   "created": "2025-02-18",
+   "price_min": 1400.0,
+   "available": false
+  },
+  {
+   "title": "Spring Set",
+   "type": "Kimonos",
+   "handle": "spring-set",
+   "created": "2025-02-18",
+   "price_min": 950.0,
+   "available": true
+  },
+  {
+   "title": "The colours of the sun set",
+   "type": "Kimonos",
+   "handle": "the-colours-of-the-sun-set",
+   "created": "2025-02-18",
+   "price_min": 1100.0,
+   "available": true
+  },
+  {
+   "title": "Laki Green x Black Set",
+   "type": "Kimonos",
+   "handle": "laki-green-x-black-set",
+   "created": "2025-02-18",
+   "price_min": 1100.0,
+   "available": true
+  },
+  {
+   "title": "In love with peppers set",
+   "type": "Kimonos",
+   "handle": "in-love-with-peppers-set",
+   "created": "2025-02-18",
+   "price_min": 1200.0,
+   "available": true
+  },
+  {
+   "title": "Leopard Set",
+   "type": "Kimonos",
+   "handle": "leopard-set",
+   "created": "2025-02-18",
+   "price_min": 1100.0,
+   "available": true
+  },
+  {
+   "title": "Lalli Kimono",
+   "type": "Kimonos",
+   "handle": "lalli-kimono",
+   "created": "2025-02-14",
+   "price_min": 1100.0,
+   "available": true
+  },
+  {
+   "title": "Old Cairo Kimono - Brown x Yellow",
+   "type": "Kimonos",
+   "handle": "old-cairo-kimono-brown-x-yellow",
+   "created": "2025-02-14",
+   "price_min": 950.0,
+   "available": false
+  },
+  {
+   "title": "Old Cairo Kimono - Blue",
+   "type": "Kimonos",
+   "handle": "old-cairo-kimono-blue",
+   "created": "2025-02-14",
+   "price_min": 950.0,
+   "available": true
+  },
+  {
+   "title": "Green Satin Ombré Kimono",
+   "type": "Kimonos",
+   "handle": "green-satin-ombre-kimono",
+   "created": "2025-02-14",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Long Printed Kimono - Geometric Arrows",
+   "type": "Kimonos",
+   "handle": "long-printed-kimono-geometric-arrows",
+   "created": "2025-02-14",
+   "price_min": 700.0,
+   "available": true
+  },
+  {
+   "title": "Long Printed Kimono - Circles",
+   "type": "Kimonos",
+   "handle": "long-printed-kimono",
+   "created": "2025-02-14",
+   "price_min": 700.0,
+   "available": true
+  },
+  {
+   "title": "The Evening Blazer - White",
+   "type": "Kimonos",
+   "handle": "the-evening-blazer-white",
+   "created": "2025-02-14",
+   "price_min": 1700.0,
+   "available": true
+  },
+  {
+   "title": "Everyday Kimono - Orange Print",
+   "type": "Kimonos",
+   "handle": "everyday-kimono-orange-print",
+   "created": "2025-02-14",
+   "price_min": 700.0,
+   "available": false
+  },
+  {
+   "title": "Everyday Kimono - Burgundy Leopard Print",
+   "type": "Kimonos",
+   "handle": "everyday-kimono-burgundy-leopard",
+   "created": "2025-02-14",
+   "price_min": 700.0,
+   "available": true
+  },
+  {
+   "title": "Open Cape Kimono - Rose",
+   "type": "Kimonos",
+   "handle": "ramadan-open-cape-kimono-rose",
+   "created": "2025-02-14",
+   "price_min": 600.0,
+   "available": true
+  },
+  {
+   "title": "Open Cape Kimono - Black",
+   "type": "Kimonos",
+   "handle": "ramadan-open-cape-kimono-black",
+   "created": "2025-02-14",
+   "price_min": 600.0,
+   "available": true
+  },
+  {
+   "title": "Net Bag - Silver",
+   "type": "Shoulder Bags",
+   "handle": "net-bag-silver",
+   "created": "2024-08-14",
+   "price_min": 1300.0,
+   "available": false
+  },
+  {
+   "title": "Net Bag - Gold",
+   "type": "Shoulder Bags",
+   "handle": "net-bag-gold",
+   "created": "2024-08-14",
+   "price_min": 1300.0,
+   "available": true
+  },
+  {
+   "title": "Net Bag",
+   "type": "Shoulder Bags",
+   "handle": "net-bag",
+   "created": "2024-08-14",
+   "price_min": 1300.0,
+   "available": false
+  },
+  {
+   "title": "Nii Heels - Black",
+   "type": "",
+   "handle": "nii-heels-black",
+   "created": "2024-08-14",
+   "price_min": 1800.0,
+   "available": false
+  },
+  {
+   "title": "Nii Heels - Gold",
+   "type": "",
+   "handle": "nii-heels-gold",
+   "created": "2024-08-14",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Nii Heels - White",
+   "type": "",
+   "handle": "net-heels-white",
+   "created": "2024-08-14",
+   "price_min": 1800.0,
+   "available": true
+  },
+  {
+   "title": "Envious Nights Slipper - Gold",
+   "type": "",
+   "handle": "envious-nights-slipper-gold",
+   "created": "2024-08-14",
+   "price_min": 920.0,
+   "available": true
+  },
+  {
+   "title": "Envious Nights Slipper - Silver",
+   "type": "",
+   "handle": "envious-nights-slipper-silver",
+   "created": "2024-08-14",
+   "price_min": 920.0,
+   "available": true
+  },
+  {
+   "title": "Macarme Tote Bag - Black",
+   "type": "Shoulder Bags",
+   "handle": "tota-bag-white",
+   "created": "2024-05-26",
+   "price_min": 800.0,
+   "available": true
+  },
+  {
+   "title": "Isla Bag - Gold",
+   "type": "Shoulder Bags",
+   "handle": "isla-bag-gold",
+   "created": "2024-05-26",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Isla Bag - Black",
+   "type": "Shoulder Bags",
+   "handle": "isla-bag-black",
+   "created": "2024-05-26",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Isla Bag - Beige",
+   "type": "Shoulder Bags",
+   "handle": "isla-bag-light-gold",
+   "created": "2024-05-19",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Lala Top - Fuchsia",
+   "type": "",
+   "handle": "lala-top-fuchsia",
+   "created": "2024-05-19",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Lala Top - Silver",
+   "type": "",
+   "handle": "lala-top-silver",
+   "created": "2024-05-19",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Lala Top - Gold",
+   "type": "",
+   "handle": "lala-top-gold",
+   "created": "2024-05-19",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Beach Set - White",
+   "type": "Kimonos",
+   "handle": "beach-set-white",
+   "created": "2024-05-19",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Beach Set - Black",
+   "type": "Kimonos",
+   "handle": "beach-set-black",
+   "created": "2024-05-19",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Beach Set - Pink Pattern",
+   "type": "Kimonos",
+   "handle": "beach-set-pink-pattern",
+   "created": "2024-05-19",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Beach Set - Orange Pattern",
+   "type": "Kimonos",
+   "handle": "beach-set-orange-pattern",
+   "created": "2024-05-19",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Kimi Platform Sandals - White x Beige Burlap",
+   "type": "Espadrille",
+   "handle": "kimi-platform-sandals-white-x-beige-burlap",
+   "created": "2024-05-17",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Kimi Platform Sandals - Black x White",
+   "type": "Espadrille",
+   "handle": "kimi-platform-sandals-black-x-white",
+   "created": "2024-05-17",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Kimi Platform Sandals - White x Silver",
+   "type": "Espadrille",
+   "handle": "kimi-platform-sandals-white-x-silver",
+   "created": "2024-05-17",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Summer Platform Sandals - Sky Blue",
+   "type": "Espadrille",
+   "handle": "summer-platform-sandals-ciel-blue",
+   "created": "2024-05-17",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Summer Platform Sandals - Beige",
+   "type": "Espadrille",
+   "handle": "summer-platform-sandals-beige",
+   "created": "2024-05-17",
+   "price_min": 900.0,
+   "available": false
+  },
+  {
+   "title": "Summer Platform Sandals - Lavender",
+   "type": "Espadrille",
+   "handle": "summer-platform-sandals-lavender",
+   "created": "2024-05-17",
+   "price_min": 900.0,
+   "available": true
+  },
+  {
+   "title": "Dancing Heels - Silver",
+   "type": "",
+   "handle": "dancing-heels-silver",
+   "created": "2024-05-17",
+   "price_min": 1100.0,
+   "available": true
+  },
+  {
+   "title": "All Glitter Heels - Silver",
+   "type": "",
+   "handle": "all-glitter-heels-silver",
+   "created": "2024-05-17",
+   "price_min": 970.0,
+   "available": true
+  },
+  {
+   "title": "All Glitter Heels - Gold",
+   "type": "",
+   "handle": "all-glitter-heels-gold",
+   "created": "2024-05-17",
+   "price_min": 970.0,
+   "available": true
+  },
+  {
+   "title": "Net Loafers - Black",
+   "type": "loafers",
+   "handle": "net-loafers-black",
+   "created": "2024-05-17",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Net Loafers - Beige",
+   "type": "loafers",
+   "handle": "net-loafers-beige",
+   "created": "2024-05-17",
+   "price_min": 1400.0,
+   "available": true
+  },
+  {
+   "title": "Gladiator Sandals - Black",
+   "type": "Espadrille",
+   "handle": "black-gladiator-sandals",
+   "created": "2024-05-17",
+   "price_min": 950.0,
+   "available": false
+  },
+  {
+   "title": "Macarme Shell Slippers - Sea Foam Blue",
+   "type": "",
+   "handle": "macarme-shell-slippers-sea-foam-blue",
+   "created": "2024-05-17",
+   "price_min": 840.0,
+   "available": true
+  },
+  {
+   "title": "Macarme Shell Slippers - Off-White",
+   "type": "",
+   "handle": "macarme-shell-slippers-off-white",
+   "created": "2024-05-17",
+   "price_min": 840.0,
+   "available": true
+  },
+  {
+   "title": "Macarme Shell Slippers - Black",
+   "type": "",
+   "handle": "macarme-shell-slippers-black",
+   "created": "2024-05-17",
+   "price_min": 840.0,
+   "available": true
+  },
+  {
+   "title": "Duela Jeans Edition Sandals",
+   "type": "",
+   "handle": "the-duela-jeans-edition-sandals",
+   "created": "2024-03-08",
+   "price_min": 1400.0,
+   "available": false
+  },
+  {
+   "title": "Gladiator Sandals - Silver",
+   "type": "sandals",
+   "handle": "copy-of-gold-gladiator-sandals",
+   "created": "2023-07-08",
+   "price_min": 950.0,
+   "available": true
+  }
+ ]
+}

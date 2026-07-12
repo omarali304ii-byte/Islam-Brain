@@ -1,0 +1,532 @@
+{
+ "summary": {
+  "captured_at": "2026-07-09",
+  "source": "https://www.cielitoeg.com/products.json (open endpoint, page 1)",
+  "products_returned": 30,
+  "in_stock": 26,
+  "price_egp": {
+   "min": 400.0,
+   "max": 2720.0,
+   "median": 960.0,
+   "mean": 1160.0
+  },
+  "on_sale_count": 21,
+  "product_types": {
+   "untyped": 20,
+   "Kimonos": 5,
+   "dress": 2,
+   "set": 2,
+   "slippers": 1
+  },
+  "top_tags": {
+   "ramadan 2026": 12,
+   "Summer Wear": 8,
+   "may2025": 8,
+   "clothes": 7,
+   "summer2025": 6,
+   "all": 6,
+   "kimono": 6,
+   "Summer 2025": 6,
+   "Black Friday": 5,
+   "Buy 1 Get 1 on Kimonos": 5,
+   "ramadan collection": 5,
+   "ramadan kimono": 5,
+   "Sets": 4,
+   "April 2025 Collection": 2,
+   "Ramadan Dress": 2,
+   "blouse": 2,
+   "Set 2024": 1,
+   "50% OFF": 1,
+   "Kimonos & Summer Cardis": 1,
+   "sale": 1,
+   "summer 2024 slippers": 1,
+   "Summer 2025 Slippers": 1,
+   "Celebrate Eid with 30% OFF": 1,
+   "eid alfitr": 1
+  },
+  "collections": [
+   {
+    "title": "Accessories",
+    "handle": "accessories",
+    "products": 13
+   },
+   {
+    "title": "All Ramadan Products",
+    "handle": "ramadan-collection",
+    "products": 77
+   },
+   {
+    "title": "April 2025 Collection",
+    "handle": "april-2025-collection",
+    "products": 33
+   },
+   {
+    "title": "Bags",
+    "handle": "bags",
+    "products": 13
+   },
+   {
+    "title": "Ballerinas & Loafers",
+    "handle": "ballerinas",
+    "products": 6
+   },
+   {
+    "title": "Best Sellers",
+    "handle": "best-sellers-1",
+    "products": 4
+   },
+   {
+    "title": "Best Selling",
+    "handle": "best-selling",
+    "products": 60
+   },
+   {
+    "title": "BestSelling",
+    "handle": "bestselling",
+    "products": 20
+   },
+   {
+    "title": "Black Kimonos",
+    "handle": "black-kimonos",
+    "products": 22
+   },
+   {
+    "title": "Blouses",
+    "handle": "blouses",
+    "products": 25
+   },
+   {
+    "title": "Blouses & Vests",
+    "handle": "blouses-vests-2026",
+    "products": 30
+   },
+   {
+    "title": "boots",
+    "handle": "boots",
+    "products": 9
+   },
+   {
+    "title": "Casual Summer 2024",
+    "handle": "casual-summer-2024",
+    "products": 29
+   },
+   {
+    "title": "Clothes",
+    "handle": "clothes",
+    "products": 33
+   },
+   {
+    "title": "Espadrille",
+    "handle": "espadrille",
+    "products": 3
+   },
+   {
+    "title": "footwear",
+    "handle": "footwear",
+    "products": 76
+   },
+   {
+    "title": "Heels",
+    "handle": "wedding-season",
+    "products": 13
+   },
+   {
+    "title": "Home page",
+    "handle": "frontpage",
+    "products": 8
+   },
+   {
+    "title": "Jackets & Gillets",
+    "handle": "jackets-jillets",
+    "products": 5
+   },
+   {
+    "title": "Just In",
+    "handle": "just-in",
+    "products": 110
+   },
+   {
+    "title": "Kimonos",
+    "handle": "kimonos",
+    "products": 33
+   },
+   {
+    "title": "Kimonos & Summer Cardis",
+    "handle": "kimonos-summer-cardis",
+    "products": 34
+   },
+   {
+    "title": "Loafers",
+    "handle": "loafers-1",
+    "products": 3
+   },
+   {
+    "title": "mules",
+    "handle": "mules",
+    "products": 2
+   },
+   {
+    "title": "Mules",
+    "handle": "mules-1",
+    "products": 3
+   },
+   {
+    "title": "Pants",
+    "handle": "pants",
+    "products": 14
+   },
+   {
+    "title": "Ramadan 2026 Collection",
+    "handle": "ramadan-2026-collection",
+    "products": 39
+   },
+   {
+    "title": "Ramadan Kimono",
+    "handle": "ramadan-kimono",
+    "products": 22
+   },
+   {
+    "title": "Ramadan Sale",
+    "handle": "ramadan-sale",
+    "products": 27
+   },
+   {
+    "title": "Ramadan Sale 2026",
+    "handle": "ramadan-sale-1",
+    "products": 78
+   }
+  ]
+ },
+ "products": [
+  {
+   "title": "Safari set",
+   "type": "untyped",
+   "handle": "safari-set",
+   "price_min": 1400.0,
+   "compare_at": null,
+   "available": true,
+   "images": 1,
+   "created": "2026-06-15",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Casual Blazer - Navy Blue",
+   "type": "Kimonos",
+   "handle": "casual-blazer-blue",
+   "price_min": 600.0,
+   "compare_at": 1200.0,
+   "available": true,
+   "images": 4,
+   "created": "2025-02-14",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "La Vie Kimono-brown",
+   "type": "untyped",
+   "handle": "la-vie-kimono-1",
+   "price_min": 1400.0,
+   "compare_at": null,
+   "available": true,
+   "images": 5,
+   "created": "2025-07-14",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Chiffon Ruffles Dress",
+   "type": "dress",
+   "handle": "black-chiffon-ruffles-dress",
+   "price_min": 1200.0,
+   "compare_at": null,
+   "available": true,
+   "images": 5,
+   "created": "2026-05-02",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Printed Sling back Top",
+   "type": "untyped",
+   "handle": "printed-sling-back-top",
+   "price_min": 400.0,
+   "compare_at": null,
+   "available": true,
+   "images": 12,
+   "created": "2026-05-07",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Dentelle Embroidered Set",
+   "type": "untyped",
+   "handle": "dentelle-embroidered-set",
+   "price_min": 1600.0,
+   "compare_at": 2200.0,
+   "available": true,
+   "images": 3,
+   "created": "2026-05-05",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Zoho Linen Blouse",
+   "type": "untyped",
+   "handle": "zoho-linen-blouse",
+   "price_min": 800.0,
+   "compare_at": null,
+   "available": true,
+   "images": 12,
+   "created": "2026-05-04",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Off-Shoulder Set",
+   "type": "set",
+   "handle": "off-shoulder-set",
+   "price_min": 1300.0,
+   "compare_at": null,
+   "available": true,
+   "images": 5,
+   "created": "2026-05-04",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Indian Nights Corset",
+   "type": "untyped",
+   "handle": "indian-nights-corset",
+   "price_min": 1200.0,
+   "compare_at": 900.0,
+   "available": true,
+   "images": 5,
+   "created": "2026-05-02",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Siwa Corset",
+   "type": "untyped",
+   "handle": "siwa-corset",
+   "price_min": 1200.0,
+   "compare_at": 900.0,
+   "available": false,
+   "images": 2,
+   "created": "2026-05-02",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Fleurie Corset",
+   "type": "untyped",
+   "handle": "fleurie-corset",
+   "price_min": 1200.0,
+   "compare_at": 900.0,
+   "available": false,
+   "images": 4,
+   "created": "2026-05-02",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Diamo Slippers - Black x Metallic Fuchsia",
+   "type": "slippers",
+   "handle": "diamo-slippers",
+   "price_min": 1200.0,
+   "compare_at": null,
+   "available": true,
+   "images": 2,
+   "created": "2025-05-22",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Oumm Maxi Kimono with Hood",
+   "type": "Kimonos",
+   "handle": "oumm-maxi-kimono-with-hood",
+   "price_min": 900.0,
+   "compare_at": 1400.0,
+   "available": true,
+   "images": 2,
+   "created": "2026-03-26",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Sparkling in my Maxi Kimono with Hood",
+   "type": "Kimonos",
+   "handle": "sparkling-in-my-maxi-kimono-with-hood",
+   "price_min": 900.0,
+   "compare_at": 1400.0,
+   "available": true,
+   "images": 2,
+   "created": "2026-03-26",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Happiness All Around Me Maxi Kimono",
+   "type": "Kimonos",
+   "handle": "happiness-all-around-me-maxi-kimono",
+   "price_min": 900.0,
+   "compare_at": 1400.0,
+   "available": true,
+   "images": 1,
+   "created": "2026-03-26",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Its greener on the other side Maxi Kimono",
+   "type": "Kimonos",
+   "handle": "its-greener-on-the-other-size-maxi-kimono",
+   "price_min": 900.0,
+   "compare_at": 1400.0,
+   "available": true,
+   "images": 1,
+   "created": "2026-03-26",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Fleurie Vest",
+   "type": "untyped",
+   "handle": "fleurie-vest",
+   "price_min": 800.0,
+   "compare_at": 900.0,
+   "available": false,
+   "images": 1,
+   "created": "2026-03-26",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Tricot Dress",
+   "type": "dress",
+   "handle": "tricot-black-dress",
+   "price_min": 900.0,
+   "compare_at": null,
+   "available": true,
+   "images": 2,
+   "created": "2026-03-26",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Linen Set with Silver Metallic Lines - Grey",
+   "type": "set",
+   "handle": "linen-set-with-silver-metallic-lines-grey",
+   "price_min": 1600.0,
+   "compare_at": null,
+   "available": false,
+   "images": 9,
+   "created": "2025-04-15",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Dome Abaya with Belt",
+   "type": "untyped",
+   "handle": "basic-open-abaya-with-belt-copy",
+   "price_min": 960.0,
+   "compare_at": 1200.0,
+   "available": true,
+   "images": 5,
+   "created": "2026-02-11",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Basic Open Abaya with Belt",
+   "type": "untyped",
+   "handle": "basic-open-abaya-with-belt",
+   "price_min": 960.0,
+   "compare_at": 1200.0,
+   "available": true,
+   "images": 7,
+   "created": "2026-02-11",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Chiffon 3-Style Abaya with Brooche",
+   "type": "untyped",
+   "handle": "morroccan-jalabeya-cherry-red-x-black-copy",
+   "price_min": 960.0,
+   "compare_at": 1200.0,
+   "available": true,
+   "images": 7,
+   "created": "2026-02-10",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Morroccan Jalabeya - Black",
+   "type": "untyped",
+   "handle": "morroccan-jalabeya-black",
+   "price_min": 960.0,
+   "compare_at": 1200.0,
+   "available": true,
+   "images": 6,
+   "created": "2026-02-02",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Morroccan Kaftan - Green",
+   "type": "untyped",
+   "handle": "morroccan-kaftan-green",
+   "price_min": 1280.0,
+   "compare_at": 1600.0,
+   "available": true,
+   "images": 3,
+   "created": "2026-02-01",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Black Suede Cape with Belt",
+   "type": "untyped",
+   "handle": "black-suede-cape-with-belt",
+   "price_min": 960.0,
+   "compare_at": 1200.0,
+   "available": true,
+   "images": 5,
+   "created": "2026-02-02",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "3-Piece Silk Velvet Set - Brown",
+   "type": "untyped",
+   "handle": "3-piece-silk-velvet-set-brown",
+   "price_min": 2720.0,
+   "compare_at": 3400.0,
+   "available": true,
+   "images": 4,
+   "created": "2026-02-02",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "3-Piece Silk Velvet Set - Navy",
+   "type": "untyped",
+   "handle": "piece-silk-velvet-set-navy",
+   "price_min": 2720.0,
+   "compare_at": 3400.0,
+   "available": true,
+   "images": 3,
+   "created": "2026-02-02",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Morroccan Jalabeya - Red x Forest Green Silk Velvet",
+   "type": "untyped",
+   "handle": "morroccan-jalabeya-red-x-green-silk-velvet",
+   "price_min": 960.0,
+   "compare_at": 1200.0,
+   "available": true,
+   "images": 5,
+   "created": "2026-02-02",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Morroccan Jalabeya - Cherry Red x Black",
+   "type": "untyped",
+   "handle": "morroccan-jalabeya-cherry-red-x-black",
+   "price_min": 960.0,
+   "compare_at": 1200.0,
+   "available": true,
+   "images": 8,
+   "created": "2026-02-02",
+   "updated": "2026-07-09"
+  },
+  {
+   "title": "Morroccan Jalabeya - Blue",
+   "type": "untyped",
+   "handle": "morroccan-jalabeya-blue",
+   "price_min": 960.0,
+   "compare_at": 1200.0,
+   "available": true,
+   "images": 5,
+   "created": "2026-02-02",
+   "updated": "2026-07-09"
+  }
+ ]
+}

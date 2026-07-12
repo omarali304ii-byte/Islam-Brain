@@ -1,0 +1,18 @@
+# cielito-egypt base-360 collection log — 2026-07-09
+- {target: "cielitoeg.com / + robots + sitemap + products.json + collections.json", method: direct_http, status: 200, ts: 2026-07-09, confidence: high}
+- {target: "cielitoeg.com/pages+policies+collections (6 pages)", method: direct_http, status: 200_except_best-sellers_404, ts: 2026-07-09, confidence: high}
+- {target: "cielitoeg.com/products.json?limit=250 p1-3", method: direct_http, status: 200_250_products_total, ts: 2026-07-09, confidence: high}
+- {target: "PageSpeed API mobile+desktop", method: free_api, status: ok_M55_D98, ts: 2026-07-09, confidence: high}
+- {target: "agent-readiness own-endpoint audit", method: free_script, status: grade_B_72_security_clean, ts: 2026-07-09, confidence: high}
+- {target: "instagram.com/cielitoegypt 60 posts", method: apify_rest_PAID_R1, status: succeeded_60_items_usd_0.138, ts: 2026-07-09, confidence: high, approved_by: Eslam}
+- {target: "tiktok.com/@cielitoegypt 60 videos", method: apify_rest_PAID_R2, status: succeeded_60_items_usd_0.181, ts: 2026-07-09, confidence: high, approved_by: Eslam}
+- {target: "mycielito.com (second domain)", method: direct_http, status: 200, ts: 2026-07-09, confidence: high}
+- {target: "web search sweep (identity, founder, market, rivals)", method: websearch_foreground, status: ok_persisted, ts: 2026-07-09, confidence: medium_secondary_sources}
+- {target: "facebook.com/cielitoegypt", method: none, status: NOT_CAPTURED_inaccessible_not_absent, ts: 2026-07-09, confidence: n/a, note: "FB scrape = proposed blocked route for next data pass"}
+- {target: "instagram.com/cielitoegypt 150 posts DEEP", method: apify_rest_PAID_R3, status: succeeded_150_usd_0.3243, ts: 2026-07-10, confidence: high, approved_by: Eslam_standing}
+- {target: "IG full comments on top 40 posts", method: apify_rest_PAID_R4, status: succeeded_898_comments_usd_2.0424, ts: 2026-07-10, confidence: high, approved_by: Eslam_standing}
+- {target: "TikTok comments top 30 videos", method: apify_rest_PAID_R5, status: succeeded_60_usd_0.06, ts: 2026-07-10, confidence: high}
+- {target: "IG post images (149) + TikTok covers (59) + 45 transcripts", method: direct_http_download, status: ok_for_visual_review, ts: 2026-07-10, confidence: high}
+- {target: "Noon Cielito reviews", method: apify_rest_ATTEMPTED, status: FAILED_actor_404_inaccessible_not_absent, ts: 2026-07-10, note: "brand IS on noon.com/egypt-en/cielito but epctex actor 404; retry w/ working actor next pass"}
+- {target: "Google Maps reviews", method: none, status: NO_LISTING_online_only_brand_no_physical_store, ts: 2026-07-10}
+- {target: "Noon reviews", method: DROPPED, status: closed_per_operator_2026-07-10, note: "operator: forget about noon — do not retry"}

@@ -1,0 +1,73 @@
+{
+  "url": "https://www.cielitoeg.com/",
+  "status": "ok",
+  "key_used": true,
+  "mobile": {
+    "strategy": "mobile",
+    "scores": {
+      "performance": 55,
+      "accessibility": 91,
+      "best-practices": 96,
+      "seo": 100
+    },
+    "field_category": "UNKNOWN",
+    "top_opportunities": [
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "savings_ms": 1200
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "savings_ms": 300
+      }
+    ],
+    "gaps": [
+      "First Contentful Paint",
+      "Largest Contentful Paint",
+      "Total Blocking Time",
+      "Speed Index",
+      "Use efficient cache lifetimes",
+      "Forced reflow",
+      "Improve image delivery",
+      "LCP breakdown",
+      "Legacy JavaScript",
+      "Network dependency tree"
+    ]
+  },
+  "desktop": {
+    "strategy": "desktop",
+    "scores": {
+      "performance": 98,
+      "accessibility": 82,
+      "best-practices": 92,
+      "seo": 100
+    },
+    "field_category": "UNKNOWN",
+    "top_opportunities": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "savings_ms": 40
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "savings_ms": 40
+      }
+    ],
+    "gaps": [
+      "Use efficient cache lifetimes",
+      "Forced reflow",
+      "Improve image delivery",
+      "Legacy JavaScript",
+      "Network dependency tree",
+      "Render-blocking requests",
+      "Reduce unused CSS",
+      "Reduce unused JavaScript",
+      "`[role]`s are not contained by their required parent element",
+      "Background and foreground colors do not have a sufficient contrast ratio."
+    ]
+  }
+}

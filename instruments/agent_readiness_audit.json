@@ -1,0 +1,54 @@
+{
+  "url": "https://www.cielitoeg.com/",
+  "overall_score": 72,
+  "grade": "B",
+  "category_scores": {
+    "Discoverability": 75,
+    "Content Accessibility": 100,
+    "Bot Access Control": 25,
+    "Protocol Discovery": 33,
+    "Structured Data & Meta": 100,
+    "Security (no prompt-injection)": 100
+  },
+  "discoverability": {
+    "robots_txt": true,
+    "sitemap_directive": true,
+    "sitemap_url": "https://www.cielitoeg.com/sitemap.xml",
+    "link_header": false
+  },
+  "content_accessibility": {
+    "llms_txt": true,
+    "llms_full_txt": true,
+    "markdown_negotiation": true
+  },
+  "bot_access_control": {
+    "ai_bot_rules": [],
+    "content_signals": false
+  },
+  "protocol_discovery": {
+    ".well-known/mcp.json": false,
+    ".well-known/ai-plugin.json": false,
+    ".well-known/agent.json": false,
+    ".well-known/oauth-protected-resource": true,
+    ".well-known/oauth-authorization-server": true,
+    ".well-known/security.txt": false
+  },
+  "structured_data_meta": {
+    "schema_types": [
+      "Organization"
+    ],
+    "meta_description": true,
+    "open_graph": true,
+    "twitter_card": true,
+    "canonical": true
+  },
+  "security": {
+    "prompt_injection_clean": true,
+    "injection_hits": [],
+    "suspicious_hidden_blocks": [],
+    "verdict": "CLEAN — no hidden instructions or prompt-injection vectors"
+  },
+  "recommendations": [
+    "Add explicit AI-bot rules to robots.txt (GPTBot, ClaudeBot, Google-Extended, PerplexityBot) — allow or control deliberately."
+  ]
+}

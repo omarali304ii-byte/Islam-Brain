@@ -1,0 +1,18 @@
+[
+ {
+  "route": "R1",
+  "actor": "apify~instagram-scraper",
+  "status": "SUCCEEDED",
+  "items": 60,
+  "usage_usd": 0.138,
+  "file": "instagram_posts.json"
+ },
+ {
+  "route": "R2",
+  "actor": "clockworks~tiktok-scraper",
+  "status": "SUCCEEDED",
+  "items": 60,
+  "usage_usd": 0.181,
+  "file": "tiktok_videos.json"
+ }
+]

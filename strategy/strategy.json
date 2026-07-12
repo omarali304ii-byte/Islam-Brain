@@ -1,0 +1,213 @@
+{
+  "brand": "Cielito Egypt",
+  "lens": "NEUTRAL",
+  "tagline": "One shoe. Every moment. Made in Egypt.",
+  "positioning_statement": "For Egyptian women who want design-led, occasion-flexible footwear without a designer price tag, Cielito is the handmade, locally-crafted label that takes you from morning to soirée — the accessible-luxury alternative to both mass-market volume brands and unreachable premium designers.",
+  "known_for": "Handmade-in-Egypt leather footwear (heels, mules, sandals, boots) at accessible prices, now extending into occasion apparel (kimonos, sets).",
+  "differentiation": "Local craftsmanship + internationally-sourced materials + an occasion-flexible design philosophy; plus a dormant but press-validated sustainable fruit-leather innovation that no rival owns (revival is a founder-gated decision, D-05).",
+  "executive_headline": "A brand with a real audience and a real product, separated by a broken owned-content engine — the fastest turnaround in the estate because the assets already exist.",
+  "executive_summary": [
+    "88,903 Instagram followers and a verified badge, but owned posts earn a median of 3 likes (0.006% engagement, n=17) — while creators tagging the brand reach 5,930 likes and 124,937 views, roughly 190x the owned median. The audience exists; the engine is broken.",
+    "The brand markets to Egyptians in English (16 of 17 recent captions) while its own best-performing posts on both Instagram and TikTok are in Egyptian Arabic — a self-inflicted reach penalty.",
+    "There is no WhatsApp conversion path anywhere (site, bio, captions) in a market where WhatsApp + cash-on-delivery is the default purchase route, and the brand's own check-on-delivery shipping policy already runs a conversational sales motion.",
+    "Identity has drifted: three competing taglines, a press-validated fruit-leather differentiator deleted from every live surface, 128 of 250 SKUs untyped, and 38% of the catalog on permanent discount against a scale leader (Dejavu, 289K followers)."
+  ],
+  "objectives": [
+    "Repair owned engagement: 10x the owned-post engagement-rate median within 8 weeks by flipping to masri-first, UGC-native and skit formats (measured on new-format posts only).",
+    "Install the conversion bridge: WhatsApp CTA live on every surface within 2 weeks; baseline chat-to-order once client shares order data.",
+    "Formalize the demand flywheel: a creator-seeding program capturing usage rights, turning ~190x-outperforming earned content into an owned, repeatable system.",
+    "Set the identity: one tagline, one hero franchise, and a founder-gated decision on reviving the fruit-leather differentiator.",
+    "Make it mobile-ready-for-paid: lift mobile PageSpeed from 55 toward 80 and clean the catalog before any product-feed ad spend."
+  ],
+  "campaign_objectives": [
+    "Awareness via earned reach: move the proven UGC/skit formats in-house and amplify the founder channel to rebuild organic reach without paid spend.",
+    "Consideration via education: launch a leather-care / how-it's-made / styling pillar that justifies the EGP 1,200 median price under purchasing-power pressure.",
+    "Conversion via WhatsApp: route every high-intent moment (try-on questions, offer windows) into a WhatsApp Business catalog."
+  ],
+  "market_headline": "A ~EGP 31.4bn Egyptian footwear market (2025, +9% YoY) where women are 52% of demand, e-commerce is still under-penetrated (~90% offline), and local, affordable, socially-native brands are the ones taking share.",
+  "market_situation": [
+    "Egypt footwear retail value ~EGP 31.4bn in 2025, +9% YoY (a USD-denominated source cites ~$635M — the two are not reconciled; treated as ESTIMATE_ONLY and banded, never a single settled figure).",
+    "Women's footwear ~52% of the market; women also over-index in online fashion buying influenced by social trends.",
+    "E-commerce headroom is large: offline still ~90% of footwear retail, so a social-to-DTC brand is fishing in an under-penetrated pool.",
+    "Purchasing-power erosion is the principal demand risk — which makes discount discipline and demonstrable value (craft, durability) strategically important, not optional.",
+    "Local brands (Dejavu, Shoe Room, Pixie) are named by analysts as share-gainers on affordability + local-made preference + heavy social presence."
+  ],
+  "competitors": [
+    { "name": "Dejavu", "positioning": "Egypt's leading mass-market footwear & bags brand — scale and ubiquity", "price_band": "Mass / value", "channels": "Instagram (289K), Facebook (~2.3M likes), online + physical stores", "content_style": "High-frequency product + styling reels, trend-led, Arabic-forward" },
+    { "name": "Jayda Hany", "positioning": "Designer-led premium footwear & accessories (AUC + London College of Fashion pedigree)", "price_band": "Premium", "channels": "Instagram, own site", "content_style": "Editorial, design-story led" },
+    { "name": "Bulga", "positioning": "Heritage/artisan handcrafted footwear with cultural-craft narrative", "price_band": "Premium-craft", "channels": "Instagram, own site", "content_style": "Craft-story, heritage, slow-fashion" },
+    { "name": "Ramla", "positioning": "Ethical handmade leather mules/loafers; Vogue Arabia featured", "price_band": "Premium-craft", "channels": "Instagram, own site", "content_style": "Editorial, ethical-craft" },
+    { "name": "Achilles / CHOU / Shoe Room / Pixie", "positioning": "Mid-market Egyptian online footwear peers competing on trend + price", "price_band": "Mid / value", "channels": "Instagram-native, own sites", "content_style": "Product + trend reels, discount-driven" }
+  ],
+  "social_listening": {
+    "summary": "Captured across owned + earned Instagram (n=60 mixed, 17 owned) and TikTok (n=60). The signal is unambiguous: the brand's audience responds to Arabic entertainment and real-person UGC, and ignores English product-push — but the brand keeps producing the latter.",
+    "findings": [
+      { "label": "Arabic outperforms English", "note": "The single Arabic owned IG caption is the top owned post (39 likes vs median 3); TikTok top-3 includes 'باشا مصر' at 14,800 plays vs 1,220 median." },
+      { "label": "UGC ~190x owned", "note": "Earned peak 5,930 likes / 124,937 views vs owned median 3 likes / 655 views; 12+ creators tag the brand in a 60-post window including the founder (8 posts)." },
+      { "label": "Skit format is the winner", "note": "The recurring 'تسنيم' named-character workplace skit is the best-performing repeatable format across both platforms — a franchisable content engine already invented and under-used." },
+      { "label": "TikTok effort without return", "note": "584 videos posted for 7,608 followers (13 followers/video); median 0 comments — output is high, strategy is absent, identity is mixed with founder-journey content." },
+      { "label": "Zero conversion language", "note": "Across 17 owned captions: 0 WhatsApp CTAs and 0 offer language, while the site runs 38% discounting and B1G1 mechanics — the commercial engine never reaches social." },
+      { "label": "Comment volume is thin", "note": "Owned median 2 comments — limited verbatim VoC available; itself a finding (low conversational depth), and a reason to build comment-driving formats." }
+    ]
+  },
+  "positioning_map": {
+    "x_axis": "Price (accessible -> premium)",
+    "y_axis": "Perceived design/craft distinctiveness (commodity -> design-led)",
+    "white_space": "Design-led + accessible + a sustainability/innovation story (fruit leather) — currently unoccupied by the rival set at mid-price.",
+    "points": [
+      { "name": "Cielito (today, drifting)", "x": 0.35, "y": 0.45, "is_brand": true },
+      { "name": "Cielito (target position)", "x": 0.45, "y": 0.8, "is_brand": true },
+      { "name": "Dejavu", "x": 0.25, "y": 0.3 },
+      { "name": "Jayda Hany", "x": 0.85, "y": 0.85 },
+      { "name": "Bulga / Ramla", "x": 0.8, "y": 0.9 },
+      { "name": "Achilles / Shoe Room / Pixie", "x": 0.3, "y": 0.4 }
+    ]
+  },
+  "segments": [
+    { "name": "The Occasion Planner", "who": "Egyptian woman 25-40, urban (Cairo/Alex), event-driven wardrobe, active on IG", "care": "One versatile shoe that works morning-to-soirée; not looking identical to everyone else", "motivation": "Status-appropriate style without a designer bill", "message": "جزمة واحدة تكفّي مشاويرك كلها — من الصبح للسهرة" },
+    { "name": "The Modest-Fashion Stylist", "who": "Hijabi woman 20-35 building looks around kimonos/sets (hashtag evidence: #hijabers, kimono is the largest catalog family)", "care": "Coordinated full looks, coverage + trend, shareable outfits", "motivation": "Self-expression + community belonging", "message": "اللوك الكامل من الكيمونو للجزمة — Cielito" },
+    { "name": "The Value-Conscious Quality Seeker", "who": "Woman 25-45 under purchasing-power pressure who still wants leather that lasts", "care": "Durability, real leather, check-before-you-pay reassurance", "motivation": "Smart spending — pay once, wear for years", "message": "جلد طبيعي، صنع مصري، وتقدري تشوفيه قبل ما تدفعي" },
+    { "name": "The Founder-Story Follower", "who": "Followers of Lolwa Awad's personal account + press readers who know the origin story", "care": "Backing a local female-founded brand with a point of view", "motivation": "Values-aligned support", "message": "من فكرة لولوة لجزمة في رجلك — صناعة مصرية بحب" }
+  ],
+  "opportunities": [
+    "Formalize the UGC flywheel that already outperforms owned content ~190x into a contracted creator program with usage rights (near-zero media cost).",
+    "Flip to masri-first content — the brand's own data proves Arabic wins; this is a free reach uplift.",
+    "Install WhatsApp commerce to capture the highest-intent traffic in the market's default purchase channel.",
+    "Revive the press-validated fruit-leather / vegan-innovation line as a premium 'Cielito Verde' capsule — the only differentiator no rival owns.",
+    "Franchise a hero product (the named 'Mariposa' cowboy boot instinct) to build recall the flat catalog currently lacks.",
+    "Own the education space (leather care, how-it's-made, sizing) — empty across the rival set and a trust builder under price pressure."
+  ],
+  "threats": [
+    "Purchasing-power erosion compressing discretionary fashion spend across the market.",
+    "Dejavu's scale (289K IG / ~2.3M FB) and discount cadence setting a price-war tempo Cielito cannot win on volume.",
+    "Continued commodity drift: 38% discount surface + no stated differentiator trains customers to wait for sales and erodes margin.",
+    "Platform dependency + a possibly-degraded 89K follower base (G-03) — if the audience is dormant/low-quality, paid lookalikes built on it will misfire.",
+    "Imported-materials FX exposure raising COGS in an EGP-volatile environment."
+  ],
+  "content_tracks": [
+    "Entertainment (Arabic skit series — the proven engine)",
+    "Product-in-context (UGC-native styling, real people, real settings)",
+    "Education & proof (leather care, how-it's-made, check-on-delivery, reviews)"
+  ],
+  "content_pillars": [
+    { "name": "Yalla Cielito (Entertainment)", "purpose": "Rebuild reach with the brand's best-performing format", "examples": "تسنيم workplace skits, 'باشا مصر' cultural moments, situational comedy ending in a product reveal", "format": "Reels / TikTok, masri, 15-30s" },
+    { "name": "The Look (Product-in-context)", "purpose": "Show the shoe/outfit on real people in real occasions", "examples": "UGC reposts (with permission), creator styling, morning-to-soirée transitions", "format": "Reels + carousels, masri-first" },
+    { "name": "Made to Last (Education & Proof)", "purpose": "Justify the price and build trust under purchasing-power pressure", "examples": "Leather care, how-it's-made (Egyptian hands), 'ليه بـ1200؟' price anatomy, check-on-delivery explainer, review walls", "format": "Carousels + reels" },
+    { "name": "The Cielito Woman (Brand & Founder)", "purpose": "Give the brand a face and a why", "examples": "Founder origin story, values, behind-the-scenes, Cielito Verde sustainability story", "format": "Reels + stories" },
+    { "name": "Drops & Windows (Offer, disciplined)", "purpose": "Concentrate commercial pushes into evidenced demand windows only", "examples": "Ramadan/Eid capsules, summer/Sahel, winter boots, always paired with proof content", "format": "Reels + stories + WhatsApp broadcast" }
+  ],
+  "pillar_implementation": [
+    "Feed mix target: 30% Entertainment / 25% The Look / 20% Made to Last / 15% The Cielito Woman / 10% Drops & Windows.",
+    "Caption rule: masri Egyptian Arabic first line, concise English second line; premium capsules may lead English.",
+    "Every product post carries a WhatsApp CTA ('اطلبي عالواتساب') and links to a clean, typed collection."
+  ],
+  "channels": {
+    "Instagram": "Primary brand stage — Reels-led, UGC reposts, WhatsApp bio link, highlights restructured to Shop / Reviews / How-it's-made / Size guide.",
+    "TikTok": "Entertainment + reach engine — masri skits and product-entertainment ONLY; founder-journey content moves off the brand handle.",
+    "WhatsApp Business": "The conversion bridge — catalog synced from Shopify, order + try-on + broadcast; the missing piece of the funnel.",
+    "Facebook": "Under-instrumented (G-02) but likely where Arabic mass-market demand lives (Dejavu's ~2.3M FB) — audit before deciding weight.",
+    "Founder account (@awadlolwa)": "Official secondary channel — origin story, values, behind-the-scenes; cross-tags the brand."
+  },
+  "funnel": [
+    { "stage": "Awareness", "note": "Arabic skits + UGC/creator reach + founder amplification (organic-first; the 89K base is re-activation, not the acquisition engine until G-03 is answered)." },
+    { "stage": "Consideration", "note": "Education pillar (care, how-it's-made, price anatomy) + review/UGC proof; clean typed catalog for browsing." },
+    { "stage": "Conversion", "note": "WhatsApp CTA on every surface -> WhatsApp Business catalog -> COD / check-on-delivery close; mobile-fast PDP." },
+    { "stage": "Retention", "note": "Post-purchase care content, seasonal drops, size-fit confidence, exchange-friendly policy; repeat-purchase nudges via WhatsApp broadcast (opt-in)." },
+    { "stage": "Advocacy", "note": "Parcel-insert UGC brief -> customer becomes creator -> repost slot; ambassador tier for top creators." }
+  ],
+  "offers": [
+    { "stage": "Awareness", "offer": "Free styling / 'which shoe are you' interactive content (no discount)", "monetizes": "Reach + follower quality", "recurring": "Weekly" },
+    { "stage": "Consideration", "offer": "The Full Look bundle (shoe + bag / kimono + mule) at a modest bundle price", "monetizes": "AOV uplift without margin-killing sitewide discounts", "recurring": "Evergreen" },
+    { "stage": "Conversion", "offer": "WhatsApp-first drops: early access to new collections for WhatsApp subscribers", "monetizes": "Conversion + owned audience off-platform", "recurring": "Per drop" },
+    { "stage": "Retention", "offer": "Seasonal capsule windows (Ramadan/Eid/summer/winter) with disciplined, time-boxed promos", "monetizes": "Repeat purchase in proven demand windows", "recurring": "Seasonal (evidenced by catalog tags)" }
+  ],
+  "fast_track": [
+    "Add wa.me link to Instagram bio + site header (days, near-zero cost) — D-02.",
+    "Flip caption default to masri Egyptian Arabic and re-run the 'تسنيم' skit series — D-03.",
+    "DM the 12 captured creators to formalize permission + reposting — D-01.",
+    "One-day Shopify hygiene sprint: type SKUs, merge duplicate collections, fix inverted compare-at prices — D-03."
+  ],
+  "standout": [
+    "The only rival-set gap is design-led + accessible + sustainable-innovation — Cielito is the sole brand with a press-validated claim (fruit leather) to occupy it.",
+    "Turn the shipping policy into marketing: 'check before you pay' is a trust superpower in a COD market and is currently unmarketed.",
+    "Franchise a named hero (Mariposa boots) so the brand becomes recognizable, not just another catalog.",
+    "Founder-as-face: an articulate LSE-to-shoes origin story is rare in the category and already producing content."
+  ],
+  "action_plan": {
+    "days_0_15": [
+      "WhatsApp link live on IG bio + site header + TikTok bio (D-02).",
+      "Caption language flip to masri; brief and shoot 4 skit episodes (D-03).",
+      "Creator permission DMs to the 12 captured handles; draft usage-rights template (D-01)."
+    ],
+    "days_16_30": [
+      "Shopify hygiene sprint: type 128 SKUs, merge dup collections, fix inverted prices (D-03).",
+      "Launch Made-to-Last education pillar (3 pieces).",
+      "Mobile PageSpeed sprint kickoff: image compression + app/script audit (D-04)."
+    ],
+    "days_31_45": [
+      "Ambassador program v1 live with usage-rights capture; parcel-insert UGC brief (D-01).",
+      "WhatsApp Business catalog synced from Shopify; first WhatsApp-subscriber drop.",
+      "Highlights restructure + bio rewrite around one tagline (D-05 interim)."
+    ],
+    "days_46_60": [
+      "Founder decision session on fruit-leather revival + tagline lock (D-05, needs G-04).",
+      "Paid-ads readiness check (WhatsApp path + mobile >=70 + 3 proven creatives); pilot retargeting only.",
+      "Baseline the KPI covenant against first tranche of client order data (G-01)."
+    ]
+  },
+  "measurement_chain": [
+    { "stage": "Awareness", "instrument": "IG/TikTok Insights (reach, plays) on new-format posts", "metric": "Reach per post; owned engagement-rate median (baseline 0.006%)" },
+    { "stage": "Consideration", "instrument": "Saves, shares, profile visits, link taps", "metric": "Save-rate on education pillar; profile-visit-to-link-tap" },
+    { "stage": "Conversion", "instrument": "WhatsApp Business + Shopify (once shared)", "metric": "Chats/week; chat-to-order rate (to be baselined, G-01)" },
+    { "stage": "Retention", "instrument": "Shopify repeat-purchase + WhatsApp broadcast", "metric": "Repeat-purchase rate; drop open/click (to be baselined)" },
+    { "stage": "Advocacy", "instrument": "UGC ledger + branded-mention tracking", "metric": "UGC velocity (creators/month); earned reach vs owned ratio (baseline ~190:1)" }
+  ],
+  "final_recommendations": [
+    "Sequence for cost-to-impact: WhatsApp bridge (days) -> catalog hygiene + masri flip (2 weeks) -> creator program (weeks) -> mobile perf (parallel) -> founder-gated positioning.",
+    "Do NOT buy paid traffic until the WhatsApp path, mobile PageSpeed >=70, catalog hygiene, and 3 proven organic creatives are in place — and never build lookalikes on the 89K base until its quality is audited (G-03).",
+    "Treat earned/UGC as the primary demand engine and owned-feed as a re-activation + proof surface, not the growth driver.",
+    "Make the founder-gated call on fruit leather within 60 days — it is the only defensible differentiator captured and it already earned unpaid national press.",
+    "Request Shopify + analytics access so the next wave converts every 'to be baselined' into an ROI scenario."
+  ],
+  "rationale": [
+    "Every recommendation is anchored to a HELD capture, not a benchmark import: the engagement collapse, the language signal, the missing WhatsApp path, and the catalog mess are all in the primary data.",
+    "The plan is deliberately organic-first because the assets (audience, UGC flywheel, founder, catalog) already exist — the constraint is the engine, not the raw material, which makes this a fast, low-spend turnaround.",
+    "Discount discipline and value-education are prioritized because market data flags purchasing-power erosion as the principal demand risk — winning on price against Dejavu is not viable.",
+    "WhatsApp is sequenced first because it is the market's default conversion channel, near-zero cost, and the brand's own operations already run a conversational motion."
+  ],
+  "master_visuals": [
+    "Owned-vs-earned engagement bar (3 likes vs 5,930) — the one chart that wins the pitch.",
+    "The funnel with the WhatsApp gap highlighted in red.",
+    "Positioning map with Cielito's drift arrow from 'today' to 'target'."
+  ],
+  "moodboard": [
+    "Warm Egyptian daylight, terracotta and sand tones, real hands crafting leather.",
+    "Occasion contrast: same shoe in a morning café and an evening rooftop (morning-to-soirée).",
+    "UGC-native texture — phone-shot authenticity over glossy studio, to match what actually performs."
+  ],
+  "palette_rationale": "Anchor on a warm, elevated-but-accessible palette — terracotta/tan (leather + Egyptian earth), soft cream (premium-but-approachable), a deep accent (charcoal or oxblood) for contrast and 'affordable luxury' signaling. Avoids Dejavu's high-saturation mass-market look; leans design-led without going cold-premium. (Provisional — to be locked against actual brand assets on image review.)",
+  "font_direction": "A refined serif for the wordmark/headlines (craft + timelessness) paired with a clean humanist Arabic-Latin sans for captions and UI, with strong native Arabic type support since content flips masri-first. (Provisional pending visual review.)",
+  "social_ideas": [
+    { "title": "Leather or fake? The burn test", "hook": "إيه اللي بيخلي الجلد جلد؟", "visual": "Close-up test comparing Cielito nappa vs synthetic", "cta": "اعرفي الفرق — اطلبي عالواتساب" },
+    { "title": "Why EGP 1,200?", "hook": "بتدفعي في إيه بالظبط؟", "visual": "Carousel breaking down craft, materials, hours", "cta": "Swipe to see where your money goes" },
+    { "title": "Check before you pay", "hook": "بقى عندك fitting room في بيتك", "visual": "Skit: courier waits while she tries on", "cta": "جربيها قبل ما تدفعي" },
+    { "title": "One shoe, three moments", "hook": "من الصبح للسهرة", "visual": "Transition reel, one pair styled 3 ways", "cta": "Shop the look on WhatsApp" },
+    { "title": "Made by Egyptian hands", "hook": "صناعة مصرية بحب", "visual": "Macro workshop hands stitching", "cta": "Meet the makers" },
+    { "title": "Customer wall of the month", "hook": "انتوا نجوم Cielito", "visual": "UGC grid of real customers (with permission)", "cta": "Tag us to be featured" }
+  ],
+  "reel_ideas": [
+    { "title": "تسنيم: episode 5", "hook": "تسنيم عملت إيه النهاردة؟", "visual": "Recurring workplace-skit character, ends on product reveal", "cta": "Which Cielito is تسنيم wearing? WhatsApp us" },
+    { "title": "باشا مصر II", "hook": "باشا مصر 🫡", "visual": "Short masri cultural-pride moment over hero product", "cta": "صناعة مصرية — اطلبي دلوقتي" },
+    { "title": "Morning-to-soirée transition", "hook": "نفس الجزمة.. يومين مختلفين", "visual": "One-cut outfit transition café->rooftop", "cta": "One shoe, every moment" },
+    { "title": "Courier-check unboxing POV", "hook": "لما الأوردر يوصل وانتي متأكدة", "visual": "POV opening the box with courier waiting", "cta": "جربيها قبل الدفع" },
+    { "title": "Cielito Verde teaser", "hook": "جزمة من التين الشوكي؟", "visual": "Sustainable fruit-leather concept tease (founder-gated)", "cta": "قريبًا — تابعينا" }
+  ],
+  "next_steps": [
+    "Build the hero 360 dashboard (esm-landing /dashboard/cielito-360) from this strategy.json — the WOM pitch centerpiece.",
+    "Approve the data-pass menu routes (Facebook stats, rival socials, follower-quality audit) to close G-02/G-03/G-07.",
+    "Request client Shopify + analytics access to convert 'to be baselined' cards into ROI scenarios (G-01).",
+    "Book the 60-minute founder session to resolve fruit-leather status + tagline lock (G-04)."
+  ],
+  "confidence_note": "Diagnosis grades HELD on primary captures (site, 250-SKU catalog, IG/TikTok scrapes, PageSpeed + agent-readiness instruments). Market sizing is ESTIMATE_ONLY (two sources conflict, banded). Founder + fruit-leather history is LIKELY (two press sources); its removal from live messaging is HYPOTHESIS. Follower-base quality (G-03) and all revenue/conversion figures (G-01) are GAPs — every financial figure is labeled 'to be baselined'. Social metrics disclose n= and capture window throughout; no metric is fabricated and no absence is claimed from a blocked route.",
+  "website_audit_ref": "instruments/website_audit.json"
+}

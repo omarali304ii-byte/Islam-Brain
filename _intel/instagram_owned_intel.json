@@ -1,0 +1,115 @@
+{
+ "n_owned": 17,
+ "window": [
+  "2026-05-31",
+  "2026-07-04"
+ ],
+ "posts_per_week": 3.5,
+ "format_split": {
+  "Image": 1,
+  "Sidecar": 6,
+  "Video": 10
+ },
+ "likes": {
+  "median": 3,
+  "mean": 5.1,
+  "max": 39,
+  "min": 2
+ },
+ "comments": {
+  "median": 2,
+  "mean": 1.9,
+  "max": 6
+ },
+ "video_views": {
+  "n": 10,
+  "median": 655.0,
+  "mean": 1153,
+  "max": 4535
+ },
+ "engagement_rate_pct": {
+  "median": 0.006,
+  "mean": 0.008,
+  "max": 0.051
+ },
+ "caption_arabic_ratio_mean": 0.06,
+ "captions_fully_english": 16,
+ "captions_with_whatsapp": 0,
+ "captions_with_offer_language": 0,
+ "top_owned": [
+  {
+   "type": "Video",
+   "likes": 39,
+   "comments": 6,
+   "views": 926,
+   "date": "2026-05-31",
+   "url": "https://www.instagram.com/p/DZAnWE4ouv_/",
+   "caption": "تسنيم وزعت رقم مديرتها علي صحابها 🤦🏻‍♀️"
+  },
+  {
+   "type": "Sidecar",
+   "likes": 3,
+   "comments": 0,
+   "views": null,
+   "date": "2026-07-01",
+   "url": "https://www.instagram.com/p/DaQEoj7iD8A/",
+   "caption": "Catch our trendy tops now through our website ⭐️🤪\n\n#cielito"
+  },
+  {
+   "type": "Video",
+   "likes": 3,
+   "comments": 0,
+   "views": 377,
+   "date": "2026-06-29",
+   "url": "https://www.instagram.com/p/DaLipFao7vK/",
+   "caption": "Our beautiful @ayaaraffa in her Cielito era❤️!! \n\n#cielitogirl"
+  },
+  {
+   "type": "Video",
+   "likes": 3,
+   "comments": 2,
+   "views": 145,
+   "date": "2026-06-30",
+   "url": "https://www.instagram.com/p/DaOBqdhoxFh/",
+   "caption": "Coolest slippers ever?\n\n#cielito"
+  },
+  {
+   "type": "Sidecar",
+   "likes": 3,
+   "comments": 0,
+   "views": null,
+   "date": "2026-07-04",
+   "url": "https://www.instagram.com/p/DaYL_H7CE58/",
+   "caption": "The combo you need the most \n\n#cielito"
+  },
+  {
+   "type": "Video",
+   "likes": 3,
+   "comments": 0,
+   "views": 290,
+   "date": "2026-06-25",
+   "url": "https://www.instagram.com/p/DaBKYUvIYhI/",
+   "caption": "Did you catch yours or not yet?\n\n#cielitogirl #cielitolooks"
+  }
+ ],
+ "weakest_owned": [
+  {
+   "likes": 2,
+   "views": null,
+   "date": "2026-07-02",
+   "caption": "Basic girls where are you?\n\n#cielito"
+  },
+  {
+   "likes": 3,
+   "views": null,
+   "date": "2026-07-01",
+   "caption": "Catch our trendy tops now through our website ⭐️🤪\n\n#cielito"
+  },
+  {
+   "likes": 3,
+   "views": 377,
+   "date": "2026-06-29",
+   "caption": "Our beautiful @ayaaraffa in her Cielito era❤️!! \n\n#cielitogirl"
+  }
+ ]
+}

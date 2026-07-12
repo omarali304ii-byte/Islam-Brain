@@ -1,0 +1,34 @@
+{
+  "client": "Cielito Egypt",
+  "slug": "cielito-egypt",
+  "platform_model": "Claude-Fable-5",
+  "run_id": "cielito-egypt-base360-2026-07-09",
+  "status": "BASE_360_DELIVERED (pitch-package PASS; internal era coverage PARTIAL — backfill queued)",
+  "phase": "closed",
+  "started": "2026-07-09",
+  "closed": "2026-07-09",
+  "lens_stack": { "primary": "executive", "secondary": ["marketer"] },
+  "phases": {
+    "00_intake": "DONE",
+    "01_collection_free": "DONE (site+catalog+instruments+7 searches)",
+    "02_collection_paid_R1_instagram": "DONE ($0.138 + corrective R1b $0.115)",
+    "03_collection_paid_R2_tiktok": "DONE ($0.181)",
+    "04_social_brand_audit_bridge": "DONE (9.5/10 harness; 5 wiki registries written)",
+    "05_era_synthesis": "PARTIAL (8/21 ATLAS + 16/24 GTM + 1 v6 + full Era-20 bundle; rest credit-truncated, backfill queued)",
+    "06_strategy_creative": "DONE (strategy.json schema-PASS + brand/creative/image briefs)",
+    "07_evidence_ledger": "DONE (17 EV, frozen)",
+    "08_gap_loops_council_qg": "DONE (COUNCIL_FALLBACK GO; pitch QG 91, estate QG 78-conditional)",
+    "09_dashboard_specs": "DONE (React + Power BI, buildable, D3 mapping)",
+    "10_next_steps_close": "DONE (data-pass menu + client folder + watch-register + memory)"
+  },
+  "spend_rows": [
+    { "route": "R1", "actor": "apify~instagram-scraper", "usd": 0.138, "date": "2026-07-09" },
+    { "route": "R1b", "actor": "apify~instagram-scraper (corrective owned)", "usd": 0.115, "date": "2026-07-09" },
+    { "route": "R2", "actor": "clockworks~tiktok-scraper", "usd": 0.181, "date": "2026-07-09" }
+  ],
+  "estate_cost_to_date_usd": 0.434,
+  "deploys": [],
+  "patch_ledger_head": "PATCH-000 (base 360)",
+  "watch_register": ["WR-CIEL-001..005"],
+  "notes": "Dry test of v2 estate runtime + social-media-brand-audit bridge (FIRST estate to carry it). Pitch-critical deliverables complete. Next: hero-wave dashboard build to esm-landing /dashboard/cielito-360 + era-fan-out backfill after credit reset."
+}

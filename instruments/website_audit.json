@@ -1,0 +1,11 @@
+{
+  "url": "https://www.cielitoeg.com/",
+  "captured_at": "2026-07-09",
+  "source": "Google PageSpeed Insights API (pagespeed_audit.py)",
+  "mobile": { "performance": 55, "accessibility": 91, "best_practices": 96, "seo": 100 },
+  "desktop": { "performance": 98, "accessibility": 82, "best_practices": 92, "seo": 100 },
+  "status": "ok",
+  "headline": "Desktop-fast, mobile-slow (55) in a mobile-first market; SEO perfect on both.",
+  "wedge": "Mobile PageSpeed 55 taxes every social click at the last step; raising to >=80 is a pre-condition for paid traffic.",
+  "grade_ceiling": "HELD"
+}

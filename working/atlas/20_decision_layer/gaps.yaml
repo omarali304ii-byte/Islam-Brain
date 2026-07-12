@@ -1,0 +1,97 @@
+# ATLAS Era 20 — Decision Layer — Cielito Egypt (base 360, 2026-07-09)
+# Agent: A91 gap-architect. Internal working file — grades allowed.
+# Hard contract: >=3 gaps (delivered 8). Blocked captures = inaccessible, NOT absent.
+# survey_addressable: true rows arm the Era-28 survey trigger.
+
+gaps:
+  - id: G-01
+    gap: "Revenue, order volume, AOV, conversion rate, channel attribution — zero commercial data captured."
+    why_it_matters: >
+      Every decision's financial_impact_status is 'to be baselined' because of this
+      gap. Without it, the D-01/D-02 upside and the D-05 discount-margin trade-off
+      cannot be quantified; the strategic report ships with baseline cards, not scenarios.
+    closing_route: "client data (Shopify admin export / GA4 / IG-TikTok insights share)"
+    survey_addressable: false
+
+  - id: G-02
+    gap: "Facebook page stats + Meta Ads Library status (page exists, posts in Arabic; stats blocked)."
+    why_it_matters: >
+      Dejavu's FB is ~2.3M likes — Facebook may be where Egyptian mass-market fashion
+      demand actually lives. If Cielito's Arabic-language FB outperforms its
+      English IG, the D-03 language thesis strengthens and channel mix shifts.
+    closing_route: "data-pass route (FB page scrape + Ads Library check, costed proposal)"
+    survey_addressable: false
+
+  - id: G-03
+    gap: "Composition and authenticity of the 89K IG followers (acquisition history, geo, activity, bot share)."
+    why_it_matters: >
+      A 3-like median on 89K followers implies the follower base is dormant,
+      low-quality, or suppressed. Which one changes D-01's shape: audit-and-rebuild
+      vs re-activate. Also determines whether the 89K is a real balance-sheet asset
+      for creator negotiations.
+    closing_route: "data-pass route (follower-audit scrape) + client data (IG Insights: reach, follower geo/age)"
+    survey_addressable: false
+
+  - id: G-04
+    gap: "Fruit-leather line status: discontinued or dormant, and why (cost, supply chain, demand, narrative choice)."
+    why_it_matters: >
+      Gates D-05. The fruit-leather story is the only captured claim that earned
+      unpaid national press (Fustany, Identity Magazine). If revivable, it is a
+      ready-made differentiator vs the entire rival set; if dead, the brand needs
+      a replacement answer to 'why Cielito?'.
+    closing_route: "client data (founder interview — single conversation closes it)"
+    survey_addressable: false
+
+  - id: G-05
+    gap: "mycielito.com relationship to cielitoeg.com (second Shopify domain resolves; purpose unknown)."
+    why_it_matters: >
+      Two live domains split SEO equity, brand search, and possibly inventory;
+      could also be a stale migration artifact leaking sales or a planned sub-brand.
+      Cheap to resolve, and answers whether site work (D-04) targets one store or two.
+    closing_route: "client data (one question) + data-pass route (domain/site diff if unanswered)"
+    survey_addressable: false
+
+  - id: G-06
+    gap: "Brand perception, awareness, and consideration vs rival set (Dejavu, Shoe Room, Pixie, Achilles et al.) among Egyptian women shoppers."
+    why_it_matters: >
+      Positions D-05: whether 'handmade accessible luxury' or 'fruit-leather
+      innovation' resonates — and whether Cielito is perceived as premium,
+      discount, or invisible — is unknowable from captures. Also calibrates
+      whether the 89K followers reflect any real brand equity offline.
+    closing_route: "survey (Era-28: brand funnel + image attributes, Egyptian women 18-45, Cairo/Alex first)"
+    survey_addressable: true
+
+  - id: G-07
+    gap: "Rival benchmarks beyond the Dejavu snippet: social metrics, price ladders, discount cadence, WhatsApp usage of Shoe Room / Pixie / Achilles / Jayda Hany / CHOU etc."
+    why_it_matters: >
+      D-03's discount covenant and D-05's price architecture need a competitive
+      reference frame; currently the only anchor is one Dejavu follower count.
+      Also feeds the dedicated competitive wave.
+    closing_route: "data-pass route (rival IG/TikTok scrape + catalog price pulls — competitive wave)"
+    survey_addressable: false
+
+  - id: G-08
+    gap: "Price elasticity and willingness-to-pay in the EGP 1,000-2,500 core band under purchasing-power erosion (156/250 SKUs sit in this band)."
+    why_it_matters: >
+      38% of the catalog is discounted with no evidence discounts are needed.
+      If WTP holds at list price for differentiated items, D-05 recovers margin
+      immediately; if not, the price architecture itself must move. Secondary
+      market data says purchasing-power erosion is the principal demand risk.
+    closing_route: "survey (Era-28: Van Westendorp / Gabor-Granger on hero SKUs) + client data (historic discount-vs-sell-through)"
+    survey_addressable: true
+
+era_28_trigger:
+  status: ARMED
+  survey_addressable_gaps: [G-06, G-08]
+  note: >
+    Both fit one instrument: Egyptian women 18-45 online sample, brand funnel +
+    image battery (G-06) + pricing module on 3-5 hero SKUs (G-08). Bilingual
+    masri-first questionnaire per Egypt context laws.
+
+blocked_not_absent:
+  - "Facebook page stats (G-02)"
+  - "Rival social metrics beyond Dejavu snippet (G-07)"
+  - "Google reviews / ratings"
+  - "Marketplace presence (Noon / Amazon EG / Jumia)"
+  - "Paid-ads library status"
+  - "Revenue / conversion data (G-01, client-side)"

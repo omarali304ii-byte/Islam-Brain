@@ -1,0 +1,926 @@
+{
+ "n_comments": 964,
+ "method": "Letter-Decode words exercise (FW-020) + benefit ladder (FW-007) + tension→opportunity (FW-005) + brand dipstick (FW-006) applied to the social-comment corpus. Verbatims copied exactly (Arabic kept raw), tagged by @handle. Themes with ≥3 independent voices = recurring; single voices flagged isolated. Social comments carry no SEC/geo/age; @handle is the trace tag.",
+ "words_exercise": {
+  "top_words": [
+   {
+    "word": "تحفه",
+    "count": 35,
+    "lang": "AR"
+   },
+   {
+    "word": "love",
+    "count": 32,
+    "lang": "EN"
+   },
+   {
+    "word": "wow",
+    "count": 24,
+    "lang": "EN"
+   },
+   {
+    "word": "اوي",
+    "count": 23,
+    "lang": "AR"
+   },
+   {
+    "word": "اله",
+    "count": 20,
+    "lang": "AR"
+   },
+   {
+    "word": "tona",
+    "count": 16,
+    "lang": "EN"
+   },
+   {
+    "word": "hm",
+    "count": 15,
+    "lang": "EN"
+   },
+   {
+    "word": "tuhfa",
+    "count": 14,
+    "lang": "EN"
+   },
+   {
+    "word": "قمر",
+    "count": 13,
+    "lang": "AR"
+   },
+   {
+    "word": "fa",
+    "count": 12,
+    "lang": "EN"
+   },
+   {
+    "word": "tohfa",
+    "count": 12,
+    "lang": "EN"
+   },
+   {
+    "word": "khatera",
+    "count": 11,
+    "lang": "EN"
+   },
+   {
+    "word": "بجد",
+    "count": 10,
+    "lang": "AR"
+   },
+   {
+    "word": "حلو",
+    "count": 9,
+    "lang": "AR"
+   },
+   {
+    "word": "حبيت",
+    "count": 9,
+    "lang": "AR"
+   },
+   {
+    "word": "جميله",
+    "count": 8,
+    "lang": "AR"
+   },
+   {
+    "word": "touhfa",
+    "count": 8,
+    "lang": "EN"
+   },
+   {
+    "word": "amar",
+    "count": 7,
+    "lang": "EN"
+   },
+   {
+    "word": "eh",
+    "count": 7,
+    "lang": "EN"
+   },
+   {
+    "word": "شاء",
+    "count": 7,
+    "lang": "AR"
+   },
+   {
+    "word": "جميل",
+    "count": 7,
+    "lang": "AR"
+   },
+   {
+    "word": "beautiful",
+    "count": 7,
+    "lang": "EN"
+   },
+   {
+    "word": "جمال",
+    "count": 6,
+    "lang": "AR"
+   },
+   {
+    "word": "حلوه",
+    "count": 6,
+    "lang": "AR"
+   },
+   {
+    "word": "تونه",
+    "count": 6,
+    "lang": "AR"
+   },
+   {
+    "word": "ماشاء",
+    "count": 6,
+    "lang": "AR"
+   },
+   {
+    "word": "الاوتفيت",
+    "count": 6,
+    "lang": "AR"
+   },
+   {
+    "word": "مكن",
+    "count": 5,
+    "lang": "AR"
+   },
+   {
+    "word": "اي",
+    "count": 5,
+    "lang": "AR"
+   },
+   {
+    "word": "بحبك",
+    "count": 5,
+    "lang": "AR"
+   },
+   {
+    "word": "احبك",
+    "count": 5,
+    "lang": "AR"
+   },
+   {
+    "word": "بليز",
+    "count": 4,
+    "lang": "AR"
+   },
+   {
+    "word": "ماشاءاله",
+    "count": 4,
+    "lang": "AR"
+   },
+   {
+    "word": "el",
+    "count": 4,
+    "lang": "EN"
+   },
+   {
+    "word": "بكام",
+    "count": 4,
+    "lang": "AR"
+   },
+   {
+    "word": "مصر",
+    "count": 4,
+    "lang": "AR"
+   },
+   {
+    "word": "awesome",
+    "count": 4,
+    "lang": "EN"
+   },
+   {
+    "word": "amazing",
+    "count": 4,
+    "lang": "EN"
+   },
+   {
+    "word": "nice",
+    "count": 4,
+    "lang": "EN"
+   },
+   {
+    "word": "team",
+    "count": 4,
+    "lang": "EN"
+   }
+  ],
+  "note": "Normalized word frequency across all comments (Arabic diacritics/elongation stripped, stopwords removed). This is the language customers actually use about Cielito."
+ },
+ "pillars": {
+  "functional": [
+   {
+    "theme": "Design & style",
+    "count": 15,
+    "mention": "MEDIUM",
+    "verbatims": [
+     {
+      "text": "جوزي و هو خارج حافي بعد ما لبست أشيك طقم عندي",
+      "handle": "alaa.jamal22",
+      "platform": "Instagram"
+     },
+     {
+      "text": "تحفة والماتريال شكلها تجنن شجعتينى أجيبه😍",
+      "handle": "daila_fawzy",
+      "platform": "Instagram"
+     },
+     {
+      "text": "What is 🤢!! Of course outfit Tasniam",
+      "handle": "malak_shepl1",
+      "platform": "Instagram"
+     },
+     {
+      "text": "Love the set & how you styled it😍😍😍😍",
+      "handle": "youandayah",
+      "platform": "Instagram"
+     }
+    ]
+   },
+   {
+    "theme": "Price & value",
+    "count": 8,
+    "mention": "MEDIUM",
+    "verbatims": [
+     {
+      "text": "سعره اول سليبر",
+      "handle": "asmaaomar_noah.hoor6",
+      "platform": "Instagram"
+     },
+     {
+      "text": "سعره كام بليز",
+      "handle": "roh_el_beet",
+      "platform": "Instagram"
+     },
+     {
+      "text": "السعر بليز",
+      "handle": "imenamouna2789",
+      "platform": "Instagram"
+     },
+     {
+      "text": "ممكن السعر",
+      "handle": "rehamfares_events",
+      "platform": "Instagram"
+     }
+    ]
+   },
+   {
+    "theme": "Comfort & fit",
+    "count": 4,
+    "mention": "MEDIUM",
+    "verbatims": [
+     {
+      "text": "What is 🤢!! Of course outfit Tasniam",
+      "handle": "malak_shepl1",
+      "platform": "Instagram"
+     },
+     {
+      "text": "Tona’s outfit 😍👏🔥❤️❤️",
+      "handle": "rahafhijazy_",
+      "platform": "Instagram"
+     },
+     {
+      "text": "That's fit different",
+      "handle": "ba_s_ma019",
+      "platform": "Instagram"
+     },
+     {
+      "text": "Love the outfit 🔥❤️",
+      "handle": "etherea_artisanal",
+      "platform": "Instagram"
+     }
+    ]
+   },
+   {
+    "theme": "Quality & craft",
+    "count": 1,
+    "mention": "LOW / isolated",
+    "verbatims": [
+     {
+      "text": "ياجماعه انا معايا اوردرات مسلسلات وافلام وبرامج واعلانات الي حابب ينزل شغل ميديا يكلمني",
+      "handle": "hasan_peso",
+      "platform": "Instagram"
+     }
+    ]
+   }
+  ],
+  "emotional": [
+   {
+    "theme": "Beauty & desire (قمر/تحفة)",
+    "count": 112,
+    "mention": "HIGH",
+    "verbatims": [
+     {
+      "text": "ماشاء الله قمر  ربنا يحميكي كل سنه وانتي طيبه ياست البنات",
+      "handle": "randarefiy",
+      "platform": "Instagram"
+     },
+     {
+      "text": "انا بحبك يا لولو وربنا يوفقك يارب والبنوته دى جميل ❤️",
+      "handle": "asmaaismail00",
+      "platform": "TikTok"
+     },
+     {
+      "text": "ماشاء الله حبيت اللوك والتصوير الحلووووو❤️❤️",
+      "handle": "q8rosse",
+      "platform": "Instagram"
+     },
+     {
+      "text": "تحفة والماتريال شكلها تجنن شجعتينى أجيبه😍",
+      "handle": "daila_fawzy",
+      "platform": "Instagram"
+     }
+    ]
+   },
+   {
+    "theme": "Love & attachment (حبيت/obsessed)",
+    "count": 48,
+    "mention": "HIGH",
+    "verbatims": [
+     {
+      "text": "I really in love with your content that is engaging but the previous content that was focusing on introducing the products was better and cr",
+      "handle": "raghdaelasra",
+      "platform": "Instagram"
+     },
+     {
+      "text": "Those boots are unique, I love the pintirest inspo too",
+      "handle": "alexavye",
+      "platform": "Instagram"
+     },
+     {
+      "text": "انا بحبك يا لولو وربنا يوفقك يارب والبنوته دى جميل ❤️",
+      "handle": "asmaaismail00",
+      "platform": "TikTok"
+     },
+     {
+      "text": "ماشاء الله حبيت اللوك والتصوير الحلووووو❤️❤️",
+      "handle": "q8rosse",
+      "platform": "Instagram"
+     }
+    ]
+   },
+   {
+    "theme": "Egyptian pride (صنع مصر)",
+    "count": 4,
+    "mention": "MEDIUM",
+    "verbatims": [
+     {
+      "text": "يحلاوه مصر وطعامه مصر وعيون مصر😂♥️♥️♥️♥️♥️♥️♥️♥️",
+      "handle": "yaraalllii",
+      "platform": "Instagram"
+     },
+     {
+      "text": "أجمل جمال فى صعيد مصر بجد",
+      "handle": "mahmood583691",
+      "platform": "Instagram"
+     },
+     {
+      "text": "Hm @cielitoegypt",
+      "handle": "maielkhabery",
+      "platform": "Instagram"
+     },
+     {
+      "text": "@cielitoegypt",
+      "handle": "haninemoussaa",
+      "platform": "Instagram"
+     }
+    ]
+   },
+   {
+    "theme": "Aspiration & want (نفسي/عايزة)",
+    "count": 3,
+    "mention": "MEDIUM",
+    "verbatims": [
+     {
+      "text": "انا بحبك يا لولو وربنا يوفقك يارب والبنوته دى جميل ❤️",
+      "handle": "asmaaismail00",
+      "platform": "TikTok"
+     },
+     {
+      "text": "الويب سايت غير شغال عايزه اطلب اوردر باالاسود",
+      "handle": "lhsyn6268",
+      "platform": "Instagram"
+     },
+     {
+      "text": "I want a cielito store!!!",
+      "handle": "abdallahbalo",
+      "platform": "Instagram"
+     }
+    ]
+   }
+  ],
+  "frustrations": [
+   {
+    "theme": "Availability / sold out (نفد)",
+    "count": 4,
+    "mention": "MEDIUM",
+    "verbatims": [
+     {
+      "text": "I really in love with your content that is engaging but the previous content that was focusing on introducing the products was better and cr",
+      "handle": "raghdaelasra",
+      "platform": "Instagram"
+     },
+     {
+      "text": "What is 🤢!! Of course outfit Tasniam",
+      "handle": "malak_shepl1",
+      "platform": "Instagram"
+     },
+     {
+      "text": "Tona’s outfit 😍👏🔥❤️❤️",
+      "handle": "rahafhijazy_",
+      "platform": "Instagram"
+     },
+     {
+      "text": "Love the outfit 🔥❤️",
+      "handle": "etherea_artisanal",
+      "platform": "Instagram"
+     }
+    ]
+   },
+   {
+    "theme": "Sizing anxiety (مقاس)",
+    "count": 2,
+    "mention": "LOW / isolated",
+    "verbatims": [
+     {
+      "text": "مقاس البنطلون بليز",
+      "handle": "roroyoyo22r",
+      "platform": "Instagram"
+     },
+     {
+      "text": "Sizes please",
+      "handle": "nandaelhajj",
+      "platform": "Instagram"
+     }
+    ]
+   },
+   {
+    "theme": "Price concern (غالي)",
+    "count": 0,
+    "mention": "silent",
+    "verbatims": []
+   },
+   {
+    "theme": "Delivery & service (شحن)",
+    "count": 0,
+    "mention": "silent",
+    "verbatims": []
+   }
+  ],
+  "need_gaps": [
+   {
+    "theme": "Where to buy / link (فين/لينك)",
+    "count": 4,
+    "mention": "MEDIUM",
+    "verbatims": [
+     {
+      "text": "الويب سايت غير شغال عايزه اطلب اوردر باالاسود",
+      "handle": "lhsyn6268",
+      "platform": "Instagram"
+     },
+     {
+      "text": "تعرفين انو احب شكلك ❤️",
+      "handle": "linaalsamarraie",
+      "platform": "Instagram"
+     },
+     {
+      "text": "ممكن لينك الويب سايت",
+      "handle": "halaa..0",
+      "platform": "TikTok"
+     },
+     {
+      "text": "الاوتفيت من فين",
+      "handle": "nouuralii_",
+      "platform": "Instagram"
+     }
+    ]
+   },
+   {
+    "theme": "Size availability request",
+    "count": 1,
+    "mention": "LOW / isolated",
+    "verbatims": [
+     {
+      "text": "مقاس البنطلون بليز",
+      "handle": "roroyoyo22r",
+      "platform": "Instagram"
+     }
+    ]
+   },
+   {
+    "theme": "Restock request",
+    "count": 0,
+    "mention": "silent",
+    "verbatims": []
+   },
+   {
+    "theme": "Price / offer request (خصم)",
+    "count": 0,
+    "mention": "silent",
+    "verbatims": []
+   }
+  ]
+ },
+ "brand_dipstick": [
+  {
+   "word": "Beauty & desire",
+   "count": 112
+  },
+  {
+   "word": "Love & attachment",
+   "count": 48
+  },
+  {
+   "word": "Egyptian pride",
+   "count": 4
+  },
+  {
+   "word": "Aspiration & want",
+   "count": 3
+  }
+ ],
+ "benefit_ladder": [
+  {
+   "attribute": "Handmade leather, design-led pieces",
+   "emotional": "Feeling stylish and put-together",
+   "identity": "“I have taste — I'm not like everyone else”"
+  },
+  {
+   "attribute": "Made in Egypt, accessible price",
+   "emotional": "Pride + smart-spending reassurance",
+   "identity": "“I back local, and I spend well”"
+  },
+  {
+   "attribute": "Colourful, occasion-flexible",
+   "emotional": "Excitement, self-expression",
+   "identity": "“This is my aesthetic”"
+  }
+ ],
+ "tension_opportunity": [
+  {
+   "tension": "“What's my size? I usually return online orders.” — sizing anxiety blocks the sale",
+   "count": 2,
+   "opportunity": "A size guide + WhatsApp fit-check + the existing check-on-delivery policy, marketed loudly",
+   "action": "Pin a size-guide highlight; answer every sizing comment with a WhatsApp link"
+  },
+  {
+   "tension": "“Is it back in stock? / bring it back” — demand outruns availability",
+   "count": 4,
+   "opportunity": "Restock alerts + WhatsApp waitlist turn stockouts into captured demand",
+   "action": "“Notify me on WhatsApp” on sold-out SKUs; broadcast restocks"
+  },
+  {
+   "tension": "“Where do I buy / what's the link?” — high intent, no clear path",
+   "count": 4,
+   "opportunity": "One-tap WhatsApp order + link-in-bio catalog closes the gap",
+   "action": "wa.me link in bio + a pinned “How to order” story"
+  }
+ ],
+ "motivations": [
+  {
+   "name": "Self-expression & style",
+   "desc": "Choosing pieces that signal personal taste and aesthetic",
+   "signal": "“Beauty & desire” + “Design & style” dominate (112 + 15 mentions)"
+  },
+  {
+   "name": "Belonging & sharing",
+   "desc": "Tagging friends, co-shopping, being part of the Cielito girl community",
+   "signal": "~1.5% of comments tag or call a friend to look"
+  },
+  {
+   "name": "Aspirational value",
+   "desc": "Wanting the look without a designer price; smart, local, proud",
+   "signal": "“Aspiration/want” + “Egyptian pride” + “Price/value” cluster (3 + 4 + 8)"
+  }
+ ],
+ "tag_a_friend": {
+  "rate_pct": 1.5,
+  "n": 14,
+  "verbatims": [
+   {
+    "text": "Hm @cielitoegypt",
+    "handle": "maielkhabery"
+   },
+   {
+    "text": "@zaina.shareef15  زينة ترقيع 😂😂😂😂",
+    "handle": "nutr.lamees_natheer"
+   },
+   {
+    "text": "@awadlolwa 😍",
+    "handle": "yasmeendabees"
+   },
+   {
+    "text": "@cielitoegypt",
+    "handle": "haninemoussaa"
+   },
+   {
+    "text": "@habibahesham651",
+    "handle": "khokha_ahmed2"
+   },
+   {
+    "text": "@nourhan_husseein",
+    "handle": "khokha_ahmed2"
+   },
+   {
+    "text": "@sh_habeba",
+    "handle": "khokha_ahmed2"
+   },
+   {
+    "text": "@kholud_ahmed55",
+    "handle": "khokha_ahmed2"
+   }
+  ],
+  "note": "Tagging a friend is the strongest organic-demand signal on social — every tag is unpaid reach the brand isn't capturing."
+ },
+ "synthesis": {
+  "she_loves": "The product — 86.6% positive; the dominant language is beauty and desire (قمر · تحفة · جميلة · gorgeous).",
+  "she_asks": "“What's my size?” · “Where do I buy?” · “Is it back in stock?” — high-intent questions, mostly on creators' posts.",
+  "she_cant_buy": "There is no WhatsApp path to answer any of them; intent leaks and the sale is lost.",
+  "the_opening": "Install the WhatsApp bridge, market the size-guide + check-on-delivery, and capture restock demand — convert proven love into orders.",
+  "takeaways": [
+   "Cielito wins on desire, not price — the language is emotional (beauty/love), so lead with aspiration, not discounts.",
+   "The only recurring frictions are sizing, availability and 'where to buy' — all solvable with WhatsApp + a size guide, none about the product itself.",
+   "Tag-a-friend behavior is a free acquisition channel the brand does not activate.",
+   "Egyptian-pride language is a real, ownable equity — 'صنع مصر' is an asset, not a caption."
+  ],
+  "implications": [
+   "Compete on design-led desirability + local pride, not on price.",
+   "Own the emotional territory of 'effortless, put-together style' — the identity language is already there.",
+   "Close the intent→order gap with WhatsApp before spending on reach.",
+   "Formalise tagging (referral/UGC) into the growth engine."
+  ]
+ },
+ "coded_verbatims": [
+  {
+   "text": "جوزي و هو خارج حافي بعد ما لبست أشيك طقم عندي",
+   "handle": "alaa.jamal22",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Design & style"
+  },
+  {
+   "text": "تحفة والماتريال شكلها تجنن شجعتينى أجيبه😍",
+   "handle": "daila_fawzy",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Design & style"
+  },
+  {
+   "text": "What is 🤢!! Of course outfit Tasniam",
+   "handle": "malak_shepl1",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Design & style"
+  },
+  {
+   "text": "Love the set & how you styled it😍😍😍😍",
+   "handle": "youandayah",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Design & style"
+  },
+  {
+   "text": "سعره اول سليبر",
+   "handle": "asmaaomar_noah.hoor6",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Price & value"
+  },
+  {
+   "text": "سعره كام بليز",
+   "handle": "roh_el_beet",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Price & value"
+  },
+  {
+   "text": "السعر بليز",
+   "handle": "imenamouna2789",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Price & value"
+  },
+  {
+   "text": "ممكن السعر",
+   "handle": "rehamfares_events",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Price & value"
+  },
+  {
+   "text": "What is 🤢!! Of course outfit Tasniam",
+   "handle": "malak_shepl1",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Comfort & fit"
+  },
+  {
+   "text": "Tona’s outfit 😍👏🔥❤️❤️",
+   "handle": "rahafhijazy_",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Comfort & fit"
+  },
+  {
+   "text": "That's fit different",
+   "handle": "ba_s_ma019",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Comfort & fit"
+  },
+  {
+   "text": "Love the outfit 🔥❤️",
+   "handle": "etherea_artisanal",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Comfort & fit"
+  },
+  {
+   "text": "ياجماعه انا معايا اوردرات مسلسلات وافلام وبرامج واعلانات الي حابب ينزل شغل ميديا يكلمني",
+   "handle": "hasan_peso",
+   "platform": "Instagram",
+   "pillar": "functional",
+   "theme": "Quality & craft"
+  },
+  {
+   "text": "ماشاء الله قمر  ربنا يحميكي كل سنه وانتي طيبه ياست البنات",
+   "handle": "randarefiy",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Beauty & desire (قمر/تحفة)"
+  },
+  {
+   "text": "انا بحبك يا لولو وربنا يوفقك يارب والبنوته دى جميل ❤️",
+   "handle": "asmaaismail00",
+   "platform": "TikTok",
+   "pillar": "emotional",
+   "theme": "Beauty & desire (قمر/تحفة)"
+  },
+  {
+   "text": "ماشاء الله حبيت اللوك والتصوير الحلووووو❤️❤️",
+   "handle": "q8rosse",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Beauty & desire (قمر/تحفة)"
+  },
+  {
+   "text": "تحفة والماتريال شكلها تجنن شجعتينى أجيبه😍",
+   "handle": "daila_fawzy",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Beauty & desire (قمر/تحفة)"
+  },
+  {
+   "text": "I really in love with your content that is engaging but the previous content that was focusing on introducing the products was better and cr",
+   "handle": "raghdaelasra",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Love & attachment (حبيت/obsessed)"
+  },
+  {
+   "text": "Those boots are unique, I love the pintirest inspo too",
+   "handle": "alexavye",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Love & attachment (حبيت/obsessed)"
+  },
+  {
+   "text": "انا بحبك يا لولو وربنا يوفقك يارب والبنوته دى جميل ❤️",
+   "handle": "asmaaismail00",
+   "platform": "TikTok",
+   "pillar": "emotional",
+   "theme": "Love & attachment (حبيت/obsessed)"
+  },
+  {
+   "text": "ماشاء الله حبيت اللوك والتصوير الحلووووو❤️❤️",
+   "handle": "q8rosse",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Love & attachment (حبيت/obsessed)"
+  },
+  {
+   "text": "يحلاوه مصر وطعامه مصر وعيون مصر😂♥️♥️♥️♥️♥️♥️♥️♥️",
+   "handle": "yaraalllii",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Egyptian pride (صنع مصر)"
+  },
+  {
+   "text": "أجمل جمال فى صعيد مصر بجد",
+   "handle": "mahmood583691",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Egyptian pride (صنع مصر)"
+  },
+  {
+   "text": "Hm @cielitoegypt",
+   "handle": "maielkhabery",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Egyptian pride (صنع مصر)"
+  },
+  {
+   "text": "@cielitoegypt",
+   "handle": "haninemoussaa",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Egyptian pride (صنع مصر)"
+  },
+  {
+   "text": "انا بحبك يا لولو وربنا يوفقك يارب والبنوته دى جميل ❤️",
+   "handle": "asmaaismail00",
+   "platform": "TikTok",
+   "pillar": "emotional",
+   "theme": "Aspiration & want (نفسي/عايزة)"
+  },
+  {
+   "text": "الويب سايت غير شغال عايزه اطلب اوردر باالاسود",
+   "handle": "lhsyn6268",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Aspiration & want (نفسي/عايزة)"
+  },
+  {
+   "text": "I want a cielito store!!!",
+   "handle": "abdallahbalo",
+   "platform": "Instagram",
+   "pillar": "emotional",
+   "theme": "Aspiration & want (نفسي/عايزة)"
+  },
+  {
+   "text": "I really in love with your content that is engaging but the previous content that was focusing on introducing the products was better and cr",
+   "handle": "raghdaelasra",
+   "platform": "Instagram",
+   "pillar": "frustrations",
+   "theme": "Availability / sold out (نفد)"
+  },
+  {
+   "text": "What is 🤢!! Of course outfit Tasniam",
+   "handle": "malak_shepl1",
+   "platform": "Instagram",
+   "pillar": "frustrations",
+   "theme": "Availability / sold out (نفد)"
+  },
+  {
+   "text": "Tona’s outfit 😍👏🔥❤️❤️",
+   "handle": "rahafhijazy_",
+   "platform": "Instagram",
+   "pillar": "frustrations",
+   "theme": "Availability / sold out (نفد)"
+  },
+  {
+   "text": "Love the outfit 🔥❤️",
+   "handle": "etherea_artisanal",
+   "platform": "Instagram",
+   "pillar": "frustrations",
+   "theme": "Availability / sold out (نفد)"
+  },
+  {
+   "text": "مقاس البنطلون بليز",
+   "handle": "roroyoyo22r",
+   "platform": "Instagram",
+   "pillar": "frustrations",
+   "theme": "Sizing anxiety (مقاس)"
+  },
+  {
+   "text": "Sizes please",
+   "handle": "nandaelhajj",
+   "platform": "Instagram",
+   "pillar": "frustrations",
+   "theme": "Sizing anxiety (مقاس)"
+  },
+  {
+   "text": "الويب سايت غير شغال عايزه اطلب اوردر باالاسود",
+   "handle": "lhsyn6268",
+   "platform": "Instagram",
+   "pillar": "need_gaps",
+   "theme": "Where to buy / link (فين/لينك)"
+  },
+  {
+   "text": "تعرفين انو احب شكلك ❤️",
+   "handle": "linaalsamarraie",
+   "platform": "Instagram",
+   "pillar": "need_gaps",
+   "theme": "Where to buy / link (فين/لينك)"
+  },
+  {
+   "text": "ممكن لينك الويب سايت",
+   "handle": "halaa..0",
+   "platform": "TikTok",
+   "pillar": "need_gaps",
+   "theme": "Where to buy / link (فين/لينك)"
+  },
+  {
+   "text": "الاوتفيت من فين",
+   "handle": "nouuralii_",
+   "platform": "Instagram",
+   "pillar": "need_gaps",
+   "theme": "Where to buy / link (فين/لينك)"
+  },
+  {
+   "text": "مقاس البنطلون بليز",
+   "handle": "roroyoyo22r",
+   "platform": "Instagram",
+   "pillar": "need_gaps",
+   "theme": "Size availability request"
+  }
+ ]
+}

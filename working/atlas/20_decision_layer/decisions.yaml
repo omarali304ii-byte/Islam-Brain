@@ -1,0 +1,104 @@
+# ATLAS Era 20 — Decision Layer — Cielito Egypt (base 360, 2026-07-09)
+# Agent: A90 decision-forge. Internal working file — grades allowed.
+# Hard contract: >=3 decisions (delivered 5). financial_impact_status = "to be baselined" wherever no revenue/conversion data exists (G-01 open).
+
+decisions:
+  - id: D-01
+    decision: >
+      Rebuild the demand engine around earned/UGC and founder distribution:
+      stand up a systematic creator-seeding program (product gifting + brief +
+      usage-rights capture), amplify the founder's account (awadlolwa) as an
+      official channel, and repost/whitelist top earned content — instead of
+      continuing to invest in owned-feed polish that earns median 3 likes.
+    evidence: [S08, S09, S10, S11]
+    grade_basis: "Diagnosis HELD (owned n=17 median 3 likes / ER 0.006%, window 2026-05-31->07-04; earned peak 5,930 likes / 124,937 views ~190x owned median views). Founder-as-face LIKELY->HELD (8/34 earned posts captured)."
+    confidence: high
+    sequence: 3
+    financial_impact_status: "to be baselined"
+    depends_on: []
+    first_moves:
+      - "Codify the top 5 earned posts (S08 URLs) into a creator brief: formats, angles, talent."
+      - "Seed 10 micro-creators/month; track UGC velocity KPI (metrics_watchlist)."
+      - "Negotiate usage rights so earned winners can be whitelisted as ads later."
+
+  - id: D-02
+    decision: >
+      Install the WhatsApp conversion bridge on every surface: wa.me link in IG
+      bio, WhatsApp CTA block on the site (PDP + cart), WhatsApp line in every
+      caption, and TikTok bio. Zero WhatsApp CTAs exist today on any captured
+      surface, in a market where WhatsApp + COD is THE conversion path — and the
+      brand's own shipping policy already runs a conversational, check-on-delivery,
+      multi-item try-on motion begging for a chat channel.
+    evidence: [S03, S08, S10]
+    grade_basis: "HELD for captured surfaces (site pages, IG bio external link = website only, 17/17 owned captions with 0 WhatsApp mentions and 0 offer language)."
+    confidence: high
+    sequence: 1
+    financial_impact_status: "to be baselined"
+    depends_on: []
+    first_moves:
+      - "Add wa.me deep link to IG bio + site header within days (near-zero cost)."
+      - "Route pre-delivery try-on questions (per shipping policy) into WhatsApp."
+      - "Baseline: chats/week, chat->order rate once client shares order data (G-01)."
+
+  - id: D-03
+    decision: >
+      Ship a catalog-hygiene + Arabic-first content operating system: type the
+      128/250 untyped SKUs, merge duplicate collections (Best Sellers /
+      Best Selling / BestSelling; mules x2), purge stale Black Friday / expired
+      Ramadan tags, fix inverted compare-at prices (3 corsets show 'was' EGP 900
+      under a current EGP 1,200), and flip the caption default to masri Egyptian
+      Arabic — the brand's own top performers on BOTH platforms are Arabic.
+    evidence: [S04, S05, S08, S09]
+    grade_basis: "All HELD primary captures: 128/250 untyped, duplicate collections enumerated, inverted compare-ats on page-1 detail; Arabic outperformance = top owned IG post is the only Arabic caption (39 likes vs median 3); TikTok top-3 includes باشا مصر 14.8K plays vs 1,220 median."
+    confidence: high
+    sequence: 2
+    financial_impact_status: "to be baselined"
+    depends_on: []
+    first_moves:
+      - "One-day Shopify cleanup sprint: product_type backfill + collection merge + tag purge."
+      - "Caption rule: masri first line, English second; measure ER delta over 4 weeks."
+      - "Kill or fix all inverted compare-at prices before any paid traffic."
+
+  - id: D-04
+    decision: >
+      Run a mobile-commerce performance sprint: raise PageSpeed mobile from 55
+      toward >=80 (desktop is already 98, SEO 100), and lift agent-readiness
+      bot access (25/100) + protocol discovery (33/100) so the store is findable
+      by AI shopping agents. Egypt shops on mobile; a 55 mobile score taxes every
+      peso of demand the other decisions generate.
+    evidence: [S06, S07]
+    grade_basis: "HELD instrument audits (Google PSI M55/D98/SEO100; agent-readiness Grade B 72/100, security CLEAN)."
+    confidence: high
+    sequence: 4
+    financial_impact_status: "to be baselined"
+    depends_on: []
+    first_moves:
+      - "Standard Shopify mobile-perf pass: image compression, app/script audit, lazy-load."
+      - "Publish robots.txt AI-bot rules + llms.txt to close the bot-access gap."
+      - "Baseline mobile checkout completion once analytics access granted (G-01)."
+
+  - id: D-05
+    decision: >
+      Make the founder-gated positioning call: either revive the fruit-leather /
+      vegan-innovation differentiator (press-era identity, currently absent from
+      the live site) or explicitly commit to 'handmade-in-Egypt accessible luxury'
+      — then rebuild pricing discipline to match. A 38% discount surface with no
+      stated differentiator is a commodity-drift trajectory against a scale
+      leader (Dejavu 289K IG / ~2.3M FB).
+    evidence: [S02, S04, S11]
+    grade_basis: "Discount surface 96/250 HELD; fruit-leather founding claim LIKELY (two press sources); its removal from live messaging HYPOTHESIS (grep 0 hits on both domains); Dejavu scale LIKELY (search capture). Requires founder input (G-04) before execution."
+    confidence: medium
+    sequence: 5
+    financial_impact_status: "to be baselined"
+    depends_on: [G-04]
+    first_moves:
+      - "Founder interview: why was fruit leather dropped? Cost, supply, demand, or narrative?"
+      - "If revived: it is the ONLY captured claim that made press write about the brand unpaid."
+      - "Either way: set a max-discount-surface covenant (see metrics_watchlist)."
+
+sequencing_note: >
+  Sequence optimizes for cost-to-impact under zero baselined financials:
+  D-02 (days, near-zero cost) -> D-03 (1-2 week hygiene sprint) -> D-01
+  (creator program, weeks-months) -> D-04 (perf sprint, parallelizable) ->
+  D-05 (strategic, founder-gated on G-04). D-01/D-02/D-03 compound: creators
+  drive demand, masri captions convert attention, WhatsApp captures it.

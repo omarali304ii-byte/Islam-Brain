@@ -1,0 +1,112 @@
+# Evidence Ledger — cielito-egypt base 360 — FROZEN at run close 2026-07-09
+# Base ledger is read-only after this point; wave continuations append via ledger_patches/.
+# Grades: HELD | LIKELY | ESTIMATE_ONLY | SELF_REPORTED | HYPOTHESIS | GAP
+
+meta:
+  client: cielito-egypt
+  run: base360-2026-07-09
+  platform: Claude-Fable-5
+  spend_usd: 0.434   # R1 0.138 + R1b 0.115 + R2 0.181
+  frozen: true
+
+evidence:
+  - id: EV-001
+    claim: "Instagram: 88,903 followers, 1,368 posts, verified, business 'Clothing (Brand)'."
+    grade: HELD
+    source: S10
+    method: apify_rest_R1
+    observed_at: 2026-07-09
+  - id: EV-002
+    claim: "Owned Instagram engagement is catastrophic: median 3 likes, mean 5.1, ER 0.006%, median video 655 views."
+    grade: HELD
+    source: S08
+    n: 17
+    window: 2026-05-31..2026-07-04
+    observed_at: 2026-07-09
+  - id: EV-003
+    claim: "Earned/UGC content out-performs owned ~190x (peak 5,930 likes / 124,937 views)."
+    grade: HELD
+    source: S08
+    observed_at: 2026-07-09
+  - id: EV-004
+    claim: "16 of 17 owned captions are English-only; the single Arabic caption is the top owned post (39 likes vs median 3)."
+    grade: HELD
+    source: S08
+    observed_at: 2026-07-09
+  - id: EV-005
+    claim: "Zero WhatsApp CTAs on any captured surface (site pages, IG bio external link=website only, 17/17 captions)."
+    grade: HELD
+    source: [S01, S03, S08, S10]
+    observed_at: 2026-07-09
+  - id: EV-006
+    claim: "TikTok: 7,608 followers, 584 videos, 35.3K hearts, median 1,220 plays / 0 comments; Arabic videos over-index (باشا مصر 14,800 plays)."
+    grade: HELD
+    source: S09
+    n: 60
+    window: 2026-04-13..2026-07-01
+    observed_at: 2026-07-09
+  - id: EV-007
+    claim: "Catalog: 250 live SKUs, EGP 400-7,600 (median 1,200), 218 in stock, 96 on sale (38%), 128 untyped, duplicate collections, spans 2022-11..2026-06."
+    grade: HELD
+    source: [S04, S05]
+    observed_at: 2026-07-09
+  - id: EV-008
+    claim: "Website PageSpeed mobile 55 / desktop 98, SEO 100 both."
+    grade: HELD
+    source: S06
+    observed_at: 2026-07-09
+  - id: EV-009
+    claim: "Agent-readiness Grade B 72/100 (bot access 25, protocol discovery 33), prompt-injection security CLEAN."
+    grade: HELD
+    source: S07
+    observed_at: 2026-07-09
+  - id: EV-010
+    claim: "Shipping via Bosta + in-house couriers; Cairo/Alex 2-day; check-on-delivery / try-before-pay; no physical stores evidenced."
+    grade: HELD
+    source: S03
+    observed_at: 2026-07-09
+  - id: EV-011
+    claim: "Founder Lolwa Awad (IR@QMUL, econ@LSE, ex-PR); brand founded ~Feb 2021."
+    grade: LIKELY
+    source: S11
+    note: "Two press sources (Fustany, Identity Mag); not independently confirmed."
+    observed_at: 2026-07-09
+  - id: EV-012
+    claim: "Cielito was press-positioned as first Egyptian fruit-leather brand (aloe/prickly pear/pineapple)."
+    grade: LIKELY
+    source: S11
+    observed_at: 2026-07-09
+  - id: EV-013
+    claim: "The fruit-leather differentiator is absent from all live surfaces (grep 0 hits on cielitoeg.com + mycielito.com)."
+    grade: HYPOTHESIS
+    source: [S01, S12]
+    note: "Absence-of-mention is evidenced; 'deliberately dropped' is inference — founder interview settles it (G-04)."
+    observed_at: 2026-07-09
+  - id: EV-014
+    claim: "Egypt footwear market ~EGP 31.4bn retail 2025 (+9% YoY); women ~52%; offline ~90%."
+    grade: ESTIMATE_ONLY
+    source: S11
+    note: "USD source cites ~$635M — sources not reconciled; banded, never a single settled figure."
+    observed_at: 2026-07-09
+  - id: EV-015
+    claim: "Dejavu is the scale leader (~289K IG, ~2.3M FB)."
+    grade: LIKELY
+    source: S11
+    observed_at: 2026-07-09
+  - id: EV-016
+    claim: "Comment corpus n=254 is dominated by emoji/short praise; substantive size/price intent lands on CREATOR posts, not brand posts."
+    grade: HELD
+    source: S08
+    observed_at: 2026-07-09
+  - id: EV-017
+    claim: "Second domain mycielito.com resolves (Shopify); relationship to main domain unknown."
+    grade: HELD   # that it exists
+    source: S12
+    note: "Relationship = GAP (G-05)."
+    observed_at: 2026-07-09
+
+untranslated_grades_blocking_client_compile:
+  - "EV-013 HYPOTHESIS (fruit-leather dropped) -> render as 'Requires client confirmation', never plotted as fact."
+  - "EV-014 ESTIMATE_ONLY -> render banded + 'illustrative'."
+
+gaps_frozen: [G-01, G-02, G-03, G-04, G-05, G-06, G-07, G-08]   # see 20_decision_layer/gaps.yaml
