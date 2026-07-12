@@ -1,0 +1,125 @@
+framework:
+  id: DASHBOARD-PROMPT-FRAMEWORK
+  version: 3.0.0
+  status: candidate_active_pending_owner_approval
+  repository: omarali304ii-byte/Islam-Brain
+  owner_role: repository_owner
+  active_master: prompts/dashboard/DASHBOARD_MASTER_PROMPT_v3.md
+  module_library: prompts/dashboard/PROMPT_MODULE_LIBRARY.md
+  test_suite: prompts/dashboard/PROMPT_TEST_SUITE.md
+  review: docs/DIOS/16_Prompt_Engineering_Review.md
+  historical_prompts:
+    - path: CIELITO_TAB_DEEPENING_MASTER_PROMPT.md
+      status: historical_source
+    - path: docs/DIOS/13_Dashboard_Master_Prompt.md
+      id: DIOS-CIELITO-DASHBOARD-MASTER
+      version: 1.0.0
+      status: superseded_after_v3_approval
+    - path: prompts/dashboard/DASHBOARD_MASTER_PROMPT_v2.md
+      id: DIOS-DASHBOARD-MASTER
+      version: 2.0.0
+      status: historical_transition
+  project_profiles:
+    - id: CIELITO-DASHBOARD-PROFILE
+      version: 1.0.0
+      embedded_in: prompts/dashboard/DASHBOARD_MASTER_PROMPT_v3.md
+      status: candidate_active
+  defaults:
+    mode: REVIEW
+    capabilities:
+      read_repository: true
+      write_documentation: false
+      write_code: false
+      modify_tests: false
+      external_network: false
+      free_external_collection: false
+      paid_external_collection: false
+      client_data: false
+      generate_media: false
+      preview_deploy: false
+      production_deploy: false
+      modify_secrets: false
+      run_migration: false
+      force_push: false
+      delete_branch: false
+      mutate_decisions: false
+    fail_closed: true
+    automatic_phase_continuation: false
+    prompt_self_modification: false
+  required_kernel_modules:
+    - M00_AUTHORITY_TRUTH
+    - M01_CLAIMS_EVIDENCE
+    - M02_ACTIVATION_EFFECTS
+    - M03_UNTRUSTED_DATA
+    - M04_FAILURE_CONTROL
+  repository_task_module:
+    - M10_CONTEXT_BOOTSTRAP
+  specialist_modules:
+    - M11_PRODUCT_DECISIONS
+    - M12_DATA_CONTRACT
+    - M13_METRIC_CONTRACT
+    - M14_DASHBOARD_CONTENT
+    - M15_UX_DESIGN
+    - M16_COMPILER
+    - M17_REACT
+    - M18_POWER_BI
+    - M19_QUALITY
+    - M20_RELEASE
+    - M21_MEMORY_HANDOFF
+    - M22_PROMPT_ENGINEERING
+  rule_namespaces:
+    - AUTH
+    - TRUTH
+    - EVID
+    - UNTRUST
+    - PERM
+    - FAIL
+    - GATE
+    - PROD
+    - RELEASE
+    - PROMPT
+  prompt_lifecycle:
+    - DRAFT
+    - SELF_REVIEWED
+    - TESTED
+    - INDEPENDENTLY_VALIDATED
+    - APPROVED
+    - ACTIVE
+    - DEPRECATED
+    - SUPERSEDED
+  semantic_versioning:
+    patch: clarification_without_behavior_change
+    minor: backward_compatible_module_or_capability_change
+    major: authority_activation_safety_output_or_lifecycle_change
+  activation_requirements:
+    - framework_version
+    - project_profile_id
+    - task_id
+    - repository
+    - branch
+    - base_commit
+    - mode
+    - modules
+    - objective
+    - deliverables
+    - allowed_paths
+    - prohibited_paths
+    - capabilities
+    - tools
+    - required_inputs
+    - excluded_actions
+    - approval_gates
+    - acceptance_criteria
+  review_triggers:
+    - project_profile_changes
+    - authority_or_permission_model_changes
+    - new_side_effect_capability
+    - data_or_metric_contract_model_changes
+    - new_dashboard_target
+    - prompt_test_failure
+    - safety_incident
+    - repeated_agent_misinterpretation
+    - major_project_brain_or_dashboard_bible_change
+  activation_rule: >-
+    The framework becomes the permanent active dashboard prompt only after
+    owner review and approval of the pull request containing version 3.0.0.
